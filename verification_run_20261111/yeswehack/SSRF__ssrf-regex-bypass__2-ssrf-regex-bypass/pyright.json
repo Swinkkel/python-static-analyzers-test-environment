@@ -1,0 +1,62 @@
+{
+    "version": "1.1.414",
+    "time": "1794414303624",
+    "generalDiagnostics": [
+        {
+            "file": "/opt/datasets/yeswehack/SSRF/ssrf-regex-bypass/vsnippet/2-ssrf-regex-bypass.py",
+            "severity": "error",
+            "message": "Import \"ignore.design\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 2,
+                    "character": 5
+                },
+                "end": {
+                    "line": 2,
+                    "character": 18
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/opt/datasets/yeswehack/SSRF/ssrf-regex-bypass/vsnippet/2-ssrf-regex-bypass.py",
+            "severity": "error",
+            "message": "\"group\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 19,
+                    "character": 44
+                },
+                "end": {
+                    "line": 19,
+                    "character": 49
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/opt/datasets/yeswehack/SSRF/ssrf-regex-bypass/vsnippet/2-ssrf-regex-bypass.py",
+            "severity": "error",
+            "message": "\"group\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 20,
+                    "character": 51
+                },
+                "end": {
+                    "line": 20,
+                    "character": 56
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 1,
+        "errorCount": 3,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 0.338
+    }
+}
+

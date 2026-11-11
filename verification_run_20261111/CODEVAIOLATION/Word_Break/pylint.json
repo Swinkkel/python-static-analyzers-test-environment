@@ -1,0 +1,106 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Word_Break",
+            "obj": "",
+            "line": 10,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Word_Break",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Word_Break\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Word_Break",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Word_Break",
+            "obj": "wordBreak",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 13,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"wordBreak\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Word_Break",
+            "obj": "wordBreak",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 13,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Argument name \"wordDict\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Word_Break",
+            "obj": "wordBreak",
+            "line": 1,
+            "column": 16,
+            "endLine": 1,
+            "endColumn": 24,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 6,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 4.0
+    }
+}

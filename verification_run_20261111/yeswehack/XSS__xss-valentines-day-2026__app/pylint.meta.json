@@ -1,0 +1,17 @@
+{
+  "tool": "pylint",
+  "tool_version": "pylint 4.0.9 | astroid 4.0.4 | Python 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py",
+  "command": [
+    "pylint",
+    "--output-format=json2",
+    "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py"
+  ],
+  "started_utc": "2026-11-11T16:25:31.130663+00:00",
+  "return_code": 16,
+  "timed_out": false,
+  "duration_s": 1.622,
+  "error": null,
+  "cwd": "/tmp/sa_run_0ml2ok74",
+  "traceback_in_stderr": false
+}

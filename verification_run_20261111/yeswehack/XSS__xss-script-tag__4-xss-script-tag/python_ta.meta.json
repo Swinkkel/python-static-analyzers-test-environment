@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py"
+  ],
+  "started_utc": "2026-11-11T16:25:28.443047+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.681,
+  "error": null,
+  "cwd": "/tmp/sa_run_2bob3ed4",
+  "traceback_in_stderr": false
+}

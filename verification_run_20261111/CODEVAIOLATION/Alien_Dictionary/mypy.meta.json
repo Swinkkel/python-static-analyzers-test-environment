@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py"
+  ],
+  "started_utc": "2026-11-11T16:09:05.847683+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.419,
+  "error": null,
+  "cwd": "/tmp/sa_run_wkb1kl5g",
+  "traceback_in_stderr": false
+}

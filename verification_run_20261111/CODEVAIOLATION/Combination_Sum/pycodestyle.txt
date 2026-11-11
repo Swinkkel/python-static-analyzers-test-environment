@@ -1,0 +1,13 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:1:30: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:2:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:3:5: E306 expected 1 blank line before a nested definition, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:3:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:3:29: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:4:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:7:29: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:8:29: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:10:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:10:45: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:11:16: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:11:19: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py:12:18: W292 no newline at end of file

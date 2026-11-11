@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:24:26.262465",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 3,
+    "completed": "2026-11-11 16:24:27.352792",
+    "time_taken": "1.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "redefined-builtin",
+      "location": {
+        "path": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+        "module": "32-format-injection-classic",
+        "function": "index",
+        "line": 15,
+        "character": 4,
+        "lineEnd": 15,
+        "characterEnd": 6
+      },
+      "message": "Redefining built-in 'id'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/redefined-builtin.html"
+    },
+    {
+      "source": "pylint",
+      "code": "unspecified-encoding",
+      "location": {
+        "path": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+        "module": "32-format-injection-classic",
+        "function": "index",
+        "line": 19,
+        "character": 9,
+        "lineEnd": 19,
+        "characterEnd": 32
+      },
+      "message": "Using open without explicitly specifying an encoding",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unspecified-encoding.html"
+    },
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+        "module": "32-format-injection-classic",
+        "function": "index",
+        "line": 22,
+        "character": 8,
+        "lineEnd": 29,
+        "characterEnd": 128
+      },
+      "message": "Unnecessary \"elif\" after \"return\", replace only that \"elif\" with \"if\"",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/no-else-return.html"
+    }
+  ]
+}

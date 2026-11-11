@@ -1,0 +1,145 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+        "msgs": [
+            {
+                "msg_id": "C0301",
+                "symbol": "line-too-long",
+                "msg": "This line is 104 characters long, exceeding the limit of 80 characters.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "module": "topological_ordering",
+                "obj": "",
+                "line": 6,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    4      for node in ordered_nodes:\n    5          for nextnode in node.outgoing_nodes:\n    6              if set(ordered_nodes).issuperset(nextnode.incoming_nodes) and nextnode not in ordered_nodes:\n    7                  ordered_nodes.append(nextnode)\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "module": "topological_ordering",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 9,
+                "end_column": 24,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def topological_ordering(nodes):\n    2      ordered_nodes = [node for node in nodes if not node.incoming_nodes]\n",
+                "line_end": 9,
+                "column_end": 24,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "module": "topological_ordering",
+                "obj": "topological_ordering",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 24,
+                "snippet": "    1  def topological_ordering(nodes):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      ordered_nodes = [node for node in nodes if not node.incoming_nodes]\n    3  \n",
+                "line_end": 1,
+                "column_end": 24,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "module": "topological_ordering",
+                "obj": "topological_ordering",
+                "line": 1,
+                "column": 25,
+                "end_line": 1,
+                "end_column": 30,
+                "snippet": "    1  def topological_ordering(nodes):\n    2      ordered_nodes = [node for node in nodes if not node.incoming_nodes]\n    3  \n",
+                "line_end": 1,
+                "column_end": 30,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "module": "topological_ordering",
+                "obj": "topological_ordering",
+                "line": 1,
+                "column": 25,
+                "end_line": 1,
+                "end_column": 30,
+                "snippet": "    1  def topological_ordering(nodes):\n    2      ordered_nodes = [node for node in nodes if not node.incoming_nodes]\n    3  \n",
+                "line_end": 1,
+                "column_end": 30,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9988",
+                "symbol": "shadowing-in-comprehension",
+                "msg": "Comprehension variable 'node' shadows a variable in an outer scope",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/topological_ordering.py",
+                "module": "topological_ordering",
+                "obj": "topological_ordering",
+                "line": 2,
+                "column": 30,
+                "end_line": 2,
+                "end_column": 34,
+                "snippet": "    1  def topological_ordering(nodes):\n    2      ordered_nodes = [node for node in nodes if not node.incoming_nodes]\n    3  \n    4      for node in ordered_nodes:\n",
+                "line_end": 2,
+                "column_end": 34,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

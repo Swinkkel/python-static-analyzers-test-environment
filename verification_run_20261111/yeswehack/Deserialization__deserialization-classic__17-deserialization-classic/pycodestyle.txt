@@ -1,0 +1,17 @@
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:15:5: E265 block comment should start with '# '
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:16:5: E265 block comment should start with '# '
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:19:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:20:1: E115 expected an indented block (comment)
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:20:1: E265 block comment should start with '# '
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:30:24: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:30:26: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:33:1: W293 blank line contains whitespace
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:34:5: E265 block comment should start with '# '
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:37:5: E265 block comment should start with '# '
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:43:1: W293 blank line contains whitespace
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:44:9: E722 do not use bare 'except'
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:45:80: E501 line too long (83 > 79 characters)
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:48:9: E265 block comment should start with '# '
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:52:1: W293 blank line contains whitespace
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:55:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py:56:51: W292 no newline at end of file

@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py"
+  ],
+  "started_utc": "2026-11-11T16:25:32.836054+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run__ls2nu94",
+  "traceback_in_stderr": false
+}

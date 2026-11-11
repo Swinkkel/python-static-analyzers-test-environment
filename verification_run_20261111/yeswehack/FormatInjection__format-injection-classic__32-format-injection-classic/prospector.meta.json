@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:24:26.114143+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 1.872,
+  "error": null,
+  "cwd": "/tmp/sa_run_u1joohl1",
+  "traceback_in_stderr": false
+}

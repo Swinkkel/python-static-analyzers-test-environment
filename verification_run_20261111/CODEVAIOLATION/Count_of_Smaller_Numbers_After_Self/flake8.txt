@@ -1,0 +1,17 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:3:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:5:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:6:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:7:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:8:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:9:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:9:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:10:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:10:32: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:11:26: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:13:35: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:14:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:17:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:19:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:20:31: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:23:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py:25:18: W292 no newline at end of file

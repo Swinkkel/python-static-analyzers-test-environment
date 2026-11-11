@@ -1,0 +1,214 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "at least two spaces before inline comment (pycodestyle code E261)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "",
+                "line": 4,
+                "column": 26,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  \n    2  def powerset(arr):\n    3      if arr:\n    4          first, *rest = arr #python3 just like car and cdr (in this case anyway..)  # INSERT TWO SPACES BEFORE THE '#'\n    5          rest_subsets = powerset(rest)\n    6          return [[first] + subset for subset in rest_subsets]\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "inline comment should start with '# ' (pycodestyle code E262)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "",
+                "line": 4,
+                "column": 27,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  \n    2  def powerset(arr):\n    3      if arr:\n    4          first, *rest = arr #python3 just like car and cdr (in this case anyway..)\n    5          rest_subsets = powerset(rest)\n    6          return [[first] + subset for subset in rest_subsets]\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "C0301",
+                "symbol": "line-too-long",
+                "msg": "This line is 81 characters long, exceeding the limit of 80 characters.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "",
+                "line": 4,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    2  def powerset(arr):\n    3      if arr:\n    4          first, *rest = arr #python3 just like car and cdr (in this case anyway..)\n    5          rest_subsets = powerset(rest)\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def powerset(arr):\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 11",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "",
+                "line": 11,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "    9  \n   10  \n   11  \"\"\"\n   12  Power Set\n   13  \n   14  Input:\n   15      arr: A list\n       ...\n   22  \n   23  Example:\n   24      >>> powerset(['a', 'b', 'c'])\n   25      [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]\n   26  \"\"\"\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "powerset",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 12,
+                "snippet": "    2  def powerset(arr):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      if arr:\n    4          first, *rest = arr #python3 just like car and cdr (in this case anyway..)\n",
+                "line_end": 2,
+                "column_end": 12,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "powerset",
+                "line": 2,
+                "column": 13,
+                "end_line": 2,
+                "end_column": 16,
+                "snippet": "    1  \n    2  def powerset(arr):\n    3      if arr:\n    4          first, *rest = arr #python3 just like car and cdr (in this case anyway..)\n",
+                "line_end": 2,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "powerset",
+                "line": 2,
+                "column": 13,
+                "end_line": 2,
+                "end_column": 16,
+                "snippet": "    1  \n    2  def powerset(arr):\n    3      if arr:\n    4          first, *rest = arr #python3 just like car and cdr (in this case anyway..)\n",
+                "line_end": 2,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/powerset.py",
+                "module": "powerset",
+                "obj": "",
+                "line": 11,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "    9  \n   10  \n   11  \"\"\"\n   12  Power Set\n   13  \n   14  Input:\n   15      arr: A list\n       ...\n   22  \n   23  Example:\n   24      >>> powerset(['a', 'b', 'c'])\n   25      [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]\n   26  \"\"\"\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

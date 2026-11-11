@@ -1,0 +1,6 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Median_of_Two_Sorted_Arrays.py:1:33: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Median_of_Two_Sorted_Arrays.py:2:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Median_of_Two_Sorted_Arrays.py:3:6: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Median_of_Two_Sorted_Arrays.py:4:9: E228 missing whitespace around modulo operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Median_of_Two_Sorted_Arrays.py:4:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Median_of_Two_Sorted_Arrays.py:7:28: W292 no newline at end of file

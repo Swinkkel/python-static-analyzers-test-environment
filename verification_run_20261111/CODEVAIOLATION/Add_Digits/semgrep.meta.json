@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Digits.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Digits.py"
+  ],
+  "started_utc": "2026-11-11T16:08:55.297171+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 3.025,
+  "error": null,
+  "cwd": "/tmp/sa_run_liagqmfk",
+  "traceback_in_stderr": false
+}

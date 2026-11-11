@@ -1,0 +1,23 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:3:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:5:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:5:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:7:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:7:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:7:23: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:8:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:9:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:10:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:11:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:12:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:13:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:15:39: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:15:50: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:16:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:16:48: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:17:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:18:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:18:49: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:19:26: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:20:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:21:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/3Sum.py:22:18: W292 no newline at end of file

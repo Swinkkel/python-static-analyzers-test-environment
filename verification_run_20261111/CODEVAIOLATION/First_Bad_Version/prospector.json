@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:10:31.224662",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:10:31.311742",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Bad_Version.py",
+        "module": "First_Bad_Version",
+        "function": "firstBadVersion",
+        "line": 5,
+        "character": 11,
+        "lineEnd": 5,
+        "characterEnd": 23
+      },
+      "message": "Undefined variable 'isBadVersion'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/error/undefined-variable.html"
+    }
+  ]
+}

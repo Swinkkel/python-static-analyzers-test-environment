@@ -1,0 +1,76 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "trailing-newlines",
+            "message": "Trailing newlines",
+            "messageId": "C0305",
+            "confidence": "UNDEFINED",
+            "module": "gcd",
+            "obj": "",
+            "line": 7,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/gcd.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/gcd.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "gcd",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/gcd.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/gcd.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "gcd",
+            "obj": "gcd",
+            "line": 2,
+            "column": 0,
+            "endLine": 2,
+            "endColumn": 7,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/gcd.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/gcd.py"
+        },
+        {
+            "type": "refactor",
+            "symbol": "no-else-return",
+            "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+            "messageId": "R1705",
+            "confidence": "HIGH",
+            "module": "gcd",
+            "obj": "gcd",
+            "line": 3,
+            "column": 4,
+            "endLine": 6,
+            "endColumn": 28,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/gcd.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/gcd.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 1,
+            "convention": 3,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 0
+    }
+}

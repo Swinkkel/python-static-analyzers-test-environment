@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py"
+  ],
+  "started_utc": "2026-11-11T16:09:23.534430+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.824,
+  "error": null,
+  "cwd": "/tmp/sa_run_7r54m5mu",
+  "traceback_in_stderr": false
+}

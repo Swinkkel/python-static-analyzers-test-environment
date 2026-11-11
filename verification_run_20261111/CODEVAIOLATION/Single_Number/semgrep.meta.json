@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Single_Number.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Single_Number.py"
+  ],
+  "started_utc": "2026-11-11T16:14:16.681899+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.775,
+  "error": null,
+  "cwd": "/tmp/sa_run_q88tba7f",
+  "traceback_in_stderr": false
+}

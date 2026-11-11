@@ -1,0 +1,41 @@
+program,bug_lines_in_buggy_version,corresponding_lines_in_correct_version,missing_line
+bitcount,5,5,no
+breadth_first_search,11,11,no
+bucketsort,7,8,no
+depth_first_search,9 10,11,yes
+detect_cycle,5,5,no
+find_first_in_sorted,5,6,no
+find_in_sorted,9,10,no
+flatten,7,8,no
+gcd,5,6,no
+get_factors,10,10,no
+hanoi,6,7,no
+is_valid_parenthesization,12,12,no
+kheapsort,7,8,no
+knapsack,12,12,no
+kth,12,13,no
+lcs_length,9,10,no
+levenshtein,6,7,no
+lis,14,14,no
+longest_common_subsequence,6,7,no
+max_sublist_sum,7,7,no
+mergesort,17,17,no
+minimum_spanning_tree,12,12,no
+next_palindrome,15,15,no
+next_permutation,6,6,no
+pascal,6,6,no
+possible_change,5,5,no
+powerset,6,6,no
+quicksort,7,8,no
+reverse_linked_list,5 6,7,yes
+rpn_eval,20,20,no
+shortest_path_length,22,22,no
+shortest_path_lengths,13,14,no
+shortest_paths,10,10,no
+shunting_yard,17 19,18,yes
+sieve,4,5,no
+sqrt,4,4,no
+subsequences,3,4,no
+to_base,9,9,no
+topological_ordering,6,6,no
+wrap,8 10,11,yes

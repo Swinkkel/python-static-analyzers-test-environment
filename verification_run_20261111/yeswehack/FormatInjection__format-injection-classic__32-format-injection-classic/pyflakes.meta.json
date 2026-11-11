@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:24:26.034105+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_xj9xvuua",
+  "traceback_in_stderr": false
+}

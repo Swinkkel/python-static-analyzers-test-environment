@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/pascal.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/correct_python_programs/pascal.py"
+  ],
+  "started_utc": "2026-11-11T16:21:44.590649+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.026,
+  "error": null,
+  "cwd": "/tmp/sa_run_j_9kom7u",
+  "traceback_in_stderr": false
+}

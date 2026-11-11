@@ -1,0 +1,16 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:3:1: E302 expected 2 blank lines, found 1
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:4:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:4:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:5:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:6:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:8:1: E302 expected 2 blank lines, found 1
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:9:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:10:9: E741 ambiguous variable name 'l'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:12:32: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:13:13: E741 ambiguous variable name 'l'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:13:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:14:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:15:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:17:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:18:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py:19:22: W292 no newline at end of file

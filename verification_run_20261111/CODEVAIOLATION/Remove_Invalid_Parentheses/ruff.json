@@ -1,0 +1,21 @@
+[
+  {
+    "cell": null,
+    "code": "PLR1704",
+    "end_location": {
+      "column": 14,
+      "row": 18
+    },
+    "filename": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 18
+    },
+    "message": "Redefining argument with the local name `s`",
+    "name": "redefined-argument-from-local",
+    "noqa_row": 18,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/redefined-argument-from-local"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py"
+  ],
+  "started_utc": "2026-11-11T16:10:52.856123+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_s4l8bxjr",
+  "traceback_in_stderr": false
+}

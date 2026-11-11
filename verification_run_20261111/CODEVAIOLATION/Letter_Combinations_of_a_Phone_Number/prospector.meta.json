@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+  ],
+  "started_utc": "2026-11-11T16:11:25.366704+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.319,
+  "error": null,
+  "cwd": "/tmp/sa_run_0uvzgq7k",
+  "traceback_in_stderr": false
+}

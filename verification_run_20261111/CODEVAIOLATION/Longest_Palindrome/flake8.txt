@@ -1,0 +1,10 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:3:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:4:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:5:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:6:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:7:16: E228 missing whitespace around modulo operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:7:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:8:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:10:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:11:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py:12:45: W292 no newline at end of file

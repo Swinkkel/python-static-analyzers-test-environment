@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py"
+  ],
+  "started_utc": "2026-11-11T16:14:48.716834+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.318,
+  "error": null,
+  "cwd": "/tmp/sa_run_nuqgrvt4",
+  "traceback_in_stderr": false
+}

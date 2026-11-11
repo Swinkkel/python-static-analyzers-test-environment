@@ -1,0 +1,4 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Digits.py:2:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Digits.py:3:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Digits.py:3:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Digits.py:4:15: W292 no newline at end of file

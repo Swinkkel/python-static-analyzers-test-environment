@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:25:15.031231+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.524,
+  "error": null,
+  "cwd": "/tmp/sa_run_x8r428pa",
+  "traceback_in_stderr": false
+}

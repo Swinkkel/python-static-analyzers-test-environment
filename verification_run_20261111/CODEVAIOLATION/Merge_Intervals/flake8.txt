@@ -1,0 +1,6 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_Intervals.py:2:32: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_Intervals.py:3:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_Intervals.py:5:39: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_Intervals.py:8:26: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_Intervals.py:8:44: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_Intervals.py:9:18: W292 no newline at end of file

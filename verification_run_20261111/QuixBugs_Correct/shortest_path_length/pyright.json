@@ -1,0 +1,30 @@
+{
+    "version": "1.1.414",
+    "time": "1794414137968",
+    "generalDiagnostics": [
+        {
+            "file": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+            "severity": "warning",
+            "message": "Wildcard import from a library not allowed",
+            "range": {
+                "start": {
+                    "line": 0,
+                    "character": 18
+                },
+                "end": {
+                    "line": 0,
+                    "character": 19
+                }
+            },
+            "rule": "reportWildcardImportFromLibrary"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 1,
+        "errorCount": 0,
+        "warningCount": 1,
+        "informationCount": 0,
+        "timeInSec": 0.172
+    }
+}
+

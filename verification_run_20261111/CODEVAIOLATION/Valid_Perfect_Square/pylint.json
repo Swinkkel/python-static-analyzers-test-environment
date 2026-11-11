@@ -1,0 +1,106 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Valid_Perfect_Square",
+            "obj": "",
+            "line": 13,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Valid_Perfect_Square",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Valid_Perfect_Square\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Valid_Perfect_Square",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Valid_Perfect_Square",
+            "obj": "isPerfectSquare",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 19,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"isPerfectSquare\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Valid_Perfect_Square",
+            "obj": "isPerfectSquare",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 19,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py"
+        },
+        {
+            "type": "refactor",
+            "symbol": "no-else-return",
+            "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+            "messageId": "R1705",
+            "confidence": "HIGH",
+            "module": "Valid_Perfect_Square",
+            "obj": "isPerfectSquare",
+            "line": 7,
+            "column": 8,
+            "endLine": 12,
+            "endColumn": 23,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 1,
+            "convention": 5,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 5.0
+    }
+}

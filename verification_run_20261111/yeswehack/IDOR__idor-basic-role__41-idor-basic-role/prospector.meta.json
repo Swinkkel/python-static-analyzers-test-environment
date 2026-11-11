@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py"
+  ],
+  "started_utc": "2026-11-11T16:24:36.996400+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 1.873,
+  "error": null,
+  "cwd": "/tmp/sa_run_dibmmek4",
+  "traceback_in_stderr": false
+}

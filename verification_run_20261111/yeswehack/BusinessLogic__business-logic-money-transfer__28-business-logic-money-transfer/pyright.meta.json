@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py"
+  ],
+  "started_utc": "2026-11-11T16:23:15.924342+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.525,
+  "error": null,
+  "cwd": "/tmp/sa_run_ml0wyt_t",
+  "traceback_in_stderr": false
+}

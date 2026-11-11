@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py"
+  ],
+  "started_utc": "2026-11-11T16:14:51.740886+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.97,
+  "error": null,
+  "cwd": "/tmp/sa_run_8_w7gkrm",
+  "traceback_in_stderr": false
+}

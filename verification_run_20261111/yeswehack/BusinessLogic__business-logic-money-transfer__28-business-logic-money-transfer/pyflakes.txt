@@ -1,0 +1,1 @@
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:43:23: f-string is missing placeholders

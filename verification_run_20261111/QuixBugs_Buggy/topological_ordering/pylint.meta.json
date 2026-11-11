@@ -1,0 +1,17 @@
+{
+  "tool": "pylint",
+  "tool_version": "pylint 4.0.9 | astroid 4.0.4 | Python 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/QuixBugs/python_programs/topological_ordering.py",
+  "command": [
+    "pylint",
+    "--output-format=json2",
+    "/opt/datasets/QuixBugs/python_programs/topological_ordering.py"
+  ],
+  "started_utc": "2026-11-11T16:19:09.797123+00:00",
+  "return_code": 20,
+  "timed_out": false,
+  "duration_s": 0.225,
+  "error": null,
+  "cwd": "/tmp/sa_run_i9hptz30",
+  "traceback_in_stderr": false
+}

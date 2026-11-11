@@ -1,0 +1,7 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py:2:6: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py:4:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py:5:20: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py:5:28: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py:5:36: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py:6:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py:6:17: W292 no newline at end of file

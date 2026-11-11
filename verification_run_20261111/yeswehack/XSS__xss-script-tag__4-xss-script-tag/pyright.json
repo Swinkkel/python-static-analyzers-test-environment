@@ -1,0 +1,46 @@
+{
+    "version": "1.1.414",
+    "time": "1794414325641",
+    "generalDiagnostics": [
+        {
+            "file": "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py",
+            "severity": "error",
+            "message": "Import \"ignore.design\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 1,
+                    "character": 5
+                },
+                "end": {
+                    "line": 1,
+                    "character": 18
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py",
+            "severity": "error",
+            "message": "\"replace\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 24,
+                    "character": 40
+                },
+                "end": {
+                    "line": 24,
+                    "character": 47
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 1,
+        "errorCount": 2,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 0.254
+    }
+}
+

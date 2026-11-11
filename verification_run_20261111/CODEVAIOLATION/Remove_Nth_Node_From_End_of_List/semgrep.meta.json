@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Nth_Node_From_End_of_List.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Nth_Node_From_End_of_List.py"
+  ],
+  "started_utc": "2026-11-11T16:13:33.043829+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.874,
+  "error": null,
+  "cwd": "/tmp/sa_run_gnk7r8wp",
+  "traceback_in_stderr": false
+}

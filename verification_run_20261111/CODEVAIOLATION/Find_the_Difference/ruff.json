@@ -1,0 +1,37 @@
+[
+  {
+    "cell": null,
+    "code": "RUF015",
+    "end_location": {
+      "column": 51,
+      "row": 3
+    },
+    "filename": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "next(iter((Counter(t)-Counter(s)).keys()))",
+          "end_location": {
+            "column": 51,
+            "row": 3
+          },
+          "location": {
+            "column": 12,
+            "row": 3
+          }
+        }
+      ],
+      "message": "Replace with `next(iter((Counter(t)-Counter(s)).keys()))`"
+    },
+    "location": {
+      "column": 12,
+      "row": 3
+    },
+    "message": "Prefer `next(iter((Counter(t)-Counter(s)).keys()))` over single element slice",
+    "name": "unnecessary-iterable-allocation-for-first-element",
+    "noqa_row": 3,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unnecessary-iterable-allocation-for-first-element"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Nim_Game.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Nim_Game.py"
+  ],
+  "started_utc": "2026-11-11T16:12:53.925997+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.825,
+  "error": null,
+  "cwd": "/tmp/sa_run_xisv8uil",
+  "traceback_in_stderr": false
+}

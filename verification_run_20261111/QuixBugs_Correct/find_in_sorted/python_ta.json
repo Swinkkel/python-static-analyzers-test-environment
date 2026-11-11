@@ -1,0 +1,191 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "module": "find_in_sorted",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 14,
+                "end_column": 33,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def find_in_sorted(arr, x):\n",
+                "line_end": 14,
+                "column_end": 33,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "module": "find_in_sorted",
+                "obj": "find_in_sorted",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 18,
+                "snippet": "    2  def find_in_sorted(arr, x):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      def binsearch(start, end):\n    4          if start == end:\n",
+                "line_end": 2,
+                "column_end": 18,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "module": "find_in_sorted",
+                "obj": "find_in_sorted",
+                "line": 2,
+                "column": 19,
+                "end_line": 2,
+                "end_column": 22,
+                "snippet": "    1  \n    2  def find_in_sorted(arr, x):\n    3      def binsearch(start, end):\n    4          if start == end:\n",
+                "line_end": 2,
+                "column_end": 22,
+                "number_of_occurrences": 4
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "module": "find_in_sorted",
+                "obj": "find_in_sorted",
+                "line": 2,
+                "column": 24,
+                "end_line": 2,
+                "end_column": 25,
+                "snippet": "    1  \n    2  def find_in_sorted(arr, x):\n    3      def binsearch(start, end):\n    4          if start == end:\n",
+                "line_end": 2,
+                "column_end": 25,
+                "number_of_occurrences": 4
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "module": "find_in_sorted",
+                "obj": "find_in_sorted",
+                "line": 2,
+                "column": 19,
+                "end_line": 2,
+                "end_column": 25,
+                "snippet": "    1  \n    2  def find_in_sorted(arr, x):\n    3      def binsearch(start, end):\n    4          if start == end:\n",
+                "line_end": 2,
+                "column_end": 25,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "module": "find_in_sorted",
+                "obj": "find_in_sorted.binsearch",
+                "line": 3,
+                "column": 18,
+                "end_line": 3,
+                "end_column": 23,
+                "snippet": "    1  \n    2  def find_in_sorted(arr, x):\n    3      def binsearch(start, end):\n    4          if start == end:\n    5              return -1\n",
+                "line_end": 3,
+                "column_end": 23,
+                "number_of_occurrences": 4
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "module": "find_in_sorted",
+                "obj": "find_in_sorted.binsearch",
+                "line": 3,
+                "column": 25,
+                "end_line": 3,
+                "end_column": 28,
+                "snippet": "    1  \n    2  def find_in_sorted(arr, x):\n    3      def binsearch(start, end):\n    4          if start == end:\n    5              return -1\n",
+                "line_end": 3,
+                "column_end": 28,
+                "number_of_occurrences": 4
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/find_in_sorted.py",
+                "module": "find_in_sorted",
+                "obj": "find_in_sorted.binsearch",
+                "line": 3,
+                "column": 18,
+                "end_line": 3,
+                "end_column": 28,
+                "snippet": "    1  \n    2  def find_in_sorted(arr, x):\n    3      def binsearch(start, end):\n    4          if start == end:\n    5              return -1\n",
+                "line_end": 3,
+                "column_end": 28,
+                "number_of_occurrences": 2
+            }
+        ]
+    }
+]

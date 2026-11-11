@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/breadth_first_search.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/correct_python_programs/breadth_first_search.py"
+  ],
+  "started_utc": "2026-11-11T16:19:26.998523+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.019,
+  "error": null,
+  "cwd": "/tmp/sa_run_9po3jzsx",
+  "traceback_in_stderr": false
+}

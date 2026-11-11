@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py"
+  ],
+  "started_utc": "2026-11-11T16:24:52.131021+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.874,
+  "error": null,
+  "cwd": "/tmp/sa_run_kvu3m65i",
+  "traceback_in_stderr": false
+}

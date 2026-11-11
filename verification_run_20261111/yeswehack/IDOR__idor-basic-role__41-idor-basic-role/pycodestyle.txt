@@ -1,0 +1,11 @@
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:4:14: E401 multiple imports on one line
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:5:80: E501 line too long (110 > 79 characters)
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:11:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:14:21: E222 multiple spaces after operator
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:16:9: E201 whitespace after '('
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:16:36: E202 whitespace before ')'
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:21:9: E722 do not use bare 'except'
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:25:9: E265 block comment should start with '# '
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:28:80: E501 line too long (90 > 79 characters)
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:31:1: E265 block comment should start with '# '
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:34:1: W391 blank line at end of file

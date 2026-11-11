@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/detect_cycle.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/QuixBugs/correct_python_programs/detect_cycle.py"
+  ],
+  "started_utc": "2026-11-11T16:19:43.675046+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.037,
+  "error": null,
+  "cwd": "/tmp/sa_run_l1_48cbt",
+  "traceback_in_stderr": false
+}

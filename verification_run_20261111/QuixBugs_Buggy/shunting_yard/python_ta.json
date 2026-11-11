@@ -1,0 +1,145 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "module": "shunting_yard",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 48,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def shunting_yard(tokens):\n",
+                "line_end": 48,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 25",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "module": "shunting_yard",
+                "obj": "",
+                "line": 25,
+                "column": 0,
+                "end_line": 48,
+                "end_column": 3,
+                "snippet": "   23  \n   24  \n   25  \"\"\"\n   26  Infix to RPN Conversion\n   27  shunting-yard\n   28  \n   29  \n       ...\n   44      >>> shunting_yard([34, '-', 12, '/', 5])\n   45      [34, 12, 5, '/' ,'-']\n   46      >>> shunting_yard([4, '+', 9, '*', 9, '-', 10, '+', 13])\n   47      [4, 9, 9, '*', '+', 10, '-', 13, '+']\n   48  \"\"\"\n",
+                "line_end": 48,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "module": "shunting_yard",
+                "obj": "shunting_yard",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 17,
+                "snippet": "    2  def shunting_yard(tokens):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      precedence = {\n    4          '+': 1,\n",
+                "line_end": 2,
+                "column_end": 17,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "module": "shunting_yard",
+                "obj": "shunting_yard",
+                "line": 2,
+                "column": 18,
+                "end_line": 2,
+                "end_column": 24,
+                "snippet": "    1  \n    2  def shunting_yard(tokens):\n    3      precedence = {\n    4          '+': 1,\n",
+                "line_end": 2,
+                "column_end": 24,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "module": "shunting_yard",
+                "obj": "shunting_yard",
+                "line": 2,
+                "column": 18,
+                "end_line": 2,
+                "end_column": 24,
+                "snippet": "    1  \n    2  def shunting_yard(tokens):\n    3      precedence = {\n    4          '+': 1,\n",
+                "line_end": 2,
+                "column_end": 24,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+                "module": "shunting_yard",
+                "obj": "",
+                "line": 25,
+                "column": 0,
+                "end_line": 48,
+                "end_column": 3,
+                "snippet": "   23  \n   24  \n   25  \"\"\"\n   26  Infix to RPN Conversion\n   27  shunting-yard\n   28  \n   29  \n       ...\n   44      >>> shunting_yard([34, '-', 12, '/', 5])\n   45      [34, 12, 5, '/' ,'-']\n   46      >>> shunting_yard([4, '+', 9, '*', 9, '-', 10, '+', 13])\n   47      [4, 9, 9, '*', '+', 10, '-', 13, '+']\n   48  \"\"\"\n",
+                "line_end": 48,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

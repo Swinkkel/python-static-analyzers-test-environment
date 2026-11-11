@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/QuixBugs/python_programs/sqrt.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/QuixBugs/python_programs/sqrt.py"
+  ],
+  "started_utc": "2026-11-11T16:18:58.045198+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 1.027,
+  "error": null,
+  "cwd": "/tmp/sa_run_r8eyib02",
+  "traceback_in_stderr": false
+}

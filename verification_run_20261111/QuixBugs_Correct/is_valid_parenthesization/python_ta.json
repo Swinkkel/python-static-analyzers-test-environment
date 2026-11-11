@@ -1,0 +1,168 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "expected 2 blank lines after class or function definition, found 1 (pycodestyle code E305)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "module": "is_valid_parenthesization",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   11  \n   12      return depth == 0\n   15                              \n       # INSERT NEW BLANK LINE HERE\n   14  \"\"\"\n   15  def is_valid_parenthesization(parens):\n   16      depth = 0\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "module": "is_valid_parenthesization",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 114,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def is_valid_parenthesization(parens):\n",
+                "line_end": 114,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 14",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "module": "is_valid_parenthesization",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": 114,
+                "end_column": 3,
+                "snippet": "   12      return depth == 0\n   13  \n   14  \"\"\"\n   15  def is_valid_parenthesization(parens):\n   16      depth = 0\n   17      for paren in parens:\n   18          if paren == '(':\n       ...\n  110  \n  111      if depth: return False\n  112      return True\n  113  \n  114  \"\"\"\n",
+                "line_end": 114,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "module": "is_valid_parenthesization",
+                "obj": "is_valid_parenthesization",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 29,
+                "snippet": "    2  def is_valid_parenthesization(parens):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      depth = 0\n    4      for paren in parens:\n",
+                "line_end": 2,
+                "column_end": 29,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "module": "is_valid_parenthesization",
+                "obj": "is_valid_parenthesization",
+                "line": 2,
+                "column": 30,
+                "end_line": 2,
+                "end_column": 36,
+                "snippet": "    1  \n    2  def is_valid_parenthesization(parens):\n    3      depth = 0\n    4      for paren in parens:\n",
+                "line_end": 2,
+                "column_end": 36,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "module": "is_valid_parenthesization",
+                "obj": "is_valid_parenthesization",
+                "line": 2,
+                "column": 30,
+                "end_line": 2,
+                "end_column": 36,
+                "snippet": "    1  \n    2  def is_valid_parenthesization(parens):\n    3      depth = 0\n    4      for paren in parens:\n",
+                "line_end": 2,
+                "column_end": 36,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/is_valid_parenthesization.py",
+                "module": "is_valid_parenthesization",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": 114,
+                "end_column": 3,
+                "snippet": "   12      return depth == 0\n   13  \n   14  \"\"\"\n   15  def is_valid_parenthesization(parens):\n   16      depth = 0\n   17      for paren in parens:\n   18          if paren == '(':\n       ...\n  110  \n  111      if depth: return False\n  112      return True\n  113  \n  114  \"\"\"\n",
+                "line_end": 114,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

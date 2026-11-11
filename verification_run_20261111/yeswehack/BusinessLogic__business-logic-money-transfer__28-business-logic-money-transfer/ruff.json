@@ -1,0 +1,164 @@
+[
+  {
+    "cell": null,
+    "code": "EXE001",
+    "end_location": {
+      "column": 19,
+      "row": 1
+    },
+    "filename": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Shebang is present but file is not executable",
+    "name": "shebang-not-executable",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/shebang-not-executable"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 33,
+      "row": 3
+    },
+    "filename": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from flask import Flask, render_template, request\nfrom ignore.design import design\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 4
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "RUF010",
+    "end_location": {
+      "column": 104,
+      "row": 41
+    },
+    "filename": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "f'<b style=\"color:lightgreen\">You withdraw {user.Currency} : {withdrawAmount!s}</b>!'",
+          "end_location": {
+            "column": 111,
+            "row": 41
+          },
+          "location": {
+            "column": 23,
+            "row": 41
+          }
+        }
+      ],
+      "message": "Replace with conversion flag"
+    },
+    "location": {
+      "column": 85,
+      "row": 41
+    },
+    "message": "Use explicit conversion flag",
+    "name": "explicit-f-string-type-conversion",
+    "noqa_row": 41,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/explicit-f-string-type-conversion"
+  },
+  {
+    "cell": null,
+    "code": "F541",
+    "end_location": {
+      "column": 77,
+      "row": 43
+    },
+    "filename": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "'<b style=\"color:red\">You don\\'t have that much!</b>'",
+          "end_location": {
+            "column": 77,
+            "row": 43
+          },
+          "location": {
+            "column": 23,
+            "row": 43
+          }
+        }
+      ],
+      "message": "Remove extraneous `f` prefix"
+    },
+    "location": {
+      "column": 23,
+      "row": 43
+    },
+    "message": "f-string without any placeholders",
+    "name": "f-string-missing-placeholders",
+    "noqa_row": 43,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/f-string-missing-placeholders"
+  },
+  {
+    "cell": null,
+    "code": "E722",
+    "end_location": {
+      "column": 11,
+      "row": 44
+    },
+    "filename": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 44
+    },
+    "message": "Do not use bare `except`",
+    "name": "bare-except",
+    "noqa_row": 44,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/bare-except"
+  },
+  {
+    "cell": null,
+    "code": "S110",
+    "end_location": {
+      "column": 13,
+      "row": 45
+    },
+    "filename": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 44
+    },
+    "message": "`try`-`except`-`pass` detected, consider logging the exception",
+    "name": "try-except-pass",
+    "noqa_row": 44,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/try-except-pass"
+  }
+]

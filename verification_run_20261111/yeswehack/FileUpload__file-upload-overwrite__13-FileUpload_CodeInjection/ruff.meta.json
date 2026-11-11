@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/13-FileUpload_CodeInjection.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/13-FileUpload_CodeInjection.py"
+  ],
+  "started_utc": "2026-11-11T16:24:11.393041+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.019,
+  "error": null,
+  "cwd": "/tmp/sa_run_v0ilke4o",
+  "traceback_in_stderr": false
+}

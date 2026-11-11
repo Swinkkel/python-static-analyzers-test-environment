@@ -1,0 +1,7 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py:3:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py:4:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py:5:5: E301 expected 1 blank line, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py:5:18: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py:7:5: E301 expected 1 blank line, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py:12:5: E301 expected 1 blank line, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py:17:5: E301 expected 1 blank line, found 0

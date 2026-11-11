@@ -1,0 +1,15 @@
+# Normalise line endings to LF in the repository and in checkouts,
+# so that the files work the same in the Linux container and on Windows.
+* text=auto eol=lf
+
+*.py         text eol=lf
+*.txt        text eol=lf
+*.md         text eol=lf
+*.cff        text eol=lf
+Dockerfile   text eol=lf
+.dockerignore text eol=lf
+.gitattributes text eol=lf
+.gitignore   text eol=lf
+
+# Keep the verification run byte-for-byte as produced (no line-ending conversion).
+verification_run_20261111/** -text

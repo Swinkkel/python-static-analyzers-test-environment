@@ -1,0 +1,16 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:2:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:2:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:3:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:4:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:6:1: E302 expected 2 blank lines, found 1
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:7:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:7:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:8:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:10:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:11:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:12:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:13:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:14:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:15:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:16:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py:17:22: W292 no newline at end of file

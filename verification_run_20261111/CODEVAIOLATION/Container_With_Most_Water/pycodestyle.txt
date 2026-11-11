@@ -1,0 +1,12 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:2:9: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:2:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:2:17: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:3:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:4:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:5:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:5:30: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:5:47: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:6:24: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:7:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:9:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Container_With_Most_Water.py:10:20: W292 no newline at end of file

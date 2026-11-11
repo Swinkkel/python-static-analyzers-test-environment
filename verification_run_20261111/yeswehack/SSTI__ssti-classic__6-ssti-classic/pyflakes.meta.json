@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:25:11.106810+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_hwece1_u",
+  "traceback_in_stderr": false
+}

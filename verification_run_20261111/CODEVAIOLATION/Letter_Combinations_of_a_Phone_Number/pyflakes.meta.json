@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+  ],
+  "started_utc": "2026-11-11T16:11:25.286226+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_pz57dh9d",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,13 @@
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:4:10: E401 multiple imports on one line
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:5:80: E501 line too long (109 > 79 characters)
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:16:9: E201 whitespace after '('
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:16:24: E202 whitespace before ')'
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:17:80: E501 line too long (84 > 79 characters)
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:23:13: E265 block comment should start with '# '
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:24:80: E501 line too long (84 > 79 characters)
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:28:16: E111 indentation is not a multiple of 4
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:28:80: E501 line too long (94 > 79 characters)
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:30:80: E501 line too long (92 > 79 characters)
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:33:1: E265 block comment should start with '# '
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:34:12: E225 missing whitespace around operator
+/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py:36:1: W391 blank line at end of file

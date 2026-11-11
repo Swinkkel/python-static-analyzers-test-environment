@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Three.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Three.py"
+  ],
+  "started_utc": "2026-11-11T16:13:04.391041+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.318,
+  "error": null,
+  "cwd": "/tmp/sa_run_7a4brs9y",
+  "traceback_in_stderr": false
+}

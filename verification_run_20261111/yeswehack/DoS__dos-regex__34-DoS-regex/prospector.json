@@ -1,0 +1,82 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:23:58.373934",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 4,
+    "completed": "2026-11-11 16:23:59.533826",
+    "time_taken": "1.16",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "multiple-imports",
+      "location": {
+        "path": "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py",
+        "module": "34-DoS-regex",
+        "function": null,
+        "line": 4,
+        "character": 0,
+        "lineEnd": 4,
+        "characterEnd": 15
+      },
+      "message": "Multiple imports on one line (re, html)",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/multiple-imports.html"
+    },
+    {
+      "source": "pylint",
+      "code": "unspecified-encoding",
+      "location": {
+        "path": "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py",
+        "module": "34-DoS-regex",
+        "function": "index",
+        "line": 19,
+        "character": 9,
+        "lineEnd": 19,
+        "characterEnd": 32
+      },
+      "message": "Using open without explicitly specifying an encoding",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unspecified-encoding.html"
+    },
+    {
+      "source": "pylint",
+      "code": "bad-indentation",
+      "location": {
+        "path": "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py",
+        "module": "34-DoS-regex",
+        "function": null,
+        "line": 28,
+        "character": 0
+      },
+      "message": "Bad indentation. Found 15 spaces, expected 16",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/bad-indentation.html"
+    },
+    {
+      "source": "pylint",
+      "code": "trailing-newlines",
+      "location": {
+        "path": "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py",
+        "module": "34-DoS-regex",
+        "function": null,
+        "line": 36,
+        "character": 0
+      },
+      "message": "Trailing newlines",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/trailing-newlines.html"
+    }
+  ]
+}

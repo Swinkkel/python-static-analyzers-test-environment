@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:12:47.463715",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:12:47.552618",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "consider-using-enumerate",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py",
+        "module": "Move_Zeroes",
+        "function": "moveZeroes",
+        "line": 3,
+        "character": 4,
+        "lineEnd": 6,
+        "characterEnd": 16
+      },
+      "message": "Consider using enumerate instead of iterating with range and len",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/consider-using-enumerate.html"
+    }
+  ]
+}

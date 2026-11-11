@@ -1,0 +1,2 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Contains_Duplicate.py:2:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Contains_Duplicate.py:2:37: W292 no newline at end of file

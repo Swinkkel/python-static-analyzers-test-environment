@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py"
+  ],
+  "started_utc": "2026-11-11T16:12:31.706177+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.318,
+  "error": null,
+  "cwd": "/tmp/sa_run_03f0886m",
+  "traceback_in_stderr": false
+}

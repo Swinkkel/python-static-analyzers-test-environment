@@ -1,0 +1,20 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:2:40: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:3:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:4:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:4:20: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:6:14: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:6:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:6:29: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:7:38: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:8:24: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:11:40: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:14:26: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:16:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:16:63: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:17:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:19:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:20:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:22:32: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:23:35: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:25:33: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py:25:57: W292 no newline at end of file

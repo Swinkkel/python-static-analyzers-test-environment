@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py"
+  ],
+  "started_utc": "2026-11-11T16:12:26.037318+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.419,
+  "error": null,
+  "cwd": "/tmp/sa_run_m9rij5xg",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,99 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+                "module": "next_palindrome",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 15,
+                "end_column": 50,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def next_palindrome(digit_list):\n    2      high_mid = len(digit_list) // 2\n",
+                "line_end": 15,
+                "column_end": 50,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+                "module": "next_palindrome",
+                "obj": "next_palindrome",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 19,
+                "snippet": "    1  def next_palindrome(digit_list):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      high_mid = len(digit_list) // 2\n    3      low_mid = (len(digit_list) - 1) // 2\n",
+                "line_end": 1,
+                "column_end": 19,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+                "module": "next_palindrome",
+                "obj": "next_palindrome",
+                "line": 1,
+                "column": 20,
+                "end_line": 1,
+                "end_column": 30,
+                "snippet": "    1  def next_palindrome(digit_list):\n    2      high_mid = len(digit_list) // 2\n    3      low_mid = (len(digit_list) - 1) // 2\n",
+                "line_end": 1,
+                "column_end": 30,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_palindrome.py",
+                "module": "next_palindrome",
+                "obj": "next_palindrome",
+                "line": 1,
+                "column": 20,
+                "end_line": 1,
+                "end_column": 30,
+                "snippet": "    1  def next_palindrome(digit_list):\n    2      high_mid = len(digit_list) // 2\n    3      low_mid = (len(digit_list) - 1) // 2\n",
+                "line_end": 1,
+                "column_end": 30,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

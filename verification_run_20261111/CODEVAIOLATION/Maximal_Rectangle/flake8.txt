@@ -1,0 +1,12 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:4:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:5:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:8:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:8:36: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:9:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:10:14: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:11:30: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:12:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:13:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:14:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:14:38: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximal_Rectangle.py:16:20: W292 no newline at end of file

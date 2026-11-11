@@ -1,0 +1,9 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:1:14: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:4:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:4:42: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:5:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:5:26: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:6:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:6:66: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:8:45: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py:8:52: W292 no newline at end of file

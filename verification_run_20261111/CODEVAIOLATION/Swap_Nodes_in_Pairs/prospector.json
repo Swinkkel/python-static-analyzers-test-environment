@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:14:37.241950",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:14:37.332392",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "redefined-builtin",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py",
+        "module": "Swap_Nodes_in_Pairs",
+        "function": "ListNode.__init__",
+        "line": 2,
+        "character": 28,
+        "lineEnd": 2,
+        "characterEnd": 32
+      },
+      "message": "Redefining built-in 'next'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/redefined-builtin.html"
+    }
+  ]
+}

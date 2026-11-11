@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Ransom_Note.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Ransom_Note.py"
+  ],
+  "started_utc": "2026-11-11T16:13:14.481046+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.369,
+  "error": null,
+  "cwd": "/tmp/sa_run_98_0z7bg",
+  "traceback_in_stderr": false
+}

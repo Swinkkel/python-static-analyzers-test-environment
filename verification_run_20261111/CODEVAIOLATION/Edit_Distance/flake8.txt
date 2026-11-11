@@ -1,0 +1,15 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:1:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:2:6: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:2:8: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:2:19: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:3:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:5:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:7:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:8:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:9:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:10:26: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:11:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:13:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:13:42: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:13:53: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py:14:20: W292 no newline at end of file

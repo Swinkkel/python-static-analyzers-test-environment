@@ -1,0 +1,19 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:2:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:2:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:3:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:4:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:6:1: E302 expected 2 blank lines, found 1
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:6:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:7:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:8:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:9:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:11:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:12:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:13:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:14:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:15:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:15:36: E228 missing whitespace around modulo operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:16:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:17:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:18:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Add_Two_Numbers.py:19:22: W292 no newline at end of file

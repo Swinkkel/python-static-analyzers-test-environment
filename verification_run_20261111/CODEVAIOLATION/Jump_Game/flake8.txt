@@ -1,0 +1,7 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py:2:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py:3:31: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py:3:34: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py:4:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py:5:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py:6:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py:6:23: W292 no newline at end of file

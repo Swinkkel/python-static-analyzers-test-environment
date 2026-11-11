@@ -1,0 +1,2 @@
+/opt/datasets/QuixBugs/python_programs/next_palindrome.py:17:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/QuixBugs/python_programs/next_palindrome.py:19:80: E501 line too long (90 > 79 characters)

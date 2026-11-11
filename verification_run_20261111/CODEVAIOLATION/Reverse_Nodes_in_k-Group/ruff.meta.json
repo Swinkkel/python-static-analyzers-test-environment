@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py"
+  ],
+  "started_utc": "2026-11-11T16:13:42.845880+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.02,
+  "error": null,
+  "cwd": "/tmp/sa_run_ha3sefog",
+  "traceback_in_stderr": false
+}

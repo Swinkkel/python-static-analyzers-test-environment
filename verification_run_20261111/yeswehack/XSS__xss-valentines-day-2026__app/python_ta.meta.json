@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py"
+  ],
+  "started_utc": "2026-11-11T16:25:39.689670+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.676,
+  "error": null,
+  "cwd": "/tmp/sa_run_f8uat3pq",
+  "traceback_in_stderr": false
+}

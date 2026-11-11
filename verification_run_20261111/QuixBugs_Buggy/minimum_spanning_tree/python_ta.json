@@ -1,0 +1,168 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "too many blank lines (4) (pycodestyle code E303)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "module": "minimum_spanning_tree",
+                "obj": "",
+                "line": 19,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   12                  group_by_node[node].update(group_by_node[u])\n   13  \n   14      return mst_edges\n   15  \n   16  # DELETE THIS LINE\n   17  # DELETE THIS LINE\n   18  # DELETE THIS LINE\n   19  \"\"\"\n   20  Minimum Spanning Tree\n   21  \n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "module": "minimum_spanning_tree",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 42,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def minimum_spanning_tree(weight_by_edge):\n",
+                "line_end": 42,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 19",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "module": "minimum_spanning_tree",
+                "obj": "",
+                "line": 19,
+                "column": 0,
+                "end_line": 42,
+                "end_column": 3,
+                "snippet": "   17  \n   18  \n   19  \"\"\"\n   20  Minimum Spanning Tree\n   21  \n   22  \n   23  Kruskal's algorithm implementation.\n       ...\n   38      ...     (3, 4): 10,\n   39      ...     (1, 4): 10\n   40      ... })\n   41      {(1, 2), (3, 4), (1, 4)}\n   42  \"\"\"\n",
+                "line_end": 42,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "module": "minimum_spanning_tree",
+                "obj": "minimum_spanning_tree",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 25,
+                "snippet": "    2  def minimum_spanning_tree(weight_by_edge):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      group_by_node = {}\n    4      mst_edges = set()\n",
+                "line_end": 2,
+                "column_end": 25,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "module": "minimum_spanning_tree",
+                "obj": "minimum_spanning_tree",
+                "line": 2,
+                "column": 26,
+                "end_line": 2,
+                "end_column": 40,
+                "snippet": "    1  \n    2  def minimum_spanning_tree(weight_by_edge):\n    3      group_by_node = {}\n    4      mst_edges = set()\n",
+                "line_end": 2,
+                "column_end": 40,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "module": "minimum_spanning_tree",
+                "obj": "minimum_spanning_tree",
+                "line": 2,
+                "column": 26,
+                "end_line": 2,
+                "end_column": 40,
+                "snippet": "    1  \n    2  def minimum_spanning_tree(weight_by_edge):\n    3      group_by_node = {}\n    4      mst_edges = set()\n",
+                "line_end": 2,
+                "column_end": 40,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+                "module": "minimum_spanning_tree",
+                "obj": "",
+                "line": 19,
+                "column": 0,
+                "end_line": 42,
+                "end_column": 3,
+                "snippet": "   17  \n   18  \n   19  \"\"\"\n   20  Minimum Spanning Tree\n   21  \n   22  \n   23  Kruskal's algorithm implementation.\n       ...\n   38      ...     (3, 4): 10,\n   39      ...     (1, 4): 10\n   40      ... })\n   41      {(1, 2), (3, 4), (1, 4)}\n   42  \"\"\"\n",
+                "line_end": 42,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

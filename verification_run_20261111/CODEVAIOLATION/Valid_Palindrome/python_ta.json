@@ -1,0 +1,214 @@
+[
+    {
+        "filename": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "missing whitespace around operator (pycodestyle code E225)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "",
+                "line": 2,
+                "column": 5,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  def isPalindrome(s):\n    2      s=''.join(c.lower() for c in s if c.isalnum())\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "missing whitespace around operator (pycodestyle code E225)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "",
+                "line": 3,
+                "column": 12,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  def isPalindrome(s):\n    2      s=''.join(c.lower() for c in s if c.isalnum())\n    3      return s==s[::-1]\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "C0304",
+                "symbol": "missing-final-newline",
+                "msg": "By convention, each Python file should end with a blank line. To fix this, go down to the bottom of your file and press Enter/Return to add an empty line.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "",
+                "line": 3,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  def isPalindrome(s):\n    2      s=''.join(c.lower() for c in s if c.isalnum())\n    3      return s==s[::-1]\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 3,
+                "end_column": 21,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def isPalindrome(s):\n    2      s=''.join(c.lower() for c in s if c.isalnum())\n",
+                "line_end": 3,
+                "column_end": 21,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C9104",
+                "symbol": "module-name-violation",
+                "msg": "Module name \"Valid_Palindrome\" should be in snake_case format. Suggested fix: \"valid_palindrome\". Modules should be all-lowercase names, with each name separated by underscores.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 3,
+                "end_column": 21,
+                "snippet": "",
+                "line_end": 3,
+                "column_end": 21,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "isPalindrome",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 16,
+                "snippet": "    1  def isPalindrome(s):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      s=''.join(c.lower() for c in s if c.isalnum())\n",
+                "line_end": 1,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C9103",
+                "symbol": "naming-convention-violation",
+                "msg": "Function name \"isPalindrome\" should be in snake_case format. Suggested fix: \"is_palindrome\". Function names should be lowercase, with words separated by underscores. A single leading underscore can be used to denote a private function.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "isPalindrome",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 16,
+                "snippet": "    1  def isPalindrome(s):\n    2      s=''.join(c.lower() for c in s if c.isalnum())\n",
+                "line_end": 1,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "isPalindrome",
+                "line": 1,
+                "column": 17,
+                "end_line": 1,
+                "end_column": 18,
+                "snippet": "    1  def isPalindrome(s):\n    2      s=''.join(c.lower() for c in s if c.isalnum())\n",
+                "line_end": 1,
+                "column_end": 18,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Palindrome.py",
+                "module": "Valid_Palindrome",
+                "obj": "isPalindrome",
+                "line": 1,
+                "column": 17,
+                "end_line": 1,
+                "end_column": 18,
+                "snippet": "    1  def isPalindrome(s):\n    2      s=''.join(c.lower() for c in s if c.isalnum())\n",
+                "line_end": 1,
+                "column_end": 18,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py"
+  ],
+  "started_utc": "2026-11-11T16:20:19.152005+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_pa1f5btm",
+  "traceback_in_stderr": false
+}

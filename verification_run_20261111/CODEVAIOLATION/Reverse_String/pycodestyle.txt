@@ -1,0 +1,2 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_String.py:2:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_String.py:2:17: W292 no newline at end of file

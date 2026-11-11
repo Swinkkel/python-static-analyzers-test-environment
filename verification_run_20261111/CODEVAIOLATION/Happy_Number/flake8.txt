@@ -1,0 +1,5 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Happy_Number.py:4:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Happy_Number.py:5:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Happy_Number.py:7:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Happy_Number.py:8:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Happy_Number.py:8:16: W292 no newline at end of file

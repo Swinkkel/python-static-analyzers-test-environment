@@ -1,0 +1,160 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:24:48.442844",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 9,
+    "completed": "2026-11-11 16:24:49.565673",
+    "time_taken": "1.12",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "bare-except",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": "26-idor-rest-api",
+        "function": "UsersDetails.get",
+        "line": 16,
+        "character": 8,
+        "lineEnd": 17,
+        "characterEnd": 31
+      },
+      "message": "No exception type(s) specified",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/bare-except.html"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": null,
+        "function": null,
+        "line": 19,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "unspecified-encoding",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": "26-idor-rest-api",
+        "function": null,
+        "line": 19,
+        "character": 17,
+        "lineEnd": 19,
+        "characterEnd": 40
+      },
+      "message": "Using open without explicitly specifying an encoding",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unspecified-encoding.html"
+    },
+    {
+      "source": "pylint",
+      "code": "consider-using-with",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": "26-idor-rest-api",
+        "function": null,
+        "line": 19,
+        "character": 17,
+        "lineEnd": 19,
+        "characterEnd": 40
+      },
+      "message": "Consider using 'with' for resource-allocating operations",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/consider-using-with.html"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": null,
+        "function": null,
+        "line": 29,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "redefined-builtin",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": "26-idor-rest-api",
+        "function": "UsersDetails.get",
+        "line": 13,
+        "character": 18,
+        "lineEnd": 13,
+        "characterEnd": 20
+      },
+      "message": "Redefining built-in 'id'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/redefined-builtin.html"
+    },
+    {
+      "source": "pylint",
+      "code": "unused-argument",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": "26-idor-rest-api",
+        "function": "UserAuthorization",
+        "line": 21,
+        "character": 22,
+        "lineEnd": 21,
+        "characterEnd": 27
+      },
+      "message": "Unused argument 's'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unused-argument.html"
+    },
+    {
+      "source": "pylint",
+      "code": "inconsistent-return-statements",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": "26-idor-rest-api",
+        "function": "users",
+        "line": 31,
+        "character": 0,
+        "lineEnd": 31,
+        "characterEnd": 9
+      },
+      "message": "Either all return statements in a function should return an expression, or none of them should.",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/inconsistent-return-statements.html"
+    },
+    {
+      "source": "pylint",
+      "code": "no-value-for-parameter",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+        "module": "26-idor-rest-api",
+        "function": "users",
+        "line": 32,
+        "character": 7,
+        "lineEnd": 32,
+        "characterEnd": 26
+      },
+      "message": "No value for argument 's' in function call",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/error/no-value-for-parameter.html"
+    }
+  ]
+}

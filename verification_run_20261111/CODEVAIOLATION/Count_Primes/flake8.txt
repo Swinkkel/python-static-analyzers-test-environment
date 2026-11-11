@@ -1,0 +1,7 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_Primes.py:2:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_Primes.py:4:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_Primes.py:5:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_Primes.py:5:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_Primes.py:6:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_Primes.py:8:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_Primes.py:9:22: W292 no newline at end of file

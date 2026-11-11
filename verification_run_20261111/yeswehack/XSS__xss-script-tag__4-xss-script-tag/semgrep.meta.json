@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py"
+  ],
+  "started_utc": "2026-11-11T16:25:25.814425+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.624,
+  "error": null,
+  "cwd": "/tmp/sa_run_k1ozs167",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/QuixBugs/python_programs/find_in_sorted.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/python_programs/find_in_sorted.py"
+  ],
+  "started_utc": "2026-11-11T16:16:14.094907+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.318,
+  "error": null,
+  "cwd": "/tmp/sa_run_td5qss2s",
+  "traceback_in_stderr": false
+}

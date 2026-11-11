@@ -1,0 +1,168 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "multiple spaces after ',' (pycodestyle code E241)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "",
+                "line": 11,
+                "column": 31,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    9      else:\n   10          return 1 + min(\n   11              levenshtein(source,     target[1:]),\n   12              levenshtein(source[1:], target[1:]),\n   13              levenshtein(source[1:], target)\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0305",
+                "symbol": "trailing-newlines",
+                "msg": "By convention, each Python file should end with exactly one blank line. To fix this, go down to the bottom of your file and delete the extra blank lines so that there is only one left.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "",
+                "line": 15,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   13              levenshtein(source[1:], target)\n   14          )\n   16  # DELETE THIS LINE\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 14,
+                "end_column": 9,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def levenshtein(source, target):\n",
+                "line_end": 14,
+                "column_end": 9,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "levenshtein",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 15,
+                "snippet": "    2  def levenshtein(source, target):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      if source == '' or target == '':\n    4          return len(source) or len(target)\n",
+                "line_end": 2,
+                "column_end": 15,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "levenshtein",
+                "line": 2,
+                "column": 16,
+                "end_line": 2,
+                "end_column": 22,
+                "snippet": "    1  \n    2  def levenshtein(source, target):\n    3      if source == '' or target == '':\n    4          return len(source) or len(target)\n",
+                "line_end": 2,
+                "column_end": 22,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "levenshtein",
+                "line": 2,
+                "column": 24,
+                "end_line": 2,
+                "end_column": 30,
+                "snippet": "    1  \n    2  def levenshtein(source, target):\n    3      if source == '' or target == '':\n    4          return len(source) or len(target)\n",
+                "line_end": 2,
+                "column_end": 30,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "levenshtein",
+                "line": 2,
+                "column": 16,
+                "end_line": 2,
+                "end_column": 30,
+                "snippet": "    1  \n    2  def levenshtein(source, target):\n    3      if source == '' or target == '':\n    4          return len(source) or len(target)\n",
+                "line_end": 2,
+                "column_end": 30,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

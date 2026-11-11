@@ -1,0 +1,10 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:2:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:3:6: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:4:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:5:26: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:7:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:8:34: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:9:32: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:9:52: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:9:80: E501 line too long (108 > 79 characters)
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py:10:22: W292 no newline at end of file

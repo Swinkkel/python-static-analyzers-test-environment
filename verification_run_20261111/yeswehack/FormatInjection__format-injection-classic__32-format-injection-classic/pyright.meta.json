@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:24:29.248926+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.469,
+  "error": null,
+  "cwd": "/tmp/sa_run_a_6q28go",
+  "traceback_in_stderr": false
+}

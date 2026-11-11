@@ -1,0 +1,260 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "expected 2 blank lines after class or function definition, found 1 (pycodestyle code E305)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "",
+                "line": 25,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   22  \n   23      return stack.pop()\n   26                              \n       # INSERT NEW BLANK LINE HERE\n   25  \"\"\"\n   26  def rpn_eval(tokens):\n   27      def op(symbol, a, b):\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 48,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def rpn_eval(tokens):\n",
+                "line_end": 48,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 25",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "",
+                "line": 25,
+                "column": 0,
+                "end_line": 48,
+                "end_column": 3,
+                "snippet": "   23      return stack.pop()\n   24  \n   25  \"\"\"\n   26  def rpn_eval(tokens):\n   27      def op(symbol, a, b):\n   28          return {\n   29              '+': lambda a, b: a + b,\n       ...\n   44                  op(token, a, b)\n   45              )\n   46  \n   47      return stack.pop()\n   48  \"\"\"\n",
+                "line_end": 48,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "rpn_eval",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 12,
+                "snippet": "    2  def rpn_eval(tokens):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      def op(symbol, a, b):\n    4          return {\n",
+                "line_end": 2,
+                "column_end": 12,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "rpn_eval",
+                "line": 2,
+                "column": 13,
+                "end_line": 2,
+                "end_column": 19,
+                "snippet": "    1  \n    2  def rpn_eval(tokens):\n    3      def op(symbol, a, b):\n    4          return {\n",
+                "line_end": 2,
+                "column_end": 19,
+                "number_of_occurrences": 4
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "rpn_eval",
+                "line": 2,
+                "column": 13,
+                "end_line": 2,
+                "end_column": 19,
+                "snippet": "    1  \n    2  def rpn_eval(tokens):\n    3      def op(symbol, a, b):\n    4          return {\n",
+                "line_end": 2,
+                "column_end": 19,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "rpn_eval.op",
+                "line": 3,
+                "column": 11,
+                "end_line": 3,
+                "end_column": 17,
+                "snippet": "    1  \n    2  def rpn_eval(tokens):\n    3      def op(symbol, a, b):\n    4          return {\n    5              '+': lambda a, b: a + b,\n",
+                "line_end": 3,
+                "column_end": 17,
+                "number_of_occurrences": 4
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "rpn_eval.op",
+                "line": 3,
+                "column": 19,
+                "end_line": 3,
+                "end_column": 20,
+                "snippet": "    1  \n    2  def rpn_eval(tokens):\n    3      def op(symbol, a, b):\n    4          return {\n    5              '+': lambda a, b: a + b,\n",
+                "line_end": 3,
+                "column_end": 20,
+                "number_of_occurrences": 4
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "rpn_eval.op",
+                "line": 3,
+                "column": 22,
+                "end_line": 3,
+                "end_column": 23,
+                "snippet": "    1  \n    2  def rpn_eval(tokens):\n    3      def op(symbol, a, b):\n    4          return {\n    5              '+': lambda a, b: a + b,\n",
+                "line_end": 3,
+                "column_end": 23,
+                "number_of_occurrences": 4
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "rpn_eval.op",
+                "line": 3,
+                "column": 11,
+                "end_line": 3,
+                "end_column": 23,
+                "snippet": "    1  \n    2  def rpn_eval(tokens):\n    3      def op(symbol, a, b):\n    4          return {\n    5              '+': lambda a, b: a + b,\n",
+                "line_end": 3,
+                "column_end": 23,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/rpn_eval.py",
+                "module": "rpn_eval",
+                "obj": "",
+                "line": 25,
+                "column": 0,
+                "end_line": 48,
+                "end_column": 3,
+                "snippet": "   23      return stack.pop()\n   24  \n   25  \"\"\"\n   26  def rpn_eval(tokens):\n   27      def op(symbol, a, b):\n   28          return {\n   29              '+': lambda a, b: a + b,\n       ...\n   44                  op(token, a, b)\n   45              )\n   46  \n   47      return stack.pop()\n   48  \"\"\"\n",
+                "line_end": 48,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

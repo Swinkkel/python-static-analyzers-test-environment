@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Combination_Sum.py"
+  ],
+  "started_utc": "2026-11-11T16:09:35.127555+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 3.025,
+  "error": null,
+  "cwd": "/tmp/sa_run_8xm8prgw",
+  "traceback_in_stderr": false
+}

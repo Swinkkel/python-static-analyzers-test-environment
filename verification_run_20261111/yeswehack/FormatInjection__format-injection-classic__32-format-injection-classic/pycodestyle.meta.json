@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:24:26.074281+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.035,
+  "error": null,
+  "cwd": "/tmp/sa_run_rizzfl8i",
+  "traceback_in_stderr": false
+}

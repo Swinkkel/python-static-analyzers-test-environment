@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py"
+  ],
+  "started_utc": "2026-11-11T16:12:26.969660+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.524,
+  "error": null,
+  "cwd": "/tmp/sa_run_svcsl5ho",
+  "traceback_in_stderr": false
+}

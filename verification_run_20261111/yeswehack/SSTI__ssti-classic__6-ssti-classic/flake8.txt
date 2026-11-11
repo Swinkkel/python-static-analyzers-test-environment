@@ -1,0 +1,13 @@
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:4:80: E501 line too long (100 > 79 characters)
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:11:27: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:11:28: E261 at least two spaces before inline comment
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:11:28: E262 inline comment should start with '# '
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:13:1: E302 expected 2 blank lines, found 0
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:13:19: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:13:20: E261 at least two spaces before inline comment
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:13:20: E262 inline comment should start with '# '
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:24:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:27:9: E265 block comment should start with '# '
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:29:5: E722 do not use bare 'except'
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:33:5: E303 too many blank lines (2)
+/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py:40:5: E265 block comment should start with '# '

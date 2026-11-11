@@ -1,0 +1,4 @@
+/opt/datasets/QuixBugs/python_programs/shortest_path_lengths.py:3:1: E302 expected 2 blank lines, found 1
+/opt/datasets/QuixBugs/python_programs/shortest_path_lengths.py:25:80: E501 line too long (102 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/shortest_path_lengths.py:30:80: E501 line too long (81 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/shortest_path_lengths.py:31:80: E501 line too long (86 > 79 characters)

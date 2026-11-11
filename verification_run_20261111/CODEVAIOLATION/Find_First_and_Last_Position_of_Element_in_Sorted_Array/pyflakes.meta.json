@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py"
+  ],
+  "started_utc": "2026-11-11T16:10:14.311420+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_dpar5cie",
+  "traceback_in_stderr": false
+}

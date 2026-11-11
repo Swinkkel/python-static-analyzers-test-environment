@@ -1,0 +1,76 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Trapping_Rain_Water",
+            "obj": "",
+            "line": 16,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Trapping_Rain_Water",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Trapping_Rain_Water\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Trapping_Rain_Water",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Trapping_Rain_Water",
+            "obj": "trap",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 8,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 4,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 7.333333333333334
+    }
+}

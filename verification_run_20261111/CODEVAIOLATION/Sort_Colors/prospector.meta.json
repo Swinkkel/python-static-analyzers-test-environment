@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py"
+  ],
+  "started_utc": "2026-11-11T16:14:26.344315+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.318,
+  "error": null,
+  "cwd": "/tmp/sa_run_kxq0jwuw",
+  "traceback_in_stderr": false
+}

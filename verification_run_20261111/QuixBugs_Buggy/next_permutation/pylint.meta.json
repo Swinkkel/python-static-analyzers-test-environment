@@ -1,0 +1,17 @@
+{
+  "tool": "pylint",
+  "tool_version": "pylint 4.0.9 | astroid 4.0.4 | Python 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/QuixBugs/python_programs/next_permutation.py",
+  "command": [
+    "pylint",
+    "--output-format=json2",
+    "/opt/datasets/QuixBugs/python_programs/next_permutation.py"
+  ],
+  "started_utc": "2026-11-11T16:17:46.473706+00:00",
+  "return_code": 28,
+  "timed_out": false,
+  "duration_s": 0.218,
+  "error": null,
+  "cwd": "/tmp/sa_run_tnvdmlef",
+  "traceback_in_stderr": false
+}

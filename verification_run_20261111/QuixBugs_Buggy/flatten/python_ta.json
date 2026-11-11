@@ -1,0 +1,191 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "too many blank lines (3) (pycodestyle code E303)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "module": "flatten",
+                "obj": "",
+                "line": 11,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    5                  yield y\n    6          else:\n    7              yield flatten(x)\n    8  \n    9  # DELETE THIS LINE\n   10  # DELETE THIS LINE\n   11  \"\"\"\n   12  Flatten\n   13  \n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "module": "flatten",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 29,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def flatten(arr):\n    2      for x in arr:\n",
+                "line_end": 29,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 11",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "module": "flatten",
+                "obj": "",
+                "line": 11,
+                "column": 0,
+                "end_line": 29,
+                "end_column": 3,
+                "snippet": "    9  \n   10  \n   11  \"\"\"\n   12  Flatten\n   13  \n   14  Flattens a nested list data structure into a single list.\n   15  \n       ...\n   25  \n   26  Example:\n   27      >>> list(flatten([[1, [], [2, 3]], [[4]], 5]))\n   28      [1, 2, 3, 4, 5]\n   29  \"\"\"\n",
+                "line_end": 29,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "module": "flatten",
+                "obj": "flatten",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 11,
+                "snippet": "    1  def flatten(arr):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      for x in arr:\n    3          if isinstance(x, list):\n",
+                "line_end": 1,
+                "column_end": 11,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "module": "flatten",
+                "obj": "flatten",
+                "line": 1,
+                "column": 12,
+                "end_line": 1,
+                "end_column": 15,
+                "snippet": "    1  def flatten(arr):\n    2      for x in arr:\n    3          if isinstance(x, list):\n",
+                "line_end": 1,
+                "column_end": 15,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "module": "flatten",
+                "obj": "flatten",
+                "line": 1,
+                "column": 12,
+                "end_line": 1,
+                "end_column": 15,
+                "snippet": "    1  def flatten(arr):\n    2      for x in arr:\n    3          if isinstance(x, list):\n",
+                "line_end": 1,
+                "column_end": 15,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "R1737",
+                "symbol": "use-yield-from",
+                "msg": "Use 'yield from' directly instead of yielding each element one by one",
+                "C": "R",
+                "category": "refactor",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "module": "flatten",
+                "obj": "flatten",
+                "line": 4,
+                "column": 12,
+                "end_line": 5,
+                "end_column": 23,
+                "snippet": "    2      for x in arr:\n    3          if isinstance(x, list):\n    4              for y in flatten(x):\n    5                  yield y\n    6          else:\n    7              yield flatten(x)\n",
+                "line_end": 5,
+                "column_end": 23,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+                "module": "flatten",
+                "obj": "",
+                "line": 11,
+                "column": 0,
+                "end_line": 29,
+                "end_column": 3,
+                "snippet": "    9  \n   10  \n   11  \"\"\"\n   12  Flatten\n   13  \n   14  Flattens a nested list data structure into a single list.\n   15  \n       ...\n   25  \n   26  Example:\n   27      >>> list(flatten([[1, [], [2, 3]], [[4]], 5]))\n   28      [1, 2, 3, 4, 5]\n   29  \"\"\"\n",
+                "line_end": 29,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:23:46.869263",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 6,
+    "completed": "2026-11-11 16:23:47.967888",
+    "time_taken": "1.10",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E115",
+      "location": {
+        "path": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+        "module": null,
+        "function": null,
+        "line": 20,
+        "character": 1
+      },
+      "message": "expected an indented block (comment)",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "bare-except",
+      "location": {
+        "path": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+        "module": "17-deserialization-classic",
+        "function": "index",
+        "line": 44,
+        "character": 8,
+        "lineEnd": 45,
+        "characterEnd": 83
+      },
+      "message": "No exception type(s) specified",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/bare-except.html"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+        "module": null,
+        "function": null,
+        "line": 55,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "unused-argument",
+      "location": {
+        "path": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+        "module": "17-deserialization-classic",
+        "function": "User_RedirectTo",
+        "line": 14,
+        "character": 20,
+        "lineEnd": 14,
+        "characterEnd": 21
+      },
+      "message": "Unused argument 'd'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unused-argument.html"
+    },
+    {
+      "source": "pylint",
+      "code": "useless-object-inheritance",
+      "location": {
+        "path": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+        "module": "17-deserialization-classic",
+        "function": "CreateData",
+        "line": 19,
+        "character": 0,
+        "lineEnd": 19,
+        "characterEnd": 16
+      },
+      "message": "Class 'CreateData' inherits from object, can be safely removed from bases in python3",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/useless-object-inheritance.html"
+    },
+    {
+      "source": "pylint",
+      "code": "redefined-builtin",
+      "location": {
+        "path": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+        "module": "17-deserialization-classic",
+        "function": "CreateData.__init__",
+        "line": 21,
+        "character": 23,
+        "lineEnd": 21,
+        "characterEnd": 25
+      },
+      "message": "Redefining built-in 'id'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/redefined-builtin.html"
+    }
+  ]
+}

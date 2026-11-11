@@ -1,0 +1,76 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "find_first_in_sorted",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "find_first_in_sorted",
+            "obj": "find_first_in_sorted",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 24,
+            "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py"
+        },
+        {
+            "type": "refactor",
+            "symbol": "no-else-return",
+            "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+            "messageId": "R1705",
+            "confidence": "HIGH",
+            "module": "find_first_in_sorted",
+            "obj": "find_first_in_sorted",
+            "line": 8,
+            "column": 8,
+            "endLine": 15,
+            "endColumn": 24,
+            "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py"
+        },
+        {
+            "type": "warning",
+            "symbol": "pointless-string-statement",
+            "message": "String statement has no effect",
+            "messageId": "W0105",
+            "confidence": "UNDEFINED",
+            "module": "find_first_in_sorted",
+            "obj": "",
+            "line": 20,
+            "column": 0,
+            "endLine": 35,
+            "endColumn": 3,
+            "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 1,
+            "refactor": 1,
+            "convention": 2,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 6.666666666666667
+    }
+}

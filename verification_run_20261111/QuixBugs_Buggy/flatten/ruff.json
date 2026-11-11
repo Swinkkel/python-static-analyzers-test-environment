@@ -1,0 +1,37 @@
+[
+  {
+    "cell": null,
+    "code": "UP028",
+    "end_location": {
+      "column": 24,
+      "row": 5
+    },
+    "filename": "/opt/datasets/QuixBugs/python_programs/flatten.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "yield from flatten(x)",
+          "end_location": {
+            "column": 24,
+            "row": 5
+          },
+          "location": {
+            "column": 13,
+            "row": 4
+          }
+        }
+      ],
+      "message": "Replace with `yield from`"
+    },
+    "location": {
+      "column": 13,
+      "row": 4
+    },
+    "message": "Replace `yield` over `for` loop with `yield from`",
+    "name": "yield-in-for-loop",
+    "noqa_row": 4,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/yield-in-for-loop"
+  }
+]

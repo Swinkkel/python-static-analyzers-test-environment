@@ -1,0 +1,12 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:3:1: E302 expected 2 blank lines, found 1
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:5:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:6:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:7:5: E301 expected 1 blank line, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:7:20: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:8:34: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:9:34: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:10:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:11:38: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:12:5: E301 expected 1 blank line, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:13:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py:15:48: W292 no newline at end of file

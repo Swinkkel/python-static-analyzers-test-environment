@@ -1,0 +1,13 @@
+{
+  "pylint": "pylint 4.0.9 | astroid 4.0.4 | Python 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "flake8": "7.4.1 (mccabe: 0.7.0, pycodestyle: 2.15.0, pyflakes: 4.0.3) CPython 3.12.14 on | Linux",
+  "pyflakes": "4.0.0 Python 3.12.14 on Linux",
+  "pycodestyle": "2.15.0",
+  "prospector": "prospector 1.19.1",
+  "ruff": "ruff 0.16.9",
+  "mypy": "mypy 2.3.1 (compiled: yes)",
+  "pyright": "pyright 1.1.414",
+  "bandit": "bandit 1.9.4 |   python version = 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "semgrep": "1.178.0",
+  "python_ta": "2.13.1"
+}

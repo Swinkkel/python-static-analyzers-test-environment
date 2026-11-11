@@ -1,0 +1,106 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "line-too-long",
+            "message": "Line too long (104/100)",
+            "messageId": "C0301",
+            "confidence": "UNDEFINED",
+            "module": "Letter_Combinations_of_a_Phone_Number",
+            "obj": "",
+            "line": 4,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Letter_Combinations_of_a_Phone_Number",
+            "obj": "",
+            "line": 13,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Letter_Combinations_of_a_Phone_Number",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Letter_Combinations_of_a_Phone_Number\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Letter_Combinations_of_a_Phone_Number",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Letter_Combinations_of_a_Phone_Number",
+            "obj": "letterCombinations",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 22,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"letterCombinations\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Letter_Combinations_of_a_Phone_Number",
+            "obj": "letterCombinations",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 22,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 6,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 5.384615384615384
+    }
+}

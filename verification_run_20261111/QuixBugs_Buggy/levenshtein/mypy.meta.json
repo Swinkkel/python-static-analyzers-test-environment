@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/QuixBugs/python_programs/levenshtein.py"
+  ],
+  "started_utc": "2026-11-11T16:17:09.637077+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.42,
+  "error": null,
+  "cwd": "/tmp/sa_run_u_g4a4el",
+  "traceback_in_stderr": false
+}

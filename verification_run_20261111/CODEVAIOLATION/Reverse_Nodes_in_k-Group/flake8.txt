@@ -1,0 +1,27 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:2:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:2:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:3:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:4:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:6:1: E302 expected 2 blank lines, found 1
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:6:23: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:7:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:8:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:8:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:8:23: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:9:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:10:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:11:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:12:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:13:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:14:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:16:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:17:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:18:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:19:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:20:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:21:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:22:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:22:35: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:23:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:23:37: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Reverse_Nodes_in_k-Group.py:25:16: W292 no newline at end of file

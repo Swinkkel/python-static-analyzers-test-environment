@@ -1,0 +1,76 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Unique_Paths",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Unique_Paths\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Unique_Paths",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Unique_Paths",
+            "obj": "uniquePaths",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 15,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"uniquePaths\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Unique_Paths",
+            "obj": "uniquePaths",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 15,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 4,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 3.333333333333334
+    }
+}

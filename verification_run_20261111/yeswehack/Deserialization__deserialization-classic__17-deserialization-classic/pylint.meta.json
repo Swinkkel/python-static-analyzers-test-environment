@@ -1,0 +1,17 @@
+{
+  "tool": "pylint",
+  "tool_version": "pylint 4.0.9 | astroid 4.0.4 | Python 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+  "command": [
+    "pylint",
+    "--output-format=json2",
+    "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:23:44.732138+00:00",
+  "return_code": 28,
+  "timed_out": false,
+  "duration_s": 1.822,
+  "error": null,
+  "cwd": "/tmp/sa_run_4z49nyvn",
+  "traceback_in_stderr": false
+}

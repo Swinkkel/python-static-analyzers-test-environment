@@ -1,0 +1,4 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Unique_Character_in_a_String.py:3:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Unique_Character_in_a_String.py:4:10: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Unique_Character_in_a_String.py:5:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Unique_Character_in_a_String.py:7:14: W292 no newline at end of file

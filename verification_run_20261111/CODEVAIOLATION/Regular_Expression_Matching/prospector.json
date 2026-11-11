@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:13:21.007646",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:13:21.103230",
+    "time_taken": "0.10",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py",
+        "module": "Regular_Expression_Matching",
+        "function": "isMatch",
+        "line": 5,
+        "character": 4,
+        "lineEnd": 8,
+        "characterEnd": 51
+      },
+      "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/no-else-return.html"
+    }
+  ]
+}

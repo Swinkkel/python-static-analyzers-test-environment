@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:16:25.148551",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 2,
+    "completed": "2026-11-11 16:16:25.235346",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+        "module": "gcd",
+        "function": "gcd",
+        "line": 2,
+        "character": 4,
+        "lineEnd": 5,
+        "characterEnd": 28
+      },
+      "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/no-else-return.html"
+    },
+    {
+      "source": "pylint",
+      "code": "pointless-string-statement",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+        "module": "gcd",
+        "function": null,
+        "line": 8,
+        "character": 0,
+        "lineEnd": 26,
+        "characterEnd": 3
+      },
+      "message": "String statement has no effect",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/pointless-string-statement.html"
+    }
+  ]
+}

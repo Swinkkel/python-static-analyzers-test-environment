@@ -1,0 +1,17 @@
+{
+  "tool": "pylint",
+  "tool_version": "pylint 4.0.9 | astroid 4.0.4 | Python 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+  "command": [
+    "pylint",
+    "--output-format=json2",
+    "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:24:24.171947+00:00",
+  "return_code": 28,
+  "timed_out": false,
+  "duration_s": 1.779,
+  "error": null,
+  "cwd": "/tmp/sa_run_t8gj96a4",
+  "traceback_in_stderr": false
+}

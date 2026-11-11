@@ -1,0 +1,19 @@
+{
+  "tool": "bandit",
+  "tool_version": "bandit 1.9.4 |   python version = 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+  "command": [
+    "bandit",
+    "-f",
+    "json",
+    "-q",
+    "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py"
+  ],
+  "started_utc": "2026-11-11T16:18:15.942875+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.119,
+  "error": null,
+  "cwd": "/tmp/sa_run_65rt08jo",
+  "traceback_in_stderr": false
+}

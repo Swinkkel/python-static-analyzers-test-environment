@@ -1,0 +1,177 @@
+[
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 20,
+      "row": 1
+    },
+    "filename": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from heapq import *\n\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "RUF059",
+    "end_location": {
+      "column": 9,
+      "row": 37
+    },
+    "filename": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "_dist",
+          "end_location": {
+            "column": 9,
+            "row": 37
+          },
+          "location": {
+            "column": 5,
+            "row": 37
+          }
+        }
+      ],
+      "message": "Prefix it with an underscore or any other dummy variable pattern"
+    },
+    "location": {
+      "column": 5,
+      "row": 37
+    },
+    "message": "Unpacked variable `dist` is never used",
+    "name": "unused-unpacked-variable",
+    "noqa_row": 37,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-unpacked-variable"
+  },
+  {
+    "cell": null,
+    "code": "RUF059",
+    "end_location": {
+      "column": 10,
+      "row": 39
+    },
+    "filename": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "_a",
+          "end_location": {
+            "column": 10,
+            "row": 39
+          },
+          "location": {
+            "column": 9,
+            "row": 39
+          }
+        }
+      ],
+      "message": "Prefix it with an underscore or any other dummy variable pattern"
+    },
+    "location": {
+      "column": 9,
+      "row": 39
+    },
+    "message": "Unpacked variable `a` is never used",
+    "name": "unused-unpacked-variable",
+    "noqa_row": 39,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-unpacked-variable"
+  },
+  {
+    "cell": null,
+    "code": "RET501",
+    "end_location": {
+      "column": 24,
+      "row": 42
+    },
+    "filename": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "return",
+          "end_location": {
+            "column": 24,
+            "row": 42
+          },
+          "location": {
+            "column": 13,
+            "row": 42
+          }
+        }
+      ],
+      "message": "Remove explicit `return None`"
+    },
+    "location": {
+      "column": 13,
+      "row": 42
+    },
+    "message": "Do not explicitly `return None` in function if it is the only possible return value",
+    "name": "unnecessary-return-none",
+    "noqa_row": 42,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unnecessary-return-none"
+  },
+  {
+    "cell": null,
+    "code": "RET501",
+    "end_location": {
+      "column": 16,
+      "row": 45
+    },
+    "filename": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "return",
+          "end_location": {
+            "column": 16,
+            "row": 45
+          },
+          "location": {
+            "column": 5,
+            "row": 45
+          }
+        }
+      ],
+      "message": "Remove explicit `return None`"
+    },
+    "location": {
+      "column": 5,
+      "row": 45
+    },
+    "message": "Do not explicitly `return None` in function if it is the only possible return value",
+    "name": "unnecessary-return-none",
+    "noqa_row": 45,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unnecessary-return-none"
+  }
+]

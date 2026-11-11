@@ -1,0 +1,2 @@
+/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py:9:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py:13:1: E305 expected 2 blank lines after class or function definition, found 1

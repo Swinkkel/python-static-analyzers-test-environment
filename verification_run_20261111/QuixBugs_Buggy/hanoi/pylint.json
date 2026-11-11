@@ -1,0 +1,61 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "hanoi",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/python_programs/hanoi.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/hanoi.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "hanoi",
+            "obj": "hanoi",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 9,
+            "path": "/opt/datasets/QuixBugs/python_programs/hanoi.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/hanoi.py"
+        },
+        {
+            "type": "warning",
+            "symbol": "pointless-string-statement",
+            "message": "String statement has no effect",
+            "messageId": "W0105",
+            "confidence": "UNDEFINED",
+            "module": "hanoi",
+            "obj": "",
+            "line": 12,
+            "column": 0,
+            "endLine": 35,
+            "endColumn": 3,
+            "path": "/opt/datasets/QuixBugs/python_programs/hanoi.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/hanoi.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 1,
+            "refactor": 0,
+            "convention": 2,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 6.666666666666667
+    }
+}

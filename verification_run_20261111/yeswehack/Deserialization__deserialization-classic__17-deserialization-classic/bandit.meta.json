@@ -1,0 +1,19 @@
+{
+  "tool": "bandit",
+  "tool_version": "bandit 1.9.4 |   python version = 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+  "command": [
+    "bandit",
+    "-f",
+    "json",
+    "-q",
+    "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:23:50.481843+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.118,
+  "error": null,
+  "cwd": "/tmp/sa_run_gde5oy8q",
+  "traceback_in_stderr": false
+}

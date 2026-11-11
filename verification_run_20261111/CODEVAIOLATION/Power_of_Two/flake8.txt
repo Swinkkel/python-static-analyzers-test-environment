@@ -1,0 +1,4 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py:2:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py:2:22: E227 missing whitespace around bitwise or shift operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py:2:29: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py:2:32: W292 no newline at end of file

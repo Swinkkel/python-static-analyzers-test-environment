@@ -1,0 +1,61 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "minimum_spanning_tree",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "minimum_spanning_tree",
+            "obj": "minimum_spanning_tree",
+            "line": 2,
+            "column": 0,
+            "endLine": 2,
+            "endColumn": 25,
+            "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py"
+        },
+        {
+            "type": "warning",
+            "symbol": "pointless-string-statement",
+            "message": "String statement has no effect",
+            "messageId": "W0105",
+            "confidence": "UNDEFINED",
+            "module": "minimum_spanning_tree",
+            "obj": "",
+            "line": 19,
+            "column": 0,
+            "endLine": 42,
+            "endColumn": 3,
+            "path": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/minimum_spanning_tree.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 1,
+            "refactor": 0,
+            "convention": 2,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 7.5
+    }
+}

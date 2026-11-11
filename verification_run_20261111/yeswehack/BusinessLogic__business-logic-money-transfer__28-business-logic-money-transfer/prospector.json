@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:23:12.873909",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 4,
+    "completed": "2026-11-11 16:23:13.980651",
+    "time_taken": "1.11",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+        "module": null,
+        "function": null,
+        "line": 31,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "bare-except",
+      "location": {
+        "path": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+        "module": "28-business-logic-money-transfer",
+        "function": "index",
+        "line": 44,
+        "character": 4,
+        "lineEnd": 45,
+        "characterEnd": 12
+      },
+      "message": "No exception type(s) specified",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/bare-except.html"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+        "module": null,
+        "function": null,
+        "line": 53,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "f-string-without-interpolation",
+      "location": {
+        "path": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+        "module": "28-business-logic-money-transfer",
+        "function": "index",
+        "line": 43,
+        "character": 22,
+        "lineEnd": 43,
+        "characterEnd": 76
+      },
+      "message": "Using an f-string that does not have any interpolated variables",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/f-string-without-interpolation.html"
+    }
+  ]
+}

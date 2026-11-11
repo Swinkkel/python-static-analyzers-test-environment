@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Nth_Node_From_End_of_List.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Nth_Node_From_End_of_List.py"
+  ],
+  "started_utc": "2026-11-11T16:13:31.806110+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.319,
+  "error": null,
+  "cwd": "/tmp/sa_run_4cv5d0hx",
+  "traceback_in_stderr": false
+}

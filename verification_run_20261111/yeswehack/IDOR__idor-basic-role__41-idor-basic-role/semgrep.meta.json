@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py"
+  ],
+  "started_utc": "2026-11-11T16:24:40.739987+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.825,
+  "error": null,
+  "cwd": "/tmp/sa_run_1canw2o5",
+  "traceback_in_stderr": false
+}

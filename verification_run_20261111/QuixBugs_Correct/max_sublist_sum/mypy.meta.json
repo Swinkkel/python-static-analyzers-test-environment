@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/max_sublist_sum.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/QuixBugs/correct_python_programs/max_sublist_sum.py"
+  ],
+  "started_utc": "2026-11-11T16:21:16.957703+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.419,
+  "error": null,
+  "cwd": "/tmp/sa_run_wccxz817",
+  "traceback_in_stderr": false
+}

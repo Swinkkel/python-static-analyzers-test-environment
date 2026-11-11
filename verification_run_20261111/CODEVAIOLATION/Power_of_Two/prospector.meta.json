@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py"
+  ],
+  "started_utc": "2026-11-11T16:13:09.143836+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.319,
+  "error": null,
+  "cwd": "/tmp/sa_run_2jit25j5",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py"
+  ],
+  "started_utc": "2026-11-11T16:10:14.351528+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.035,
+  "error": null,
+  "cwd": "/tmp/sa_run_tbmu84jq",
+  "traceback_in_stderr": false
+}

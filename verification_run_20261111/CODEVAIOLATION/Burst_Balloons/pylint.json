@@ -1,0 +1,106 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "line-too-long",
+            "message": "Line too long (108/100)",
+            "messageId": "C0301",
+            "confidence": "UNDEFINED",
+            "module": "Burst_Balloons",
+            "obj": "",
+            "line": 9,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Burst_Balloons",
+            "obj": "",
+            "line": 10,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Burst_Balloons",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Burst_Balloons\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Burst_Balloons",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Burst_Balloons",
+            "obj": "maxCoins",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 12,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"maxCoins\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Burst_Balloons",
+            "obj": "maxCoins",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 12,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Burst_Balloons.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 6,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 4.0
+    }
+}

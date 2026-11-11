@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Swap_Nodes_in_Pairs.py"
+  ],
+  "started_utc": "2026-11-11T16:14:37.874839+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.319,
+  "error": null,
+  "cwd": "/tmp/sa_run_z1z482s_",
+  "traceback_in_stderr": false
+}

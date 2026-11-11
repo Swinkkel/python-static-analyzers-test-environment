@@ -1,0 +1,106 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Move_Zeroes",
+            "obj": "",
+            "line": 6,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Move_Zeroes",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Move_Zeroes\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Move_Zeroes",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Move_Zeroes",
+            "obj": "moveZeroes",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 14,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"moveZeroes\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Move_Zeroes",
+            "obj": "moveZeroes",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 14,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "consider-using-enumerate",
+            "message": "Consider using enumerate instead of iterating with range and len",
+            "messageId": "C0200",
+            "confidence": "UNDEFINED",
+            "module": "Move_Zeroes",
+            "obj": "moveZeroes",
+            "line": 3,
+            "column": 4,
+            "endLine": 6,
+            "endColumn": 16,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 6,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 0
+    }
+}

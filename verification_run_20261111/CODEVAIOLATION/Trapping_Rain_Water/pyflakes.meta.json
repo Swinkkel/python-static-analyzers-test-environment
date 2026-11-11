@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py"
+  ],
+  "started_utc": "2026-11-11T16:14:47.853785+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_rqif39zt",
+  "traceback_in_stderr": false
+}

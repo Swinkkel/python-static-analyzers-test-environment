@@ -1,0 +1,5 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py:1:18: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py:2:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py:3:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py:4:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py:5:21: E225 missing whitespace around operator

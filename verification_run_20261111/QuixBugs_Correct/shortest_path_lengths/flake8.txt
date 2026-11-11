@@ -1,0 +1,2 @@
+/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py:4:1: E302 expected 2 blank lines, found 1
+/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py:18:1: W391 blank line at end of file

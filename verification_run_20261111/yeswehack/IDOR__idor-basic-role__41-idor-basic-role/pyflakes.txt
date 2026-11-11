@@ -1,0 +1,2 @@
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:26:53: f-string is missing placeholders
+/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py:28:49: f-string is missing placeholders

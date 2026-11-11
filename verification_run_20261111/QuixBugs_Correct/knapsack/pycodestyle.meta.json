@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py"
+  ],
+  "started_utc": "2026-11-11T16:20:35.461611+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.035,
+  "error": null,
+  "cwd": "/tmp/sa_run_c9kkdkm3",
+  "traceback_in_stderr": false
+}

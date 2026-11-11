@@ -1,0 +1,14 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:4:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:4:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:4:29: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:6:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:7:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:7:30: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:7:39: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:8:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:8:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:9:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:9:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:10:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:10:26: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Maximum_Product_Subarray.py:11:18: W292 no newline at end of file

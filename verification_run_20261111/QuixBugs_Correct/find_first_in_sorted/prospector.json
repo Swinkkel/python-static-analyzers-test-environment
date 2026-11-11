@@ -1,0 +1,67 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:19:50.101569",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 3,
+    "completed": "2026-11-11 16:19:50.200611",
+    "time_taken": "0.10",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/find_first_in_sorted.py",
+        "module": null,
+        "function": null,
+        "line": 20,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "pointless-string-statement",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/find_first_in_sorted.py",
+        "module": "find_first_in_sorted",
+        "function": null,
+        "line": 20,
+        "character": 0,
+        "lineEnd": 57,
+        "characterEnd": 3
+      },
+      "message": "String statement has no effect",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/pointless-string-statement.html"
+    },
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/find_first_in_sorted.py",
+        "module": "find_first_in_sorted",
+        "function": "find_first_in_sorted",
+        "line": 9,
+        "character": 8,
+        "lineEnd": 16,
+        "characterEnd": 24
+      },
+      "message": "Unnecessary \"elif\" after \"return\", replace only that \"elif\" with \"if\"",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/no-else-return.html"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Bad_Version.py:5:12: undefined name 'isBadVersion'

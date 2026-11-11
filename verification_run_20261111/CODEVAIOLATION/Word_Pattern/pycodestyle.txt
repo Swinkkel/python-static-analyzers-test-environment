@@ -1,0 +1,11 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:1:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:2:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:3:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:5:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:6:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:7:10: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:7:27: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:9:31: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:14:28: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:15:28: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Pattern.py:16:16: W292 no newline at end of file

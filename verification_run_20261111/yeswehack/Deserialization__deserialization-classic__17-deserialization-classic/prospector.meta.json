@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:23:46.719106+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 1.922,
+  "error": null,
+  "cwd": "/tmp/sa_run_m2yuqb2o",
+  "traceback_in_stderr": false
+}

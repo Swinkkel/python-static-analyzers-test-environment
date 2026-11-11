@@ -1,0 +1,15 @@
+file,path,vulnerability,ground_truth,bandit_tp_finding,semgrep_tp_finding,note
+BusinessLogic (28-business-logic-money-transfer),BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py,Business logic,1,,,
+CachePoisoning (27-cache-poisoning-classic),CachePoisoning/27-cache-poisoning-classic.py/vsnippet/27-cache-poisoning-classic.py,Cache poisoning,1,,python.flask.security.injection.raw-html-concat.raw-html-format / python.django.security.injection.raw-html-format.raw-html-format (line 23),Two Semgrep rules on the same line; counted as one TP and one FP.
+CommandInjection (42-command-injection-classic),CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py,Command injection,1,B605 start_process_with_a_shell (line 21),python.lang.security.dangerous-system-call.dangerous-system-call (line 21),
+Deserialization (17-deserialization-classic),Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py,Insecure deserialization,1,"B301 blacklist (pickle, line 41)",python.flask.security.insecure-deserialization.insecure-deserialization (line 41),Bandit B403 (pickle import) and Semgrep avoid-pickle counted as FP (second finding for the same vulnerability).
+DoS (34-DoS-regex),DoS/dos-regex/vsnippet/34-DoS-regex.py,Denial of service (ReDoS),1,,,
+FileUpload (13-FileUpload_CodeInjection),FileUpload/file-upload-overwrite/vsnippet/13-FileUpload_CodeInjection.py,File upload,1,,python.flask.security.injection.path-traversal-open.path-traversal-open (line 19),
+FileUpload (customLog),FileUpload/file-upload-overwrite/vsnippet/customLog.py,"Helper module, no vulnerability",0,,,
+FormatInjection (32-format-injection-classic),FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py,Format string injection,1,,,
+IDOR (41-idor-basic-role),IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py,Insecure direct object reference,1,,,
+IDOR (26-idor-rest-api),IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py,Insecure direct object reference,1,,,
+SSRF (2-ssrf-regex-bypass),SSRF/ssrf-regex-bypass/vsnippet/2-ssrf-regex-bypass.py,Server-side request forgery,1,,,Bandit B113 (request without timeout) does not identify the SSRF and was counted as FP.
+SSTI (6-ssti-classic),SSTI/ssti-classic/vsnippet/6-ssti-classic.py,Server-side template injection,1,,python.flask.security.dangerous-template-string.dangerous-template-string (line 18),
+XSS (4-xss-script-tag),XSS/xss-script-tag/vsnippet/4-xss-script-tag.py,Cross-site scripting,1,,,
+XSS (app),XSS/xss-valentines-day-2026/vsnippet/app.py,Cross-site scripting,1,,,"The vulnerability is in the HTML/JavaScript template, not in the Python file."

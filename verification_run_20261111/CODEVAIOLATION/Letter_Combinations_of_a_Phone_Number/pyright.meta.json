@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+  ],
+  "started_utc": "2026-11-11T16:11:26.138164+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.318,
+  "error": null,
+  "cwd": "/tmp/sa_run_6d8lda8x",
+  "traceback_in_stderr": false
+}

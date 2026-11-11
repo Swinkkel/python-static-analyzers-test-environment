@@ -1,0 +1,129 @@
+[
+  {
+    "cell": null,
+    "code": "EXE001",
+    "end_location": {
+      "column": 19,
+      "row": 1
+    },
+    "filename": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Shebang is present but file is not executable",
+    "name": "shebang-not-executable",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/shebang-not-executable"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 14,
+      "row": 5
+    },
+    "filename": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import base64 as b64\nimport pickle\nfrom datetime import date\n\nfrom flask import Flask, Response, render_template, request\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 7
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "UP004",
+    "end_location": {
+      "column": 24,
+      "row": 19
+    },
+    "filename": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "",
+          "end_location": {
+            "column": 26,
+            "row": 19
+          },
+          "location": {
+            "column": 17,
+            "row": 19
+          }
+        }
+      ],
+      "message": "Remove `object` inheritance"
+    },
+    "location": {
+      "column": 18,
+      "row": 19
+    },
+    "message": "Class `CreateData` inherits from `object`",
+    "name": "useless-object-inheritance",
+    "noqa_row": 19,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/useless-object-inheritance"
+  },
+  {
+    "cell": null,
+    "code": "E722",
+    "end_location": {
+      "column": 15,
+      "row": 44
+    },
+    "filename": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 44
+    },
+    "message": "Do not use bare `except`",
+    "name": "bare-except",
+    "noqa_row": 44,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/bare-except"
+  },
+  {
+    "cell": null,
+    "code": "DTZ011",
+    "end_location": {
+      "column": 57,
+      "row": 49
+    },
+    "filename": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+    "fix": null,
+    "location": {
+      "column": 45,
+      "row": 49
+    },
+    "message": "`datetime.date.today()` used",
+    "name": "call-date-today",
+    "noqa_row": 49,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/call-date-today"
+  }
+]

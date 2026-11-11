@@ -1,0 +1,168 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+        "msgs": [
+            {
+                "msg_id": "C0305",
+                "symbol": "trailing-newlines",
+                "msg": "By convention, each Python file should end with exactly one blank line. To fix this, go down to the bottom of your file and delete the extra blank lines so that there is only one left.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "module": "subsequences",
+                "obj": "",
+                "line": 13,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   11  \n   12      return ret\n   14  # DELETE THIS LINE\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "module": "subsequences",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 12,
+                "end_column": 14,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def subsequences(a, b, k):\n",
+                "line_end": 12,
+                "column_end": 14,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "module": "subsequences",
+                "obj": "subsequences",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 16,
+                "snippet": "    2  def subsequences(a, b, k):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      if k == 0:\n    4          return [[]]\n",
+                "line_end": 2,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "module": "subsequences",
+                "obj": "subsequences",
+                "line": 2,
+                "column": 17,
+                "end_line": 2,
+                "end_column": 18,
+                "snippet": "    1  \n    2  def subsequences(a, b, k):\n    3      if k == 0:\n    4          return [[]]\n",
+                "line_end": 2,
+                "column_end": 18,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "module": "subsequences",
+                "obj": "subsequences",
+                "line": 2,
+                "column": 20,
+                "end_line": 2,
+                "end_column": 21,
+                "snippet": "    1  \n    2  def subsequences(a, b, k):\n    3      if k == 0:\n    4          return [[]]\n",
+                "line_end": 2,
+                "column_end": 21,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "module": "subsequences",
+                "obj": "subsequences",
+                "line": 2,
+                "column": 23,
+                "end_line": 2,
+                "end_column": 24,
+                "snippet": "    1  \n    2  def subsequences(a, b, k):\n    3      if k == 0:\n    4          return [[]]\n",
+                "line_end": 2,
+                "column_end": 24,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+                "module": "subsequences",
+                "obj": "subsequences",
+                "line": 2,
+                "column": 17,
+                "end_line": 2,
+                "end_column": 24,
+                "snippet": "    1  \n    2  def subsequences(a, b, k):\n    3      if k == 0:\n    4          return [[]]\n",
+                "line_end": 2,
+                "column_end": 24,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

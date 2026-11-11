@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py"
+  ],
+  "started_utc": "2026-11-11T16:20:35.421256+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_x2m8mh9r",
+  "traceback_in_stderr": false
+}

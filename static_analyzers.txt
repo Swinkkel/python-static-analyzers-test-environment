@@ -1,0 +1,18 @@
+#Educational
+python-ta==2.13.1
+
+# Linting
+pylint==4.0.9
+flake8==7.4.1
+pyflakes==4.0.0
+pycodestyle==2.15.0
+prospector==1.19.1
+ruff==0.16.9
+
+# Type analysis
+mypy==2.3.1
+pyright==1.1.414
+
+# Security
+bandit==1.9.4
+semgrep==1.178.0

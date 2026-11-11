@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:16:58.059128",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 2,
+    "completed": "2026-11-11 16:16:58.150042",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/python_programs/kth.py",
+        "module": "kth",
+        "function": "kth",
+        "line": 9,
+        "character": 4,
+        "lineEnd": 14,
+        "characterEnd": 20
+      },
+      "message": "Unnecessary \"elif\" after \"return\", replace only that \"elif\" with \"if\"",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/no-else-return.html"
+    },
+    {
+      "source": "pylint",
+      "code": "pointless-string-statement",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/python_programs/kth.py",
+        "module": "kth",
+        "function": null,
+        "line": 18,
+        "character": 0,
+        "lineEnd": 32,
+        "characterEnd": 3
+      },
+      "message": "String statement has no effect",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/pointless-string-statement.html"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+/opt/datasets/QuixBugs/python_programs/longest_common_subsequence.py:17:1: E303 too many blank lines (3)
+/opt/datasets/QuixBugs/python_programs/longest_common_subsequence.py:21:80: E501 line too long (127 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/longest_common_subsequence.py:29:80: E501 line too long (126 > 79 characters)

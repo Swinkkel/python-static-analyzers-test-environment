@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:17:41.631200",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 2,
+    "completed": "2026-11-11 16:17:41.724722",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/python_programs/next_palindrome.py",
+        "module": null,
+        "function": null,
+        "line": 17,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "pointless-string-statement",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/python_programs/next_palindrome.py",
+        "module": "next_palindrome",
+        "function": null,
+        "line": 17,
+        "character": 0,
+        "lineEnd": 33,
+        "characterEnd": 3
+      },
+      "message": "String statement has no effect",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/pointless-string-statement.html"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py"
+  ],
+  "started_utc": "2026-11-11T16:10:48.018655+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.419,
+  "error": null,
+  "cwd": "/tmp/sa_run_tl_74xnq",
+  "traceback_in_stderr": false
+}

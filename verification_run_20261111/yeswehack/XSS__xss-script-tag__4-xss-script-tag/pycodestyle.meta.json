@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py"
+  ],
+  "started_utc": "2026-11-11T16:25:22.044150+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.035,
+  "error": null,
+  "cwd": "/tmp/sa_run_uk6lry9h",
+  "traceback_in_stderr": false
+}

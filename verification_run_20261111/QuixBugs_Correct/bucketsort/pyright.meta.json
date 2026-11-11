@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/bucketsort.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/QuixBugs/correct_python_programs/bucketsort.py"
+  ],
+  "started_utc": "2026-11-11T16:19:33.083057+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.319,
+  "error": null,
+  "cwd": "/tmp/sa_run_7cpn3win",
+  "traceback_in_stderr": false
+}

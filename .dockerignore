@@ -1,0 +1,10 @@
+# Only static_analyzers.txt and tools/ are copied into the image.
+# Results and repository files are left out of the build context.
+logs/
+.git/
+.gitattributes
+.gitignore
+README.md
+LICENSE
+CITATION.cff
+tools/__pycache__/

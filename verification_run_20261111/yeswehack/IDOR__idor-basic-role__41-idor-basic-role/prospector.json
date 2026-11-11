@@ -1,0 +1,100 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:24:37.147155",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 5,
+    "completed": "2026-11-11 16:24:38.230867",
+    "time_taken": "1.08",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "bare-except",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+        "module": "41-idor-basic-role",
+        "function": "index",
+        "line": 21,
+        "character": 8,
+        "lineEnd": 22,
+        "characterEnd": 76
+      },
+      "message": "No exception type(s) specified",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/bare-except.html"
+    },
+    {
+      "source": "pylint",
+      "code": "f-string-without-interpolation",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+        "module": "41-idor-basic-role",
+        "function": "index",
+        "line": 26,
+        "character": 52,
+        "lineEnd": 26,
+        "characterEnd": 70
+      },
+      "message": "Using an f-string that does not have any interpolated variables",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/f-string-without-interpolation.html"
+    },
+    {
+      "source": "pylint",
+      "code": "f-string-without-interpolation",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+        "module": "41-idor-basic-role",
+        "function": "index",
+        "line": 28,
+        "character": 48,
+        "lineEnd": 28,
+        "characterEnd": 89
+      },
+      "message": "Using an f-string that does not have any interpolated variables",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/f-string-without-interpolation.html"
+    },
+    {
+      "source": "pylint",
+      "code": "multiple-imports",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+        "module": "41-idor-basic-role",
+        "function": null,
+        "line": 4,
+        "character": 0,
+        "lineEnd": 4,
+        "characterEnd": 19
+      },
+      "message": "Multiple imports on one line (base64, json)",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/multiple-imports.html"
+    },
+    {
+      "source": "pylint",
+      "code": "trailing-newlines",
+      "location": {
+        "path": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+        "module": "41-idor-basic-role",
+        "function": null,
+        "line": 34,
+        "character": 0
+      },
+      "message": "Trailing newlines",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/trailing-newlines.html"
+    }
+  ]
+}

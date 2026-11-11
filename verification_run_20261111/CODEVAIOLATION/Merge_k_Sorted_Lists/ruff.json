@@ -1,0 +1,37 @@
+[
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 13,
+      "row": 1
+    },
+    "filename": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import heapq\r\n\r\n\r\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  }
+]

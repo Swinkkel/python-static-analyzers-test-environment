@@ -1,0 +1,12 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:2:6: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:2:8: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:2:18: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:3:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:4:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:5:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:6:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:7:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:8:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:9:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:9:41: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Path_Sum.py:10:24: W292 no newline at end of file

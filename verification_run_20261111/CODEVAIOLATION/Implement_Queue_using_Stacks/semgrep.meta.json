@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Implement_Queue_using_Stacks.py"
+  ],
+  "started_utc": "2026-11-11T16:11:05.143137+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.624,
+  "error": null,
+  "cwd": "/tmp/sa_run_hzfe6_6w",
+  "traceback_in_stderr": false
+}

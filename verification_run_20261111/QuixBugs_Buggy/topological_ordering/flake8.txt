@@ -1,0 +1,3 @@
+/opt/datasets/QuixBugs/python_programs/topological_ordering.py:6:80: E501 line too long (104 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/topological_ordering.py:11:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/QuixBugs/python_programs/topological_ordering.py:21:80: E501 line too long (119 > 79 characters)

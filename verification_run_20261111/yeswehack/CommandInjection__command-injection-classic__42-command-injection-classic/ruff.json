@@ -1,0 +1,75 @@
+[
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 33,
+      "row": 3
+    },
+    "filename": "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import ipaddress\nimport os\n\nfrom flask import Flask, render_template, request\nfrom ignore.design import design\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 4
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "E722",
+    "end_location": {
+      "column": 11,
+      "row": 32
+    },
+    "filename": "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 32
+    },
+    "message": "Do not use bare `except`",
+    "name": "bare-except",
+    "noqa_row": 32,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/bare-except"
+  },
+  {
+    "cell": null,
+    "code": "S110",
+    "end_location": {
+      "column": 13,
+      "row": 33
+    },
+    "filename": "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 32
+    },
+    "message": "`try`-`except`-`pass` detected, consider logging the exception",
+    "name": "try-except-pass",
+    "noqa_row": 32,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/try-except-pass"
+  }
+]

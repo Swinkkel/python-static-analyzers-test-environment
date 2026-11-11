@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Jump_Game.py"
+  ],
+  "started_utc": "2026-11-11T16:11:14.577123+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.035,
+  "error": null,
+  "cwd": "/tmp/sa_run_8wdvwqr6",
+  "traceback_in_stderr": false
+}

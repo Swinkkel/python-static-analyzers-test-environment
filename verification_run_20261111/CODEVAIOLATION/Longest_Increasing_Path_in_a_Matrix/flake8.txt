@@ -1,0 +1,33 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:4:6: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:4:8: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:4:20: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:5:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:5:19: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:5:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:5:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:5:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:5:31: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:5:35: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:5:39: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:6:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:7:5: E306 expected 1 blank line before a nested definition, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:7:14: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:10:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:11:15: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:12:14: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:12:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:12:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:13:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:13:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:13:28: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:13:31: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:13:50: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:14:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:14:42: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:14:50: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:15:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:17:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:20:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:20:30: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:20:36: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py:21:18: W292 no newline at end of file

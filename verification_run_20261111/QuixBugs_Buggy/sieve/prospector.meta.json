@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/QuixBugs/python_programs/sieve.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/python_programs/sieve.py"
+  ],
+  "started_utc": "2026-11-11T16:18:48.738128+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.329,
+  "error": null,
+  "cwd": "/tmp/sa_run_32l0m3ej",
+  "traceback_in_stderr": false
+}

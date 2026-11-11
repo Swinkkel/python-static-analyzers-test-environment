@@ -1,0 +1,3 @@
+/opt/datasets/QuixBugs/python_programs/levenshtein.py:15:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/QuixBugs/python_programs/levenshtein.py:19:80: E501 line too long (277 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/levenshtein.py:29:80: E501 line too long (111 > 79 characters)

@@ -1,0 +1,37 @@
+[
+  {
+    "cell": null,
+    "code": "PIE808",
+    "end_location": {
+      "column": 25,
+      "row": 6
+    },
+    "filename": "/opt/datasets/QuixBugs/python_programs/pascal.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "",
+          "end_location": {
+            "column": 27,
+            "row": 6
+          },
+          "location": {
+            "column": 24,
+            "row": 6
+          }
+        }
+      ],
+      "message": "Remove `start` argument"
+    },
+    "location": {
+      "column": 24,
+      "row": 6
+    },
+    "message": "Unnecessary `start` argument in `range`",
+    "name": "unnecessary-range-start",
+    "noqa_row": 6,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unnecessary-range-start"
+  }
+]

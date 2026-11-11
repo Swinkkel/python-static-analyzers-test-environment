@@ -1,0 +1,7 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Substring_Without_Repeating_Characters.py:2:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Substring_Without_Repeating_Characters.py:3:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Substring_Without_Repeating_Characters.py:4:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Substring_Without_Repeating_Characters.py:8:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Substring_Without_Repeating_Characters.py:10:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Substring_Without_Repeating_Characters.py:10:34: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Substring_Without_Repeating_Characters.py:11:22: W292 no newline at end of file

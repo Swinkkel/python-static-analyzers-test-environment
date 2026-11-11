@@ -1,0 +1,18 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:3:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:4:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:4:19: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:5:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:5:36: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:6:29: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:6:31: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:8:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:9:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:9:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:10:10: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:10:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:11:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:14:32: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:14:44: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:15:39: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:16:29: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/The_Skyline_Problem.py:17:18: W292 no newline at end of file

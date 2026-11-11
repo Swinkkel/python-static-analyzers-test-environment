@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:09:05.579500",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:09:05.729624",
+    "time_taken": "0.15",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "import-outside-toplevel",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py",
+        "module": "Alien_Dictionary",
+        "function": "alienOrder",
+        "line": 2,
+        "character": 4,
+        "lineEnd": 2,
+        "characterEnd": 45
+      },
+      "message": "Import outside toplevel (collections.defaultdict, collections.deque)",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/import-outside-toplevel.html"
+    }
+  ]
+}

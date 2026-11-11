@@ -1,0 +1,283 @@
+[
+    {
+        "filename": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "missing whitespace after ',' (pycodestyle code E231)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "",
+                "line": 1,
+                "column": 23,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "missing whitespace around arithmetic operator (pycodestyle code E226)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "",
+                "line": 3,
+                "column": 27,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n    3      return list((Counter(t)-Counter(s)).keys())[0]\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "C0304",
+                "symbol": "missing-final-newline",
+                "msg": "By convention, each Python file should end with a blank line. To fix this, go down to the bottom of your file and press Enter/Return to add an empty line.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "",
+                "line": 3,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n    3      return list((Counter(t)-Counter(s)).keys())[0]\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 3,
+                "end_column": 50,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def findTheDifference(s,t):\n    2      from collections import Counter\n",
+                "line_end": 3,
+                "column_end": 50,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C9104",
+                "symbol": "module-name-violation",
+                "msg": "Module name \"Find_the_Difference\" should be in snake_case format. Suggested fix: \"find_the_difference\". Modules should be all-lowercase names, with each name separated by underscores.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 3,
+                "end_column": 50,
+                "snippet": "",
+                "line_end": 3,
+                "column_end": 50,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "findTheDifference",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 21,
+                "snippet": "    1  def findTheDifference(s,t):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      from collections import Counter\n",
+                "line_end": 1,
+                "column_end": 21,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C9103",
+                "symbol": "naming-convention-violation",
+                "msg": "Function name \"findTheDifference\" should be in snake_case format. Suggested fix: \"find_the_difference\". Function names should be lowercase, with words separated by underscores. A single leading underscore can be used to denote a private function.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "findTheDifference",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 21,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n",
+                "line_end": 1,
+                "column_end": 21,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "findTheDifference",
+                "line": 1,
+                "column": 22,
+                "end_line": 1,
+                "end_column": 23,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n",
+                "line_end": 1,
+                "column_end": 23,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "findTheDifference",
+                "line": 1,
+                "column": 24,
+                "end_line": 1,
+                "end_column": 25,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n",
+                "line_end": 1,
+                "column_end": 25,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "findTheDifference",
+                "line": 1,
+                "column": 22,
+                "end_line": 1,
+                "end_column": 25,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n",
+                "line_end": 1,
+                "column_end": 25,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0415",
+                "symbol": "import-outside-toplevel",
+                "msg": "Import outside toplevel (collections.Counter)",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "findTheDifference",
+                "line": 2,
+                "column": 4,
+                "end_line": 2,
+                "end_column": 35,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n",
+                "line_end": 2,
+                "column_end": 35,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9999",
+                "symbol": "forbidden-import",
+                "msg": "You may not import Counter from module collections.",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+                "module": "Find_the_Difference",
+                "obj": "findTheDifference",
+                "line": 2,
+                "column": 4,
+                "end_line": 2,
+                "end_column": 35,
+                "snippet": "    1  def findTheDifference(s,t):\n    2      from collections import Counter\n",
+                "line_end": 2,
+                "column_end": 35,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

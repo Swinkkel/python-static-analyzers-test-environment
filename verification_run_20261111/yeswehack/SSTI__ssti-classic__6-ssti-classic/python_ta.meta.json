@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:25:17.565979+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.725,
+  "error": null,
+  "cwd": "/tmp/sa_run_c1rkil9q",
+  "traceback_in_stderr": false
+}

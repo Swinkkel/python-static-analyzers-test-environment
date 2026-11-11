@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:12:15.188296",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:12:15.277269",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Median_of_Two_Sorted_Arrays.py",
+        "module": "Median_of_Two_Sorted_Arrays",
+        "function": "findMedianSortedArrays",
+        "line": 4,
+        "character": 4,
+        "lineEnd": 7,
+        "characterEnd": 27
+      },
+      "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/no-else-return.html"
+    }
+  ]
+}

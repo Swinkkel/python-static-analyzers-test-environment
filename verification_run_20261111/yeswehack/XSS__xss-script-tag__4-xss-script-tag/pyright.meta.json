@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py"
+  ],
+  "started_utc": "2026-11-11T16:25:25.218224+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.469,
+  "error": null,
+  "cwd": "/tmp/sa_run_19fajqer",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py"
+  ],
+  "started_utc": "2026-11-11T16:25:32.876442+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_b8ou5qza",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/QuixBugs/python_programs/detect_cycle.py"
+  ],
+  "started_utc": "2026-11-11T16:16:04.865845+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.774,
+  "error": null,
+  "cwd": "/tmp/sa_run_vt7l9aqr",
+  "traceback_in_stderr": false
+}

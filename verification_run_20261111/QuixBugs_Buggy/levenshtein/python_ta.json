@@ -1,0 +1,214 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "multiple spaces after ',' (pycodestyle code E241)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "",
+                "line": 10,
+                "column": 31,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    8      else:\n    9          return 1 + min(\n   10              levenshtein(source,     target[1:]),\n   11              levenshtein(source[1:], target[1:]),\n   12              levenshtein(source[1:], target)\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "expected 2 blank lines after class or function definition, found 1 (pycodestyle code E305)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "",
+                "line": 15,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   12              levenshtein(source[1:], target)\n   13          )\n   16                              \n       # INSERT NEW BLANK LINE HERE\n   15  \"\"\"\n   16  Levenshtein Distance\n   17  \n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 32,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def levenshtein(source, target):\n    2      if source == '' or target == '':\n",
+                "line_end": 32,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 15",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "",
+                "line": 15,
+                "column": 0,
+                "end_line": 32,
+                "end_column": 3,
+                "snippet": "   13          )\n   14  \n   15  \"\"\"\n   16  Levenshtein Distance\n   17  \n   18  \n   19  Calculates the Levenshtein distance between two strings.  The Levenshtein distance is defined as the minimum amount of single-character edits (either removing a character, adding a character, or changing a character) necessary to transform a source string into a target string.\n       ...\n   28  Example:\n   29      electron can be transformed into neutron by removing the e, turning the l into n, and turning the c into u.\n   30      >>> levenshtein(electron, neutron)\n   31      3\n   32  \"\"\"\n",
+                "line_end": 32,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "levenshtein",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 15,
+                "snippet": "    1  def levenshtein(source, target):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      if source == '' or target == '':\n    3          return len(source) or len(target)\n",
+                "line_end": 1,
+                "column_end": 15,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "levenshtein",
+                "line": 1,
+                "column": 16,
+                "end_line": 1,
+                "end_column": 22,
+                "snippet": "    1  def levenshtein(source, target):\n    2      if source == '' or target == '':\n    3          return len(source) or len(target)\n",
+                "line_end": 1,
+                "column_end": 22,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "levenshtein",
+                "line": 1,
+                "column": 24,
+                "end_line": 1,
+                "end_column": 30,
+                "snippet": "    1  def levenshtein(source, target):\n    2      if source == '' or target == '':\n    3          return len(source) or len(target)\n",
+                "line_end": 1,
+                "column_end": 30,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "levenshtein",
+                "line": 1,
+                "column": 16,
+                "end_line": 1,
+                "end_column": 30,
+                "snippet": "    1  def levenshtein(source, target):\n    2      if source == '' or target == '':\n    3          return len(source) or len(target)\n",
+                "line_end": 1,
+                "column_end": 30,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/levenshtein.py",
+                "module": "levenshtein",
+                "obj": "",
+                "line": 15,
+                "column": 0,
+                "end_line": 32,
+                "end_column": 3,
+                "snippet": "   13          )\n   14  \n   15  \"\"\"\n   16  Levenshtein Distance\n   17  \n   18  \n   19  Calculates the Levenshtein distance between two strings.  The Levenshtein distance is defined as the minimum amount of single-character edits (either removing a character, adding a character, or changing a character) necessary to transform a source string into a target string.\n       ...\n   28  Example:\n   29      electron can be transformed into neutron by removing the e, turning the l into n, and turning the c into u.\n   30      >>> levenshtein(electron, neutron)\n   31      3\n   32  \"\"\"\n",
+                "line_end": 32,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

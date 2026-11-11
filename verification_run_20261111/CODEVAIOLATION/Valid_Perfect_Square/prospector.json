@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:15:08.896439",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:15:08.988089",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py",
+        "module": "Valid_Perfect_Square",
+        "function": "isPerfectSquare",
+        "line": 7,
+        "character": 8,
+        "lineEnd": 12,
+        "characterEnd": 23
+      },
+      "message": "Unnecessary \"elif\" after \"return\", replace only that \"elif\" with \"if\"",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/no-else-return.html"
+    }
+  ]
+}

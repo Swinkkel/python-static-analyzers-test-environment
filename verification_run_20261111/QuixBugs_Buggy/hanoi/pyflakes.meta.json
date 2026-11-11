@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/QuixBugs/python_programs/hanoi.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/QuixBugs/python_programs/hanoi.py"
+  ],
+  "started_utc": "2026-11-11T16:16:35.828241+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.069,
+  "error": null,
+  "cwd": "/tmp/sa_run_zw0buoy2",
+  "traceback_in_stderr": false
+}

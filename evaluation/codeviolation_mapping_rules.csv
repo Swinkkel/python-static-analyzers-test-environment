@@ -1,0 +1,33 @@
+violation_type,tools,message_identifiers,condition,counting_unit
+Function name not snake_case,"Pylint, PythonTA, Prospector (pylint)",C0103 invalid-name / C9103 naming-convention-violation,message starts with 'Function name' or 'Method name',one per function and message
+Variables naming conventions,"Pylint, PythonTA, Prospector (pylint)",C0103 invalid-name / C9103 naming-convention-violation,"message starts with 'Argument', 'Variable', 'Attribute', 'Class attribute', 'Constant' or 'Class name', or contains 'should be avoided'",one per message
+Variables naming conventions,"Pycodestyle, Flake8, Ruff, Prospector (pycodestyle), PythonTA (E9989)",E741,,"one per line, column and message"
+Missing whitespace after comma,"Pycodestyle, Flake8, Ruff, Prospector (pycodestyle), PythonTA (E9989)",E231,"message contains ""','""","one per line, column and message"
+Missing whitespace after colon,"Pycodestyle, Flake8, Ruff, Prospector (pycodestyle), PythonTA (E9989)",E231,"message contains ""':'""","one per line, column and message"
+Missing space around operator,"Pycodestyle, Flake8, Ruff, Prospector (pycodestyle), PythonTA (E9989)","E225, E226, E227, E228",,"one per line, column and message"
+Expected blank line(s) (after method/class),"Pycodestyle, Flake8, Ruff, Prospector (pycodestyle), PythonTA (E9989)","E301, E302, E305",,"one per line, column and message"
+Expected blank line before nested definition,"Pycodestyle, Flake8, Ruff, Prospector (pycodestyle), PythonTA (E9989)",E306,,"one per line, column and message"
+Line too long (>79),"Pycodestyle, Flake8, Ruff, Prospector (pycodestyle), PythonTA (E9989)",E501,,"one per line, column and message"
+Line too long (>79),"Pylint, PythonTA, Prospector (pylint)",C0301 line-too-long,,one per line and message
+Function type hints not defined,PythonTA,"E9970, E9971",,one per function (several missing hints in the same function count once)
+Function docstring not written,"Pylint, PythonTA, Prospector (pylint)",C0116 missing-function-docstring,,one per line and message
+Class docstring not written,"Pylint, PythonTA, Prospector (pylint)",C0115 missing-class-docstring,,one per line and message
+Import outside toplevel,"Pylint, PythonTA, Prospector (pylint)",C0415 import-outside-toplevel,,one per line and message
+"Unnecessary ""elif"" after ""return""","Pylint, PythonTA, Prospector (pylint)",R1705 no-else-return,"message contains '""elif""'",one per line
+"Unnecessary ""else"" after ""return""","Pylint, PythonTA, Prospector (pylint)",R1705 no-else-return,"message contains '""else""'",one per line
+Consider using enumerate,"Pylint, PythonTA, Prospector (pylint)",C0200 consider-using-enumerate,,one per line and message
+Redefining built-in,"Pylint, PythonTA, Prospector (pylint)",W0622 redefined-builtin,,one per line and message
+Undefined variable,"Pylint, PythonTA, Prospector (pylint)",E0602 undefined-variable,,one per line
+Undefined variable,"Flake8, Ruff",F821,,one per line
+Undefined variable,"Pyflakes, Prospector (pyflakes)",'undefined name',,one per line
+Undefined variable,Mypy,name-defined,,one per line
+Undefined variable,Pyright,reportUndefinedVariable,,one per line
+Unused variable,"Pylint, PythonTA, Prospector (pylint)",W0612 unused-variable,,one per line
+Unused variable,"Flake8, Ruff",F841,,one per line
+Unused variable,Pyflakes,'assigned to but never used',,one per line
+Too many local variables,"Pylint, PythonTA, Prospector (pylint)",R0914 too-many-locals,,one per line and message
+Function return not implemented,"Pylint, PythonTA, Prospector (pylint)","R1710 inconsistent-return-statements, R9711 (PythonTA)",,one per line and message
+Method inside method,–,no matching check,,always FN
+Class inside method,–,no matching check,,always FN
+Add meaningful comments to logic,–,no matching check,,always FN
+Function input not validated early,–,no matching check,,always FN

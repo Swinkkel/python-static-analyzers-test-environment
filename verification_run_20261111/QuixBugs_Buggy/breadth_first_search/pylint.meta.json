@@ -1,0 +1,17 @@
+{
+  "tool": "pylint",
+  "tool_version": "pylint 4.0.9 | astroid 4.0.4 | Python 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/QuixBugs/python_programs/breadth_first_search.py",
+  "command": [
+    "pylint",
+    "--output-format=json2",
+    "/opt/datasets/QuixBugs/python_programs/breadth_first_search.py"
+  ],
+  "started_utc": "2026-11-11T16:15:46.665767+00:00",
+  "return_code": 28,
+  "timed_out": false,
+  "duration_s": 0.278,
+  "error": null,
+  "cwd": "/tmp/sa_run_c7fe8_v_",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,13 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:1:16: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:4:6: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:5:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:6:45: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:7:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:8:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:9:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:10:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:11:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:11:36: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:12:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:12:34: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py:13:22: W292 no newline at end of file

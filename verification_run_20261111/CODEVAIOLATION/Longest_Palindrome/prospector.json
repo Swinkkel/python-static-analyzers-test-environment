@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:11:41.378331",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 2,
+    "completed": "2026-11-11 16:11:41.524671",
+    "time_taken": "0.15",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "import-outside-toplevel",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py",
+        "module": "Longest_Palindrome",
+        "function": "longestPalindrome",
+        "line": 2,
+        "character": 4,
+        "lineEnd": 2,
+        "characterEnd": 35
+      },
+      "message": "Import outside toplevel (collections.Counter)",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/import-outside-toplevel.html"
+    },
+    {
+      "source": "pylint",
+      "code": "unused-variable",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py",
+        "module": "Longest_Palindrome",
+        "function": "longestPalindrome",
+        "line": 6,
+        "character": 8,
+        "lineEnd": 6,
+        "characterEnd": 12
+      },
+      "message": "Unused variable 'char'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unused-variable.html"
+    }
+  ]
+}

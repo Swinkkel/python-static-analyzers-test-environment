@@ -1,0 +1,30 @@
+{
+    "version": "1.1.414",
+    "time": "1794414280568",
+    "generalDiagnostics": [
+        {
+            "file": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+            "severity": "error",
+            "message": "Import \"ignore.design\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 2,
+                    "character": 5
+                },
+                "end": {
+                    "line": 2,
+                    "character": 18
+                }
+            },
+            "rule": "reportMissingImports"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 1,
+        "errorCount": 1,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 0.27
+    }
+}
+

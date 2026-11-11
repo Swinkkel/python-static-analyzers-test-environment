@@ -1,0 +1,14 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:1:14: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:2:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:3:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:4:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:5:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:6:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:7:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:8:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:9:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:10:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:11:24: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:11:39: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:12:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Wildcard_Matching.py:13:22: W292 no newline at end of file

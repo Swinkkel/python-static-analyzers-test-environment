@@ -1,0 +1,46 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "app",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py",
+            "absolutePath": "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "app",
+            "obj": "home",
+            "line": 10,
+            "column": 0,
+            "endLine": 10,
+            "endColumn": 8,
+            "path": "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py",
+            "absolutePath": "/opt/datasets/yeswehack/XSS/xss-valentines-day-2026/vsnippet/app.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 2,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 6.666666666666667
+    }
+}

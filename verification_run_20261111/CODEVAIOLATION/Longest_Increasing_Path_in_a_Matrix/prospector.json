@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:11:35.768125",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:11:35.863529",
+    "time_taken": "0.10",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E306",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py",
+        "module": null,
+        "function": null,
+        "line": 7,
+        "character": 5
+      },
+      "message": "expected 1 blank line before a nested definition, found 0",
+      "isFixable": false
+    }
+  ]
+}

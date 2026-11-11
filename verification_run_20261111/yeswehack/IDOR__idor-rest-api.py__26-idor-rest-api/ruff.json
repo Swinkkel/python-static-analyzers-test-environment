@@ -1,0 +1,75 @@
+[
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 12,
+      "row": 3
+    },
+    "filename": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import json\n\nfrom flask import Flask, abort\nfrom flask_restful import Api, Resource\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 5
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "E722",
+    "end_location": {
+      "column": 15,
+      "row": 16
+    },
+    "filename": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 16
+    },
+    "message": "Do not use bare `except`",
+    "name": "bare-except",
+    "noqa_row": 16,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/bare-except"
+  },
+  {
+    "cell": null,
+    "code": "SIM115",
+    "end_location": {
+      "column": 22,
+      "row": 19
+    },
+    "filename": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+    "fix": null,
+    "location": {
+      "column": 18,
+      "row": 19
+    },
+    "message": "Use a context manager for opening files",
+    "name": "open-file-with-context-handler",
+    "noqa_row": 19,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/open-file-with-context-handler"
+  }
+]

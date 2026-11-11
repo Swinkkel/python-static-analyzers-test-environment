@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py"
+  ],
+  "started_utc": "2026-11-11T16:25:22.084476+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 1.873,
+  "error": null,
+  "cwd": "/tmp/sa_run_3qesdy4u",
+  "traceback_in_stderr": false
+}

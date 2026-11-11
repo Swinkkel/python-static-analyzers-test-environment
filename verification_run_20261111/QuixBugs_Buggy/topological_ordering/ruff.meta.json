@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/QuixBugs/python_programs/topological_ordering.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/python_programs/topological_ordering.py"
+  ],
+  "started_utc": "2026-11-11T16:19:10.508140+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.019,
+  "error": null,
+  "cwd": "/tmp/sa_run_3ygnj1pe",
+  "traceback_in_stderr": false
+}

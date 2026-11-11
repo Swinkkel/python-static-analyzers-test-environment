@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py"
+  ],
+  "started_utc": "2026-11-11T16:24:51.421406+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.575,
+  "error": null,
+  "cwd": "/tmp/sa_run_au4dxn0b",
+  "traceback_in_stderr": false
+}

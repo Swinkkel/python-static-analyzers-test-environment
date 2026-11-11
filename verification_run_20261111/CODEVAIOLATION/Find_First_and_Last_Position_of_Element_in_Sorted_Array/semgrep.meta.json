@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py"
+  ],
+  "started_utc": "2026-11-11T16:10:15.619535+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.825,
+  "error": null,
+  "cwd": "/tmp/sa_run_c9tae1hd",
+  "traceback_in_stderr": false
+}

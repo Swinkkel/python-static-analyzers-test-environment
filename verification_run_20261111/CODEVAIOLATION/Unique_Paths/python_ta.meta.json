@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Unique_Paths.py"
+  ],
+  "started_utc": "2026-11-11T16:14:56.812751+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.977,
+  "error": null,
+  "cwd": "/tmp/sa_run_6tcawy25",
+  "traceback_in_stderr": false
+}

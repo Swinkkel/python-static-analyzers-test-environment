@@ -1,0 +1,168 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "expected 2 blank lines after class or function definition, found 1 (pycodestyle code E305)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "",
+                "line": 11,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    8          node = nextnode\n    9      return prevnode\n   12                              \n       # INSERT NEW BLANK LINE HERE\n   11  \"\"\"\n   12  def reverse_linked_list(node):\n   13      prevnode = None\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def reverse_linked_list(node):\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 11",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "",
+                "line": 11,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "    9      return prevnode\n   10  \n   11  \"\"\"\n   12  def reverse_linked_list(node):\n   13      prevnode = None\n   14      while node:\n   15          nextnode = node.successor\n       ...\n   24          node.successor = prevnode\n   25          node, prevnode = nextnode, node\n   26      return prevnode\n   27  \n   28  \"\"\"\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "reverse_linked_list",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 23,
+                "snippet": "    2  def reverse_linked_list(node):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      prevnode = None\n    4      while node:\n",
+                "line_end": 2,
+                "column_end": 23,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "reverse_linked_list",
+                "line": 2,
+                "column": 24,
+                "end_line": 2,
+                "end_column": 28,
+                "snippet": "    1  \n    2  def reverse_linked_list(node):\n    3      prevnode = None\n    4      while node:\n",
+                "line_end": 2,
+                "column_end": 28,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "reverse_linked_list",
+                "line": 2,
+                "column": 24,
+                "end_line": 2,
+                "end_column": 28,
+                "snippet": "    1  \n    2  def reverse_linked_list(node):\n    3      prevnode = None\n    4      while node:\n",
+                "line_end": 2,
+                "column_end": 28,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "",
+                "line": 11,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "    9      return prevnode\n   10  \n   11  \"\"\"\n   12  def reverse_linked_list(node):\n   13      prevnode = None\n   14      while node:\n   15          nextnode = node.successor\n       ...\n   24          node.successor = prevnode\n   25          node, prevnode = nextnode, node\n   26      return prevnode\n   27  \n   28  \"\"\"\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:1:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:2:23: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:3:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:3:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:3:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:4:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:5:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:6:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:7:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:9:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:11:5: E306 expected 1 blank line before a nested definition, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:11:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:12:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:12:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:12:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:13:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:14:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:15:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:16:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:18:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:20:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:20:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:21:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:21:26: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:22:17: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:22:32: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:22:48: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py:22:52: W292 no newline at end of file

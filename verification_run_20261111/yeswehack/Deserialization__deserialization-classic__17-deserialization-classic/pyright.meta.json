@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:23:49.901687+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.576,
+  "error": null,
+  "cwd": "/tmp/sa_run_lmtha_uy",
+  "traceback_in_stderr": false
+}

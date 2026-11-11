@@ -1,0 +1,3 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Intersection_of_Two_Arrays.py:1:23: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Intersection_of_Two_Arrays.py:2:27: E227 missing whitespace around bitwise or shift operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Intersection_of_Two_Arrays.py:2:39: W292 no newline at end of file

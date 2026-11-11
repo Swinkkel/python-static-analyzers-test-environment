@@ -1,0 +1,4 @@
+/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py:10:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py:22:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py:26:5: E722 do not use bare 'except'
+/opt/datasets/yeswehack/XSS/xss-script-tag/vsnippet/4-xss-script-tag.py:32:1: E265 block comment should start with '# '

@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/QuixBugs/python_programs/hanoi.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/QuixBugs/python_programs/hanoi.py"
+  ],
+  "started_utc": "2026-11-11T16:16:37.170421+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.885,
+  "error": null,
+  "cwd": "/tmp/sa_run_28kud5qm",
+  "traceback_in_stderr": false
+}

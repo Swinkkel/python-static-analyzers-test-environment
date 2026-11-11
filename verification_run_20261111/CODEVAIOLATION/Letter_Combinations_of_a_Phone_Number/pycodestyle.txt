@@ -1,0 +1,24 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:26: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:32: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:36: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:42: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:46: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:52: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:56: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:62: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:66: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:72: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:76: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:80: E501 line too long (104 > 79 characters)
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:83: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:87: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:93: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:4:97: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:5:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:6:5: E306 expected 1 blank line before a nested definition, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:6:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:7:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:11:30: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:12:16: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py:13:18: W292 no newline at end of file

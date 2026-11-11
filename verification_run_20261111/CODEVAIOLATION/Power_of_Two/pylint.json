@@ -1,0 +1,91 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Power_of_Two",
+            "obj": "",
+            "line": 2,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Power_of_Two",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Power_of_Two\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Power_of_Two",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Power_of_Two",
+            "obj": "isPowerOfTwo",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 16,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"isPowerOfTwo\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Power_of_Two",
+            "obj": "isPowerOfTwo",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 16,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 5,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 0
+    }
+}

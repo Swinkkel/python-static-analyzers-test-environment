@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py"
+  ],
+  "started_utc": "2026-11-11T16:24:02.049996+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.876,
+  "error": null,
+  "cwd": "/tmp/sa_run_jawuhgq1",
+  "traceback_in_stderr": false
+}

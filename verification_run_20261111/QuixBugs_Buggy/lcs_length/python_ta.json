@@ -1,0 +1,237 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "too many blank lines (3) (pycodestyle code E303)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "",
+                "line": 15,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    9                  dp[i, j] = dp[i - 1, j] + 1\n   10  \n   11      return max(dp.values()) if dp else 0\n   12  \n   13  # DELETE THIS LINE\n   14  # DELETE THIS LINE\n   15  \"\"\"\n   16  Longest Common Substring\n   17  longest-common-substring\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 31,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def lcs_length(s, t):\n    2      from collections import Counter\n",
+                "line_end": 31,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 15",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "",
+                "line": 15,
+                "column": 0,
+                "end_line": 31,
+                "end_column": 3,
+                "snippet": "   13  \n   14  \n   15  \"\"\"\n   16  Longest Common Substring\n   17  longest-common-substring\n   18  \n   19  Input:\n       ...\n   27      >>> lcs_length('witch', 'sandwich')\n   28      2\n   29      >>> lcs_length('meow', 'homeowner')\n   30      4\n   31  \"\"\"\n",
+                "line_end": 31,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "lcs_length",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 14,
+                "snippet": "    1  def lcs_length(s, t):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      from collections import Counter\n    3  \n",
+                "line_end": 1,
+                "column_end": 14,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "lcs_length",
+                "line": 1,
+                "column": 15,
+                "end_line": 1,
+                "end_column": 16,
+                "snippet": "    1  def lcs_length(s, t):\n    2      from collections import Counter\n    3  \n",
+                "line_end": 1,
+                "column_end": 16,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "lcs_length",
+                "line": 1,
+                "column": 18,
+                "end_line": 1,
+                "end_column": 19,
+                "snippet": "    1  def lcs_length(s, t):\n    2      from collections import Counter\n    3  \n",
+                "line_end": 1,
+                "column_end": 19,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "lcs_length",
+                "line": 1,
+                "column": 15,
+                "end_line": 1,
+                "end_column": 19,
+                "snippet": "    1  def lcs_length(s, t):\n    2      from collections import Counter\n    3  \n",
+                "line_end": 1,
+                "column_end": 19,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0415",
+                "symbol": "import-outside-toplevel",
+                "msg": "Import outside toplevel (collections.Counter)",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "lcs_length",
+                "line": 2,
+                "column": 4,
+                "end_line": 2,
+                "end_column": 35,
+                "snippet": "    1  def lcs_length(s, t):\n    2      from collections import Counter\n    3  \n    4      dp = Counter()\n",
+                "line_end": 2,
+                "column_end": 35,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9999",
+                "symbol": "forbidden-import",
+                "msg": "You may not import Counter from module collections.",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "lcs_length",
+                "line": 2,
+                "column": 4,
+                "end_line": 2,
+                "end_column": 35,
+                "snippet": "    1  def lcs_length(s, t):\n    2      from collections import Counter\n    3  \n    4      dp = Counter()\n",
+                "line_end": 2,
+                "column_end": 35,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/lcs_length.py",
+                "module": "lcs_length",
+                "obj": "",
+                "line": 15,
+                "column": 0,
+                "end_line": 31,
+                "end_column": 3,
+                "snippet": "   13  \n   14  \n   15  \"\"\"\n   16  Longest Common Substring\n   17  longest-common-substring\n   18  \n   19  Input:\n       ...\n   27      >>> lcs_length('witch', 'sandwich')\n   28      2\n   29      >>> lcs_length('meow', 'homeowner')\n   30      4\n   31  \"\"\"\n",
+                "line_end": 31,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

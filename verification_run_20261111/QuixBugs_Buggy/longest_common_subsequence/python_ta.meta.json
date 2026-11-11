@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/QuixBugs/python_programs/longest_common_subsequence.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/QuixBugs/python_programs/longest_common_subsequence.py"
+  ],
+  "started_utc": "2026-11-11T16:17:24.223509+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.976,
+  "error": null,
+  "cwd": "/tmp/sa_run_rwvy3u_x",
+  "traceback_in_stderr": false
+}

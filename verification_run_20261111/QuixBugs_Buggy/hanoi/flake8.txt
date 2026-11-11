@@ -1,0 +1,4 @@
+/opt/datasets/QuixBugs/python_programs/hanoi.py:17:80: E501 line too long (105 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/hanoi.py:18:80: E501 line too long (103 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/hanoi.py:19:80: E501 line too long (105 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/hanoi.py:33:80: E501 line too long (95 > 79 characters)

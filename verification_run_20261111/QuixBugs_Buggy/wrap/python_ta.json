@@ -1,0 +1,191 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "expected 2 blank lines after class or function definition, found 1 (pycodestyle code E305)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "module": "wrap",
+                "obj": "",
+                "line": 12,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    9  \n   10      return lines\n   13                              \n       # INSERT NEW BLANK LINE HERE\n   12  \"\"\"\n   13  Wrap Text\n   14  \n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "module": "wrap",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def wrap(text, cols):\n    2      lines = []\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 12",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "module": "wrap",
+                "obj": "",
+                "line": 12,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "   10      return lines\n   11  \n   12  \"\"\"\n   13  Wrap Text\n   14  \n   15  Given a long string and a column width, break the string on spaces into a list of lines such that each line is no longer than the column width.\n   16  \n       ...\n   24  Output:\n   25      An ordered list of strings, each no longer than the column width, such that the concatenation of the strings returns the original text,\n   26  and such that no word in the original text is broken into two parts unless necessary.  The original amount of spaces are preserved (e.g. spaces\n   27  at the start or end of each line aren't trimmed.),Wrapping Text\n   28  \"\"\"\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "module": "wrap",
+                "obj": "wrap",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 8,
+                "snippet": "    1  def wrap(text, cols):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      lines = []\n    3      while len(text) > cols:\n",
+                "line_end": 1,
+                "column_end": 8,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "module": "wrap",
+                "obj": "wrap",
+                "line": 1,
+                "column": 9,
+                "end_line": 1,
+                "end_column": 13,
+                "snippet": "    1  def wrap(text, cols):\n    2      lines = []\n    3      while len(text) > cols:\n",
+                "line_end": 1,
+                "column_end": 13,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "module": "wrap",
+                "obj": "wrap",
+                "line": 1,
+                "column": 15,
+                "end_line": 1,
+                "end_column": 19,
+                "snippet": "    1  def wrap(text, cols):\n    2      lines = []\n    3      while len(text) > cols:\n",
+                "line_end": 1,
+                "column_end": 19,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "module": "wrap",
+                "obj": "wrap",
+                "line": 1,
+                "column": 9,
+                "end_line": 1,
+                "end_column": 19,
+                "snippet": "    1  def wrap(text, cols):\n    2      lines = []\n    3      while len(text) > cols:\n",
+                "line_end": 1,
+                "column_end": 19,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/wrap.py",
+                "module": "wrap",
+                "obj": "",
+                "line": 12,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "   10      return lines\n   11  \n   12  \"\"\"\n   13  Wrap Text\n   14  \n   15  Given a long string and a column width, break the string on spaces into a list of lines such that each line is no longer than the column width.\n   16  \n       ...\n   24  Output:\n   25      An ordered list of strings, each no longer than the column width, such that the concatenation of the strings returns the original text,\n   26  and such that no word in the original text is broken into two parts unless necessary.  The original amount of spaces are preserved (e.g. spaces\n   27  at the start or end of each line aren't trimmed.),Wrapping Text\n   28  \"\"\"\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

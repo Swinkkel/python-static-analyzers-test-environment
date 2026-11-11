@@ -1,0 +1,83 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:24:09.656256",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 4,
+    "completed": "2026-11-11 16:24:10.751821",
+    "time_taken": "1.10",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/13-FileUpload_CodeInjection.py",
+        "module": null,
+        "function": null,
+        "line": 40,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "unspecified-encoding",
+      "location": {
+        "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/13-FileUpload_CodeInjection.py",
+        "module": "13-FileUpload_CodeInjection",
+        "function": "sharedFiles",
+        "line": 19,
+        "character": 11,
+        "lineEnd": 19,
+        "characterEnd": 59
+      },
+      "message": "Using open without explicitly specifying an encoding",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unspecified-encoding.html"
+    },
+    {
+      "source": "pylint",
+      "code": "consider-using-with",
+      "location": {
+        "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/13-FileUpload_CodeInjection.py",
+        "module": "13-FileUpload_CodeInjection",
+        "function": "sharedFiles",
+        "line": 19,
+        "character": 11,
+        "lineEnd": 19,
+        "characterEnd": 59
+      },
+      "message": "Consider using 'with' for resource-allocating operations",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/consider-using-with.html"
+    },
+    {
+      "source": "pylint",
+      "code": "consider-using-f-string",
+      "location": {
+        "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/13-FileUpload_CodeInjection.py",
+        "module": "13-FileUpload_CodeInjection",
+        "function": "index",
+        "line": 33,
+        "character": 16,
+        "lineEnd": 35,
+        "characterEnd": 56
+      },
+      "message": "Formatting a regular string which could be an f-string",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/consider-using-f-string.html"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+/opt/datasets/QuixBugs/python_programs/kheapsort.py:18:80: E501 line too long (121 > 79 characters)
+/opt/datasets/QuixBugs/python_programs/kheapsort.py:22:80: E501 line too long (101 > 79 characters)

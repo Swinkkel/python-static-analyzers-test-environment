@@ -1,0 +1,11 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:2:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:4:9: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:4:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:4:17: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:5:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:6:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:7:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:9:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:10:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:12:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Valid_Perfect_Square.py:13:17: W292 no newline at end of file

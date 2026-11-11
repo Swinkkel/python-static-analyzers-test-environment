@@ -1,0 +1,19 @@
+{
+  "tool": "bandit",
+  "tool_version": "bandit 1.9.4 |   python version = 3.12.14 (main, Sep 19 2026, 01:04:57) [GCC 14.2.0]",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Ransom_Note.py",
+  "command": [
+    "bandit",
+    "-f",
+    "json",
+    "-q",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Ransom_Note.py"
+  ],
+  "started_utc": "2026-11-11T16:13:15.637276+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.118,
+  "error": null,
+  "cwd": "/tmp/sa_run_wuqrt6f9",
+  "traceback_in_stderr": false
+}

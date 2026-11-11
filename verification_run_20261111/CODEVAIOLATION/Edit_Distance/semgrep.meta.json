@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py"
+  ],
+  "started_utc": "2026-11-11T16:10:10.092026+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.924,
+  "error": null,
+  "cwd": "/tmp/sa_run_8daqdxvv",
+  "traceback_in_stderr": false
+}

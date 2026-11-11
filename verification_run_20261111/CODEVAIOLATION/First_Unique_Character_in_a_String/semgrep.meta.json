@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Unique_Character_in_a_String.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Unique_Character_in_a_String.py"
+  ],
+  "started_utc": "2026-11-11T16:10:37.831758+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.875,
+  "error": null,
+  "cwd": "/tmp/sa_run_j6mfs5bt",
+  "traceback_in_stderr": false
+}

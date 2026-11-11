@@ -1,0 +1,11 @@
+bandit 1.9.4
+flake8 7.4.1
+mypy 2.3.1
+prospector 1.19.1
+pycodestyle 2.15.0
+pyflakes 4.0.0
+pylint 4.0.9
+pyright 1.1.414
+python-ta 2.13.1
+ruff 0.16.9
+semgrep 1.178.0

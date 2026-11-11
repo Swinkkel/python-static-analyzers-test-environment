@@ -1,0 +1,168 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "module": "find_first_in_sorted",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 35,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def find_first_in_sorted(arr, x):\n    2      lo = 0\n",
+                "line_end": 35,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 20",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "module": "find_first_in_sorted",
+                "obj": "",
+                "line": 20,
+                "column": 0,
+                "end_line": 35,
+                "end_column": 3,
+                "snippet": "   18  \n   19  \n   20  \"\"\"\n   21  Fancy Binary Search\n   22  fancy-binsearch\n   23  \n   24  \n       ...\n   31  \n   32  Example:\n   33      >>> find_first_in_sorted([3, 4, 5, 5, 5, 5, 6], 5)\n   34      2\n   35  \"\"\"\n",
+                "line_end": 35,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "module": "find_first_in_sorted",
+                "obj": "find_first_in_sorted",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 24,
+                "snippet": "    1  def find_first_in_sorted(arr, x):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      lo = 0\n    3      hi = len(arr)\n",
+                "line_end": 1,
+                "column_end": 24,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "module": "find_first_in_sorted",
+                "obj": "find_first_in_sorted",
+                "line": 1,
+                "column": 25,
+                "end_line": 1,
+                "end_column": 28,
+                "snippet": "    1  def find_first_in_sorted(arr, x):\n    2      lo = 0\n    3      hi = len(arr)\n",
+                "line_end": 1,
+                "column_end": 28,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "module": "find_first_in_sorted",
+                "obj": "find_first_in_sorted",
+                "line": 1,
+                "column": 30,
+                "end_line": 1,
+                "end_column": 31,
+                "snippet": "    1  def find_first_in_sorted(arr, x):\n    2      lo = 0\n    3      hi = len(arr)\n",
+                "line_end": 1,
+                "column_end": 31,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "module": "find_first_in_sorted",
+                "obj": "find_first_in_sorted",
+                "line": 1,
+                "column": 25,
+                "end_line": 1,
+                "end_column": 31,
+                "snippet": "    1  def find_first_in_sorted(arr, x):\n    2      lo = 0\n    3      hi = len(arr)\n",
+                "line_end": 1,
+                "column_end": 31,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/find_first_in_sorted.py",
+                "module": "find_first_in_sorted",
+                "obj": "",
+                "line": 20,
+                "column": 0,
+                "end_line": 35,
+                "end_column": 3,
+                "snippet": "   18  \n   19  \n   20  \"\"\"\n   21  Fancy Binary Search\n   22  fancy-binsearch\n   23  \n   24  \n       ...\n   31  \n   32  Example:\n   33      >>> find_first_in_sorted([3, 4, 5, 5, 5, 5, 6], 5)\n   34      2\n   35  \"\"\"\n",
+                "line_end": 35,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

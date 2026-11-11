@@ -1,0 +1,2 @@
+{"file": "/opt/datasets/yeswehack/SSRF/ssrf-regex-bypass/vsnippet/2-ssrf-regex-bypass.py", "line": 20, "column": 15, "end_line": 20, "end_column": 49, "message": "Item \"None\" of \"Match[str] | None\" has no attribute \"group\"", "hint": null, "code": "union-attr", "severity": "error"}
+{"file": "/opt/datasets/yeswehack/SSRF/ssrf-regex-bypass/vsnippet/2-ssrf-regex-bypass.py", "line": 21, "column": 15, "end_line": 21, "end_column": 56, "message": "Item \"None\" of \"Match[str] | None\" has no attribute \"group\"", "hint": null, "code": "union-attr", "severity": "error"}

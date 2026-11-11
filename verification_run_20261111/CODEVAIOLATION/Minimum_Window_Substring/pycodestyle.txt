@@ -1,0 +1,28 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:1:16: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:3:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:4:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:5:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:6:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:7:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:7:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:8:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:9:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:10:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:11:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:12:28: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:12:51: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:13:57: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:14:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:15:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:15:37: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:16:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:17:28: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:18:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:19:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:20:32: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:21:61: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:21:80: E501 line too long (81 > 79 characters)
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:22:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:23:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:24:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Minimum_Window_Substring.py:25:18: W292 no newline at end of file

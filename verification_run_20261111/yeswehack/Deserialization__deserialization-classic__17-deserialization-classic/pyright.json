@@ -1,0 +1,30 @@
+{
+    "version": "1.1.414",
+    "time": "1794414230424",
+    "generalDiagnostics": [
+        {
+            "file": "/opt/datasets/yeswehack/Deserialization/deserialization-classic/vsnippet/17-deserialization-classic.py",
+            "severity": "error",
+            "message": "Argument of type \"bytes\" cannot be assigned to parameter \"value\" of type \"str\" in function \"set_cookie\"\n  \"bytes\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 50,
+                    "character": 36
+                },
+                "end": {
+                    "line": 50,
+                    "character": 58
+                }
+            },
+            "rule": "reportArgumentType"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 1,
+        "errorCount": 1,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 0.356
+    }
+}
+

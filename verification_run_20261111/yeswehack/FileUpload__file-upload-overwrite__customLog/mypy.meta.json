@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py"
+  ],
+  "started_utc": "2026-11-11T16:24:19.782387+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.42,
+  "error": null,
+  "cwd": "/tmp/sa_run_eolasp4s",
+  "traceback_in_stderr": false
+}

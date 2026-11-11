@@ -1,0 +1,6 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Three.py:2:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Three.py:4:12: E228 missing whitespace around modulo operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Three.py:4:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Three.py:5:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Three.py:6:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Three.py:6:16: W292 no newline at end of file

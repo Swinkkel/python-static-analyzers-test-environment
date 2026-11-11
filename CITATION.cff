@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Python static analysers – test environment"
+abstract: >-
+  Docker-based test environment for comparing eleven static analysers for
+  Python (PythonTA, Pylint, Flake8, Pyflakes, Pycodestyle, Prospector, Ruff,
+  Mypy, Pyright, Bandit and Semgrep CE) on three test datasets (CODEVIOLATION,
+  QuixBugs and YesWeHack Vulnerable Code Snippets) with default settings.
+  Used in the bachelor's thesis "Python – Staattinen analyysi"
+  (LUT University, 2026).
+authors:
+  - family-names: Helin
+    given-names: Tomi
+    affiliation: LUT University
+version: 1.0.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/Swinkkel/python-static-analyzers-test-environment"
+keywords:
+  - Python
+  - static analysis
+  - static analyzer
+  - linter
+  - Docker
+  - reproducibility
+references:
+  - type: software
+    title: QuixBugs
+    authors:
+      - family-names: Lin
+        given-names: Derrick
+      - family-names: Koppel
+        given-names: James
+      - family-names: Chen
+        given-names: Angela
+      - family-names: Solar-Lezama
+        given-names: Armando
+    repository-code: "https://github.com/jkoppel/QuixBugs"
+    commit: 4257f44b0ff1181dedaedee6a447e133219fcebf
+  - type: software
+    title: CODEVAIOLATION
+    authors:
+      - name: CodingWithLLMs
+    repository-code: "https://github.com/CodingWithLLMs/CODEVAIOLATION"
+    commit: f2eca3ed8d6b128a1cc47082885e63e91e31ce0a
+  - type: software
+    title: Vulnerable Code Snippets
+    authors:
+      - name: YesWeHack
+    repository-code: "https://github.com/yeswehack/vulnerable-code-snippets"
+    commit: 90c910e15b9fd2ce7dbc06c7594a050d486b80e8

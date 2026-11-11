@@ -1,0 +1,106 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Find_the_Difference",
+            "obj": "",
+            "line": 3,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Find_the_Difference",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Find_the_Difference\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Find_the_Difference",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Find_the_Difference",
+            "obj": "findTheDifference",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 21,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"findTheDifference\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Find_the_Difference",
+            "obj": "findTheDifference",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 21,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "import-outside-toplevel",
+            "message": "Import outside toplevel (collections.Counter)",
+            "messageId": "C0415",
+            "confidence": "UNDEFINED",
+            "module": "Find_the_Difference",
+            "obj": "findTheDifference",
+            "line": 2,
+            "column": 4,
+            "endLine": 2,
+            "endColumn": 35,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_the_Difference.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 6,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 0
+    }
+}

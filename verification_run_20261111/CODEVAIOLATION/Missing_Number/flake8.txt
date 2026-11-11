@@ -1,0 +1,2 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Missing_Number.py:2:6: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Missing_Number.py:3:32: W292 no newline at end of file

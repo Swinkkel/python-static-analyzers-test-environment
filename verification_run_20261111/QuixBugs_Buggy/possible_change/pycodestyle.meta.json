@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/QuixBugs/python_programs/possible_change.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/QuixBugs/python_programs/possible_change.py"
+  ],
+  "started_utc": "2026-11-11T16:17:58.438467+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_8qy8l6xp",
+  "traceback_in_stderr": false
+}

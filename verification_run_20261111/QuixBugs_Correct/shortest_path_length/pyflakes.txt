@@ -1,0 +1,4 @@
+/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py:1:1: 'from heapq import *' used; unable to detect undefined names
+/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py:5:5: 'heappush' may be undefined, or defined from star imports: heapq
+/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py:9:26: 'heappop' may be undefined, or defined from star imports: heapq
+/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py:44:5: 'heappush' may be undefined, or defined from star imports: heapq

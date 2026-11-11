@@ -1,0 +1,6 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Permutations.py:2:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Permutations.py:3:5: E306 expected 1 blank line before a nested definition, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Permutations.py:3:23: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Permutations.py:8:42: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Permutations.py:9:17: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Permutations.py:10:18: W292 no newline at end of file

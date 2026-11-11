@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Break.py"
+  ],
+  "started_utc": "2026-11-11T16:15:20.215403+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.369,
+  "error": null,
+  "cwd": "/tmp/sa_run_ooim0oly",
+  "traceback_in_stderr": false
+}

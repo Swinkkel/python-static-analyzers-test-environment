@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Increasing_Path_in_a_Matrix.py"
+  ],
+  "started_utc": "2026-11-11T16:11:35.576221+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_lz18n7h5",
+  "traceback_in_stderr": false
+}

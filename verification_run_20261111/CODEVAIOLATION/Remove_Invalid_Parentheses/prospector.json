@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:13:26.485156",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 2,
+    "completed": "2026-11-11 16:13:26.576079",
+    "time_taken": "0.09",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "redefined-argument-from-local",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py",
+        "module": "Remove_Invalid_Parentheses",
+        "function": "removeInvalidParentheses",
+        "line": 18,
+        "character": 12,
+        "lineEnd": 18,
+        "characterEnd": 13
+      },
+      "message": "Redefining argument with the local name 's'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/redefined-argument-from-local.html"
+    },
+    {
+      "source": "pylint",
+      "code": "consider-using-enumerate",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py",
+        "module": "Remove_Invalid_Parentheses",
+        "function": "removeInvalidParentheses",
+        "line": 19,
+        "character": 12,
+        "lineEnd": 21,
+        "characterEnd": 49
+      },
+      "message": "Consider using enumerate instead of iterating with range and len",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/consider-using-enumerate.html"
+    }
+  ]
+}

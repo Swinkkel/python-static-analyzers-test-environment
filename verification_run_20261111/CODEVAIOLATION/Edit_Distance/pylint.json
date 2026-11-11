@@ -1,0 +1,91 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Edit_Distance",
+            "obj": "",
+            "line": 14,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Edit_Distance",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Edit_Distance\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Edit_Distance",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Edit_Distance",
+            "obj": "minDistance",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 15,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"minDistance\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Edit_Distance",
+            "obj": "minDistance",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 15,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Edit_Distance.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 5,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 6.153846153846153
+    }
+}

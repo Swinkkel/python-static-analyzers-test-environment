@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Nth_Node_From_End_of_List.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Nth_Node_From_End_of_List.py"
+  ],
+  "started_utc": "2026-11-11T16:13:32.585846+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.325,
+  "error": null,
+  "cwd": "/tmp/sa_run_kla8sjo_",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Serialize_and_Deserialize_Binary_Tree.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Serialize_and_Deserialize_Binary_Tree.py"
+  ],
+  "started_utc": "2026-11-11T16:14:10.690737+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.375,
+  "error": null,
+  "cwd": "/tmp/sa_run_9f8kg7i8",
+  "traceback_in_stderr": false
+}

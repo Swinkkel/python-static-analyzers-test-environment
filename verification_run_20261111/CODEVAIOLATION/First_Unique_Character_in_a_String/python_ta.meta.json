@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Unique_Character_in_a_String.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Unique_Character_in_a_String.py"
+  ],
+  "started_utc": "2026-11-11T16:10:40.711913+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 1.071,
+  "error": null,
+  "cwd": "/tmp/sa_run_tevc9m76",
+  "traceback_in_stderr": false
+}

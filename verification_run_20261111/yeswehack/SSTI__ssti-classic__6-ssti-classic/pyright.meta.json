@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:25:14.422584+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.475,
+  "error": null,
+  "cwd": "/tmp/sa_run_motte9yv",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,76 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "trailing-newlines",
+            "message": "Trailing newlines",
+            "messageId": "C0305",
+            "confidence": "UNDEFINED",
+            "module": "knapsack",
+            "obj": "",
+            "line": 19,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "knapsack",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "knapsack",
+            "obj": "knapsack",
+            "line": 2,
+            "column": 0,
+            "endLine": 2,
+            "endColumn": 12,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "import-outside-toplevel",
+            "message": "Import outside toplevel (collections.defaultdict)",
+            "messageId": "C0415",
+            "confidence": "UNDEFINED",
+            "module": "knapsack",
+            "obj": "knapsack",
+            "line": 3,
+            "column": 4,
+            "endLine": 3,
+            "endColumn": 39,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/knapsack.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 4,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 6.0
+    }
+}

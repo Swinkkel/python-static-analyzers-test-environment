@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py"
+  ],
+  "started_utc": "2026-11-11T16:23:58.180538+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.035,
+  "error": null,
+  "cwd": "/tmp/sa_run_6lohbahp",
+  "traceback_in_stderr": false
+}

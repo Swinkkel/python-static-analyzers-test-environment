@@ -1,0 +1,61 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "customLog",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+            "absolutePath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"customLog\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "customLog",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+            "absolutePath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "customLog",
+            "obj": "log",
+            "line": 4,
+            "column": 0,
+            "endLine": 4,
+            "endColumn": 7,
+            "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+            "absolutePath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 3,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 0
+    }
+}

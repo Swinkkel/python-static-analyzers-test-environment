@@ -1,0 +1,18 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:4:9: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:4:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:4:17: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:5:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:5:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:5:36: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:6:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:7:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:8:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:9:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:10:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:10:34: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:11:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:13:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:14:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:14:36: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:15:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Trapping_Rain_Water.py:16:17: W292 no newline at end of file

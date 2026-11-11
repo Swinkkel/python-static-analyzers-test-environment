@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:23:38.405458+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.526,
+  "error": null,
+  "cwd": "/tmp/sa_run_vfkw_ku5",
+  "traceback_in_stderr": false
+}

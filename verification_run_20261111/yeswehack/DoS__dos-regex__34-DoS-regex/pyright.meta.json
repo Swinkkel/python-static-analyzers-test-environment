@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/DoS/dos-regex/vsnippet/34-DoS-regex.py"
+  ],
+  "started_utc": "2026-11-11T16:24:01.403682+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.519,
+  "error": null,
+  "cwd": "/tmp/sa_run__ciikvi4",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/yeswehack/SSRF/ssrf-regex-bypass/vsnippet/2-ssrf-regex-bypass.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/yeswehack/SSRF/ssrf-regex-bypass/vsnippet/2-ssrf-regex-bypass.py"
+  ],
+  "started_utc": "2026-11-11T16:24:59.539360+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 2.023,
+  "error": null,
+  "cwd": "/tmp/sa_run_hd_rzdev",
+  "traceback_in_stderr": false
+}

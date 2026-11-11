@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py"
+  ],
+  "started_utc": "2026-11-11T16:23:14.558276+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_gfkizaq3",
+  "traceback_in_stderr": false
+}

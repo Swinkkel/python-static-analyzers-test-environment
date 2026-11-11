@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/IDOR/idor-basic-role/vsnippet/41-idor-basic-role.py"
+  ],
+  "started_utc": "2026-11-11T16:24:40.137441+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.47,
+  "error": null,
+  "cwd": "/tmp/sa_run_98v82hcf",
+  "traceback_in_stderr": false
+}

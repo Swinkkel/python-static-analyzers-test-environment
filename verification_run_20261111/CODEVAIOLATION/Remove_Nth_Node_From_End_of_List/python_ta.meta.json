@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Nth_Node_From_End_of_List.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Nth_Node_From_End_of_List.py"
+  ],
+  "started_utc": "2026-11-11T16:13:35.929752+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.97,
+  "error": null,
+  "cwd": "/tmp/sa_run_rtqa9v1k",
+  "traceback_in_stderr": false
+}

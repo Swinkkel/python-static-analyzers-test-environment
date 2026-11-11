@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py"
+  ],
+  "started_utc": "2026-11-11T16:09:15.338044+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.97,
+  "error": null,
+  "cwd": "/tmp/sa_run_43k11s2m",
+  "traceback_in_stderr": false
+}

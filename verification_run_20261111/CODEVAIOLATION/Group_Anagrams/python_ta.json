@@ -1,0 +1,260 @@
+[
+    {
+        "filename": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "missing whitespace around operator (pycodestyle code E225)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "",
+                "line": 3,
+                "column": 12,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  def groupAnagrams(strs):\n    2      from collections import defaultdict\n    3      anagrams=defaultdict(list)\n    4      for s in strs:\n    5          key=''.join(sorted(s))\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "missing whitespace around operator (pycodestyle code E225)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "",
+                "line": 5,
+                "column": 11,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    2      from collections import defaultdict\n    3      anagrams=defaultdict(list)\n    4      for s in strs:\n    5          key=''.join(sorted(s))\n    6          anagrams[key].append(s)\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "C0304",
+                "symbol": "missing-final-newline",
+                "msg": "By convention, each Python file should end with a blank line. To fix this, go down to the bottom of your file and press Enter/Return to add an empty line.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "",
+                "line": 7,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    5          key=''.join(sorted(s))\n    6          anagrams[key].append(s)\n    7      return list(anagrams.values())\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 7,
+                "end_column": 34,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def groupAnagrams(strs):\n    2      from collections import defaultdict\n",
+                "line_end": 7,
+                "column_end": 34,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C9104",
+                "symbol": "module-name-violation",
+                "msg": "Module name \"Group_Anagrams\" should be in snake_case format. Suggested fix: \"group_anagrams\". Modules should be all-lowercase names, with each name separated by underscores.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 7,
+                "end_column": 34,
+                "snippet": "",
+                "line_end": 7,
+                "column_end": 34,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "groupAnagrams",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 17,
+                "snippet": "    1  def groupAnagrams(strs):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      from collections import defaultdict\n    3      anagrams=defaultdict(list)\n",
+                "line_end": 1,
+                "column_end": 17,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C9103",
+                "symbol": "naming-convention-violation",
+                "msg": "Function name \"groupAnagrams\" should be in snake_case format. Suggested fix: \"group_anagrams\". Function names should be lowercase, with words separated by underscores. A single leading underscore can be used to denote a private function.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "groupAnagrams",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 17,
+                "snippet": "    1  def groupAnagrams(strs):\n    2      from collections import defaultdict\n    3      anagrams=defaultdict(list)\n",
+                "line_end": 1,
+                "column_end": 17,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "groupAnagrams",
+                "line": 1,
+                "column": 18,
+                "end_line": 1,
+                "end_column": 22,
+                "snippet": "    1  def groupAnagrams(strs):\n    2      from collections import defaultdict\n    3      anagrams=defaultdict(list)\n",
+                "line_end": 1,
+                "column_end": 22,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "groupAnagrams",
+                "line": 1,
+                "column": 18,
+                "end_line": 1,
+                "end_column": 22,
+                "snippet": "    1  def groupAnagrams(strs):\n    2      from collections import defaultdict\n    3      anagrams=defaultdict(list)\n",
+                "line_end": 1,
+                "column_end": 22,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0415",
+                "symbol": "import-outside-toplevel",
+                "msg": "Import outside toplevel (collections.defaultdict)",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "groupAnagrams",
+                "line": 2,
+                "column": 4,
+                "end_line": 2,
+                "end_column": 39,
+                "snippet": "    1  def groupAnagrams(strs):\n    2      from collections import defaultdict\n    3      anagrams=defaultdict(list)\n    4      for s in strs:\n",
+                "line_end": 2,
+                "column_end": 39,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9999",
+                "symbol": "forbidden-import",
+                "msg": "You may not import defaultdict from module collections.",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Group_Anagrams.py",
+                "module": "Group_Anagrams",
+                "obj": "groupAnagrams",
+                "line": 2,
+                "column": 4,
+                "end_line": 2,
+                "end_column": 39,
+                "snippet": "    1  def groupAnagrams(strs):\n    2      from collections import defaultdict\n    3      anagrams=defaultdict(list)\n    4      for s in strs:\n",
+                "line_end": 2,
+                "column_end": 39,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

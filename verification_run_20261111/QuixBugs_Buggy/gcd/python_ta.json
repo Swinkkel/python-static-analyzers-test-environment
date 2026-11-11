@@ -1,0 +1,168 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "module": "gcd",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def gcd(a, b):\n    2      if b == 0:\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 8",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "module": "gcd",
+                "obj": "",
+                "line": 8,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "    6  \n    7  \n    8  \"\"\"\n    9  Input:\n   10      a: A nonnegative int\n   11      b: A nonnegative int\n   12  \n       ...\n   22  Example:\n   23      >>> gcd(35, 21)\n   24      7\n   25  \n   26  \"\"\"\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "module": "gcd",
+                "obj": "gcd",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 7,
+                "snippet": "    1  def gcd(a, b):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      if b == 0:\n    3          return a\n",
+                "line_end": 1,
+                "column_end": 7,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "module": "gcd",
+                "obj": "gcd",
+                "line": 1,
+                "column": 8,
+                "end_line": 1,
+                "end_column": 9,
+                "snippet": "    1  def gcd(a, b):\n    2      if b == 0:\n    3          return a\n",
+                "line_end": 1,
+                "column_end": 9,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "module": "gcd",
+                "obj": "gcd",
+                "line": 1,
+                "column": 11,
+                "end_line": 1,
+                "end_column": 12,
+                "snippet": "    1  def gcd(a, b):\n    2      if b == 0:\n    3          return a\n",
+                "line_end": 1,
+                "column_end": 12,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "module": "gcd",
+                "obj": "gcd",
+                "line": 1,
+                "column": 8,
+                "end_line": 1,
+                "end_column": 12,
+                "snippet": "    1  def gcd(a, b):\n    2      if b == 0:\n    3          return a\n",
+                "line_end": 1,
+                "column_end": 12,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+                "module": "gcd",
+                "obj": "",
+                "line": 8,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "    6  \n    7  \n    8  \"\"\"\n    9  Input:\n   10      a: A nonnegative int\n   11      b: A nonnegative int\n   12  \n       ...\n   22  Example:\n   23      >>> gcd(35, 21)\n   24      7\n   25  \n   26  \"\"\"\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

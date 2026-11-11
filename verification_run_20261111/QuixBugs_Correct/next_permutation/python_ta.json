@@ -1,0 +1,214 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "expected 2 blank lines after class or function definition, found 1 (pycodestyle code E305)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "",
+                "line": 12,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    9                      next_perm[i + 1:] = reversed(next_perm[i + 1:])\n   10                      return next_perm\n   13                              \n       # INSERT NEW BLANK LINE HERE\n   12  \"\"\"\n   13  def next_permutation(perm):\n   14      for i in range(len(perm) - 2, -1, -1):\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 22,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def next_permutation(perm):\n",
+                "line_end": 22,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 12",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "",
+                "line": 12,
+                "column": 0,
+                "end_line": 22,
+                "end_column": 3,
+                "snippet": "   10                      return next_perm\n   11  \n   12  \"\"\"\n   13  def next_permutation(perm):\n   14      for i in range(len(perm) - 2, -1, -1):\n   15          if perm[i] < perm[i + 1]:\n   16              for j in range(len(perm) - 1, i, -1):\n   18                      next_perm = list(perm)\n   19                      next_perm[i], next_perm[j] = perm[j], perm[i]\n   20                      next_perm[i + 1:] = reversed(next_perm[i + 1:])\n   21                      return next_perm\n   22  \"\"\"\n",
+                "line_end": 22,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "next_permutation",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 20,
+                "snippet": "    2  def next_permutation(perm):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      for i in range(len(perm) - 2, -1, -1):\n    4          if perm[i] < perm[i + 1]:\n",
+                "line_end": 2,
+                "column_end": 20,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "R9711",
+                "symbol": "missing-return-statement",
+                "msg": "Missing return statement in function `next_permutation`",
+                "C": "R",
+                "category": "refactor",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "next_permutation",
+                "line": 3,
+                "column": 0,
+                "end_line": 10,
+                "end_column": 20,
+                "snippet": "    3      for i in range(len(perm) - 2, -1, -1):\n    4          if perm[i] < perm[i + 1]:\n    5              for j in range(len(perm) - 1, i, -1):\n    6                  if perm[i] < perm[j]:\n    7                      next_perm = list(perm)\n    8                      next_perm[i], next_perm[j] = perm[j], perm[i]\n    9                      next_perm[i + 1:] = reversed(next_perm[i + 1:])\n   10                      return next_perm\n           # INSERT RETURN STATEMENT HERE\n   11  \n   12  \"\"\"\n",
+                "line_end": 10,
+                "column_end": 20,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "next_permutation",
+                "line": 2,
+                "column": 21,
+                "end_line": 2,
+                "end_column": 25,
+                "snippet": "    1  \n    2  def next_permutation(perm):\n    3      for i in range(len(perm) - 2, -1, -1):\n    4          if perm[i] < perm[i + 1]:\n",
+                "line_end": 2,
+                "column_end": 25,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "next_permutation",
+                "line": 2,
+                "column": 21,
+                "end_line": 2,
+                "end_column": 25,
+                "snippet": "    1  \n    2  def next_permutation(perm):\n    3      for i in range(len(perm) - 2, -1, -1):\n    4          if perm[i] < perm[i + 1]:\n",
+                "line_end": 2,
+                "column_end": 25,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "R1702",
+                "symbol": "too-many-nested-blocks",
+                "msg": "Your code has too many nested blocks (4, exceeding limit 3). You should try to break it down into helper functions.",
+                "C": "R",
+                "category": "refactor",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "next_permutation",
+                "line": 3,
+                "column": 4,
+                "end_line": 10,
+                "end_column": 36,
+                "snippet": "    1  \n    2  def next_permutation(perm):\n    3      for i in range(len(perm) - 2, -1, -1):\n    4          if perm[i] < perm[i + 1]:\n    5              for j in range(len(perm) - 1, i, -1):\n    6                  if perm[i] < perm[j]:\n    7                      next_perm = list(perm)\n    9                      next_perm[i + 1:] = reversed(next_perm[i + 1:])\n   10                      return next_perm\n   11  \n   12  \"\"\"\n",
+                "line_end": 10,
+                "column_end": 36,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/next_permutation.py",
+                "module": "next_permutation",
+                "obj": "",
+                "line": 12,
+                "column": 0,
+                "end_line": 22,
+                "end_column": 3,
+                "snippet": "   10                      return next_perm\n   11  \n   12  \"\"\"\n   13  def next_permutation(perm):\n   14      for i in range(len(perm) - 2, -1, -1):\n   15          if perm[i] < perm[i + 1]:\n   16              for j in range(len(perm) - 1, i, -1):\n   18                      next_perm = list(perm)\n   19                      next_perm[i], next_perm[j] = perm[j], perm[i]\n   20                      next_perm[i + 1:] = reversed(next_perm[i + 1:])\n   21                      return next_perm\n   22  \"\"\"\n",
+                "line_end": 22,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

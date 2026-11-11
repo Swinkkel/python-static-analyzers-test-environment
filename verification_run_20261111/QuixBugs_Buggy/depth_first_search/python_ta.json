@@ -1,0 +1,237 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "too many blank lines (3) (pycodestyle code E303)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "",
+                "line": 18,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   12              )\n   13  \n   14      return search_from(startnode)\n   15  \n   16  # DELETE THIS LINE\n   17  # DELETE THIS LINE\n   18  \"\"\"\n   19  Depth-first Search\n   20  \n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def depth_first_search(startnode, goalnode):\n    2      nodesvisited = set()\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 18",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "",
+                "line": 18,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "   16  \n   17  \n   18  \"\"\"\n   19  Depth-first Search\n   20  \n   21  \n   22  Input:\n   24      goalnode: A digraph node\n   25  \n   26  Output:\n   27      Whether goalnode is reachable from startnode\n   28  \"\"\"\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "depth_first_search",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 22,
+                "snippet": "    1  def depth_first_search(startnode, goalnode):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      nodesvisited = set()\n    3  \n",
+                "line_end": 1,
+                "column_end": 22,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "depth_first_search",
+                "line": 1,
+                "column": 23,
+                "end_line": 1,
+                "end_column": 32,
+                "snippet": "    1  def depth_first_search(startnode, goalnode):\n    2      nodesvisited = set()\n    3  \n",
+                "line_end": 1,
+                "column_end": 32,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "depth_first_search",
+                "line": 1,
+                "column": 34,
+                "end_line": 1,
+                "end_column": 42,
+                "snippet": "    1  def depth_first_search(startnode, goalnode):\n    2      nodesvisited = set()\n    3  \n",
+                "line_end": 1,
+                "column_end": 42,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "depth_first_search",
+                "line": 1,
+                "column": 23,
+                "end_line": 1,
+                "end_column": 42,
+                "snippet": "    1  def depth_first_search(startnode, goalnode):\n    2      nodesvisited = set()\n    3  \n",
+                "line_end": 1,
+                "column_end": 42,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "depth_first_search.search_from",
+                "line": 4,
+                "column": 20,
+                "end_line": 4,
+                "end_column": 24,
+                "snippet": "    2      nodesvisited = set()\n    3  \n    4      def search_from(node):\n    5          if node in nodesvisited:\n    6              return False\n",
+                "line_end": 4,
+                "column_end": 24,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "depth_first_search.search_from",
+                "line": 4,
+                "column": 20,
+                "end_line": 4,
+                "end_column": 24,
+                "snippet": "    2      nodesvisited = set()\n    3  \n    4      def search_from(node):\n    5          if node in nodesvisited:\n    6              return False\n",
+                "line_end": 4,
+                "column_end": 24,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/depth_first_search.py",
+                "module": "depth_first_search",
+                "obj": "",
+                "line": 18,
+                "column": 0,
+                "end_line": 28,
+                "end_column": 3,
+                "snippet": "   16  \n   17  \n   18  \"\"\"\n   19  Depth-first Search\n   20  \n   21  \n   22  Input:\n   24      goalnode: A digraph node\n   25  \n   26  Output:\n   27      Whether goalnode is reachable from startnode\n   28  \"\"\"\n",
+                "line_end": 28,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

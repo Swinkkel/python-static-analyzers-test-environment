@@ -1,0 +1,76 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "kth",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/python_programs/kth.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/kth.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "kth",
+            "obj": "kth",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 7,
+            "path": "/opt/datasets/QuixBugs/python_programs/kth.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/kth.py"
+        },
+        {
+            "type": "refactor",
+            "symbol": "no-else-return",
+            "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+            "messageId": "R1705",
+            "confidence": "HIGH",
+            "module": "kth",
+            "obj": "kth",
+            "line": 9,
+            "column": 4,
+            "endLine": 14,
+            "endColumn": 20,
+            "path": "/opt/datasets/QuixBugs/python_programs/kth.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/kth.py"
+        },
+        {
+            "type": "warning",
+            "symbol": "pointless-string-statement",
+            "message": "String statement has no effect",
+            "messageId": "W0105",
+            "confidence": "UNDEFINED",
+            "module": "kth",
+            "obj": "",
+            "line": 18,
+            "column": 0,
+            "endLine": 32,
+            "endColumn": 3,
+            "path": "/opt/datasets/QuixBugs/python_programs/kth.py",
+            "absolutePath": "/opt/datasets/QuixBugs/python_programs/kth.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 1,
+            "refactor": 1,
+            "convention": 2,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 6.666666666666667
+    }
+}

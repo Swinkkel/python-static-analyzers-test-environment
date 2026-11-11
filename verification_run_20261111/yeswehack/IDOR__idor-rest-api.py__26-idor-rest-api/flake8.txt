@@ -1,0 +1,17 @@
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:12:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:15:28: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:16:9: E722 do not use bare 'except'
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:19:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:21:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:21:24: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:21:29: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:21:30: E261 at least two spaces before inline comment
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:21:30: E262 inline comment should start with '# '
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:22:5: E265 block comment should start with '# '
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:25:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:29:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:30:1: E302 expected 2 blank lines, found 0
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:33:9: E265 block comment should start with '# '
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:35:10: W291 trailing whitespace
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:39:1: E265 block comment should start with '# '
+/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py:41:51: W292 no newline at end of file

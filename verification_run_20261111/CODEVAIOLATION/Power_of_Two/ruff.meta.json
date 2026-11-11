@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Power_of_Two.py"
+  ],
+  "started_utc": "2026-11-11T16:13:09.467985+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.02,
+  "error": null,
+  "cwd": "/tmp/sa_run_lzk3ztr_",
+  "traceback_in_stderr": false
+}

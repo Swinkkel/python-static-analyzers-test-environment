@@ -1,0 +1,6 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Valid_Parentheses.py:2:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Valid_Parentheses.py:3:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Valid_Parentheses.py:5:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Valid_Parentheses.py:12:27: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Valid_Parentheses.py:12:42: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Valid_Parentheses.py:13:22: W292 no newline at end of file

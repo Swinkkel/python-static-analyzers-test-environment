@@ -1,0 +1,76 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "powerset",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/powerset.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/powerset.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "powerset",
+            "obj": "powerset",
+            "line": 2,
+            "column": 0,
+            "endLine": 2,
+            "endColumn": 12,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/powerset.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/powerset.py"
+        },
+        {
+            "type": "refactor",
+            "symbol": "no-else-return",
+            "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+            "messageId": "R1705",
+            "confidence": "HIGH",
+            "module": "powerset",
+            "obj": "powerset",
+            "line": 3,
+            "column": 4,
+            "endLine": 8,
+            "endColumn": 19,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/powerset.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/powerset.py"
+        },
+        {
+            "type": "warning",
+            "symbol": "pointless-string-statement",
+            "message": "String statement has no effect",
+            "messageId": "W0105",
+            "confidence": "UNDEFINED",
+            "module": "powerset",
+            "obj": "",
+            "line": 10,
+            "column": 0,
+            "endLine": 18,
+            "endColumn": 3,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/powerset.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/powerset.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 1,
+            "refactor": 1,
+            "convention": 2,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 4.2857142857142865
+    }
+}

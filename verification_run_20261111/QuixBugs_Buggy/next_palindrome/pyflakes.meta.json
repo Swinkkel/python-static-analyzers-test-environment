@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/QuixBugs/python_programs/next_palindrome.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/QuixBugs/python_programs/next_palindrome.py"
+  ],
+  "started_utc": "2026-11-11T16:17:41.368148+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.068,
+  "error": null,
+  "cwd": "/tmp/sa_run_bt82qazc",
+  "traceback_in_stderr": false
+}

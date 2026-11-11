@@ -1,0 +1,16 @@
+{
+  "tool": "flake8",
+  "tool_version": "7.4.1 (mccabe: 0.7.0, pycodestyle: 2.15.0, pyflakes: 4.0.3) CPython 3.12.14 on | Linux",
+  "target": "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py",
+  "command": [
+    "flake8",
+    "/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py"
+  ],
+  "started_utc": "2026-11-11T16:23:12.571355+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.068,
+  "error": null,
+  "cwd": "/tmp/sa_run_5u_8xt2d",
+  "traceback_in_stderr": false
+}

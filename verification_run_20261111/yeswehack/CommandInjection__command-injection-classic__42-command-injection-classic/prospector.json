@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:23:35.472894",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 3,
+    "completed": "2026-11-11 16:23:36.548012",
+    "time_taken": "1.08",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "bare-except",
+      "location": {
+        "path": "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py",
+        "module": "42-command-injection-classic",
+        "function": "health",
+        "line": 32,
+        "character": 4,
+        "lineEnd": 33,
+        "characterEnd": 12
+      },
+      "message": "No exception type(s) specified",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/bare-except.html"
+    },
+    {
+      "source": "pylint",
+      "code": "multiple-imports",
+      "location": {
+        "path": "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py",
+        "module": "42-command-injection-classic",
+        "function": null,
+        "line": 2,
+        "character": 0,
+        "lineEnd": 2,
+        "characterEnd": 20
+      },
+      "message": "Multiple imports on one line (os, ipaddress)",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/multiple-imports.html"
+    },
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py",
+        "module": "42-command-injection-classic",
+        "function": "index",
+        "line": 13,
+        "character": 4,
+        "lineEnd": 21,
+        "characterEnd": 110
+      },
+      "message": "Unnecessary \"elif\" after \"return\", replace only that \"elif\" with \"if\"",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/no-else-return.html"
+    }
+  ]
+}

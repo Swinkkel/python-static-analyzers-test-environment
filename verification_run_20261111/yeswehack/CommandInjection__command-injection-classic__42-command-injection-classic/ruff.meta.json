@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:23:37.151127+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.02,
+  "error": null,
+  "cwd": "/tmp/sa_run_wukh89or",
+  "traceback_in_stderr": false
+}

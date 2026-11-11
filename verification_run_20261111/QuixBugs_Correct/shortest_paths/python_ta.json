@@ -1,0 +1,214 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+        "msgs": [
+            {
+                "msg_id": "C0305",
+                "symbol": "trailing-newlines",
+                "msg": "By convention, each Python file should end with exactly one blank line. To fix this, go down to the bottom of your file and delete the extra blank lines so that there is only one left.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "",
+                "line": 16,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   14  \n   15      return weight_by_node\n   17  # DELETE THIS LINE\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 15,
+                "end_column": 25,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def shortest_paths(source, weight_by_edge):\n",
+                "line_end": 15,
+                "column_end": 25,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "shortest_paths",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 18,
+                "snippet": "    2  def shortest_paths(source, weight_by_edge):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      weight_by_node = {\n    4          v: float('inf') for u, v in weight_by_edge\n",
+                "line_end": 2,
+                "column_end": 18,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "shortest_paths",
+                "line": 2,
+                "column": 19,
+                "end_line": 2,
+                "end_column": 25,
+                "snippet": "    1  \n    2  def shortest_paths(source, weight_by_edge):\n    3      weight_by_node = {\n    4          v: float('inf') for u, v in weight_by_edge\n",
+                "line_end": 2,
+                "column_end": 25,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "shortest_paths",
+                "line": 2,
+                "column": 27,
+                "end_line": 2,
+                "end_column": 41,
+                "snippet": "    1  \n    2  def shortest_paths(source, weight_by_edge):\n    3      weight_by_node = {\n    4          v: float('inf') for u, v in weight_by_edge\n",
+                "line_end": 2,
+                "column_end": 41,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "shortest_paths",
+                "line": 2,
+                "column": 19,
+                "end_line": 2,
+                "end_column": 41,
+                "snippet": "    1  \n    2  def shortest_paths(source, weight_by_edge):\n    3      weight_by_node = {\n    4          v: float('inf') for u, v in weight_by_edge\n",
+                "line_end": 2,
+                "column_end": 41,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9988",
+                "symbol": "shadowing-in-comprehension",
+                "msg": "Comprehension variable 'u' shadows a variable in an outer scope",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "shortest_paths",
+                "line": 4,
+                "column": 28,
+                "end_line": 4,
+                "end_column": 29,
+                "snippet": "    2  def shortest_paths(source, weight_by_edge):\n    3      weight_by_node = {\n    4          v: float('inf') for u, v in weight_by_edge\n    5      }\n    6      weight_by_node[source] = 0\n",
+                "line_end": 4,
+                "column_end": 29,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9988",
+                "symbol": "shadowing-in-comprehension",
+                "msg": "Comprehension variable 'v' shadows a variable in an outer scope",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "shortest_paths",
+                "line": 4,
+                "column": 31,
+                "end_line": 4,
+                "end_column": 32,
+                "snippet": "    2  def shortest_paths(source, weight_by_edge):\n    3      weight_by_node = {\n    4          v: float('inf') for u, v in weight_by_edge\n    5      }\n    6      weight_by_node[source] = 0\n",
+                "line_end": 4,
+                "column_end": 32,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "W0612",
+                "symbol": "unused-variable",
+                "msg": "The variable i is unused and can be removed. If you intended to use it, there may be a typo elsewhere in the code.",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_paths.py",
+                "module": "shortest_paths",
+                "obj": "shortest_paths",
+                "line": 8,
+                "column": 8,
+                "end_line": 8,
+                "end_column": 9,
+                "snippet": "    6      weight_by_node[source] = 0\n    7  \n    8      for i in range(len(weight_by_node) - 1):\n    9          for (u, v), weight in weight_by_edge.items():\n   10              weight_by_node[v] = min(\n",
+                "line_end": 8,
+                "column_end": 9,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

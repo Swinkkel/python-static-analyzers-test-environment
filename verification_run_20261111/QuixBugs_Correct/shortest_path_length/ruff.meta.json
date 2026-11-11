@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py"
+  ],
+  "started_utc": "2026-11-11T16:22:17.191954+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.019,
+  "error": null,
+  "cwd": "/tmp/sa_run_hz_hc56k",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,76 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "trailing-newlines",
+            "message": "Trailing newlines",
+            "messageId": "C0305",
+            "confidence": "UNDEFINED",
+            "module": "levenshtein",
+            "obj": "",
+            "line": 15,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "levenshtein",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "levenshtein",
+            "obj": "levenshtein",
+            "line": 2,
+            "column": 0,
+            "endLine": 2,
+            "endColumn": 15,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py"
+        },
+        {
+            "type": "refactor",
+            "symbol": "no-else-return",
+            "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+            "messageId": "R1705",
+            "confidence": "HIGH",
+            "module": "levenshtein",
+            "obj": "levenshtein",
+            "line": 3,
+            "column": 4,
+            "endLine": 14,
+            "endColumn": 9,
+            "path": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py",
+            "absolutePath": "/opt/datasets/QuixBugs/correct_python_programs/levenshtein.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 1,
+            "convention": 3,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 3.333333333333334
+    }
+}

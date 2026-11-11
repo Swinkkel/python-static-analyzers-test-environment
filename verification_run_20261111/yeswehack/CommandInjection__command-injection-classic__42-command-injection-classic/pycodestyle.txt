@@ -1,0 +1,11 @@
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:2:10: E401 multiple imports on one line
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:4:80: E501 line too long (86 > 79 characters)
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:11:24: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:11:26: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:15:1: W293 blank line contains whitespace
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:19:80: E501 line too long (112 > 79 characters)
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:20:1: W293 blank line contains whitespace
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:21:80: E501 line too long (110 > 79 characters)
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:22:1: W293 blank line contains whitespace
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:32:5: E722 do not use bare 'except'
+/opt/datasets/yeswehack/CommandInjection/command-injection-classic/vsnippet/42-command-injection-classic.py:34:26: W291 trailing whitespace

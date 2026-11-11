@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/yeswehack/IDOR/idor-rest-api.py/vsnippet/26-idor-rest-api.py"
+  ],
+  "started_utc": "2026-11-11T16:24:50.195270+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 1.221,
+  "error": null,
+  "cwd": "/tmp/sa_run_61odpy9n",
+  "traceback_in_stderr": false
+}

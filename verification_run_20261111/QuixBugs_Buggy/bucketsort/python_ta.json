@@ -1,0 +1,191 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "too many blank lines (3) (pycodestyle code E303)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "module": "bucketsort",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    8          sorted_arr.extend([i] * count)\n    9  \n   10      return sorted_arr\n   11  \n   12  # DELETE THIS LINE\n   13  # DELETE THIS LINE\n   14  \"\"\"\n   15  Bucket Sort\n   16  \n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "module": "bucketsort",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 27,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def bucketsort(arr, k):\n    2      counts = [0] * k\n",
+                "line_end": 27,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 14",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "module": "bucketsort",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": 27,
+                "end_column": 3,
+                "snippet": "   12  \n   13  \n   14  \"\"\"\n   15  Bucket Sort\n   16  \n   17  \n   18  Input:\n       ...\n   23      all(isinstance(x, int) and 0 <= x < k for x in arr)\n   24  \n   25  Output:\n   26      The elements of arr in sorted order\n   27  \"\"\"\n",
+                "line_end": 27,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "module": "bucketsort",
+                "obj": "bucketsort",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 14,
+                "snippet": "    1  def bucketsort(arr, k):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      counts = [0] * k\n    3      for x in arr:\n",
+                "line_end": 1,
+                "column_end": 14,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "module": "bucketsort",
+                "obj": "bucketsort",
+                "line": 1,
+                "column": 15,
+                "end_line": 1,
+                "end_column": 18,
+                "snippet": "    1  def bucketsort(arr, k):\n    2      counts = [0] * k\n    3      for x in arr:\n",
+                "line_end": 1,
+                "column_end": 18,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "module": "bucketsort",
+                "obj": "bucketsort",
+                "line": 1,
+                "column": 20,
+                "end_line": 1,
+                "end_column": 21,
+                "snippet": "    1  def bucketsort(arr, k):\n    2      counts = [0] * k\n    3      for x in arr:\n",
+                "line_end": 1,
+                "column_end": 21,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "module": "bucketsort",
+                "obj": "bucketsort",
+                "line": 1,
+                "column": 15,
+                "end_line": 1,
+                "end_column": 21,
+                "snippet": "    1  def bucketsort(arr, k):\n    2      counts = [0] * k\n    3      for x in arr:\n",
+                "line_end": 1,
+                "column_end": 21,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/bucketsort.py",
+                "module": "bucketsort",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": 27,
+                "end_column": 3,
+                "snippet": "   12  \n   13  \n   14  \"\"\"\n   15  Bucket Sort\n   16  \n   17  \n   18  Input:\n       ...\n   23      all(isinstance(x, int) and 0 <= x < k for x in arr)\n   24  \n   25  Output:\n   26      The elements of arr in sorted order\n   27  \"\"\"\n",
+                "line_end": 27,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "module": "get_factors",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 35,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def get_factors(n):\n",
+                "line_end": 35,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 13",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "module": "get_factors",
+                "obj": "",
+                "line": 13,
+                "column": 0,
+                "end_line": 35,
+                "end_column": 3,
+                "snippet": "   11  \n   12  \n   13  \"\"\"\n   14  Prime Factorization\n   15  \n   16  \n   17  Factors an int using naive trial division.\n       ...\n   31      >>> get_factors(100)\n   32      [2, 2, 5, 5]\n   33      >>> get_factors(101)\n   34      [101]\n   35  \"\"\"\n",
+                "line_end": 35,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "module": "get_factors",
+                "obj": "get_factors",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 15,
+                "snippet": "    2  def get_factors(n):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      if n == 1:\n    4          return []\n",
+                "line_end": 2,
+                "column_end": 15,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "module": "get_factors",
+                "obj": "get_factors",
+                "line": 2,
+                "column": 16,
+                "end_line": 2,
+                "end_column": 17,
+                "snippet": "    1  \n    2  def get_factors(n):\n    3      if n == 1:\n    4          return []\n",
+                "line_end": 2,
+                "column_end": 17,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "module": "get_factors",
+                "obj": "get_factors",
+                "line": 2,
+                "column": 16,
+                "end_line": 2,
+                "end_column": 17,
+                "snippet": "    1  \n    2  def get_factors(n):\n    3      if n == 1:\n    4          return []\n",
+                "line_end": 2,
+                "column_end": 17,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/get_factors.py",
+                "module": "get_factors",
+                "obj": "",
+                "line": 13,
+                "column": 0,
+                "end_line": 35,
+                "end_column": 3,
+                "snippet": "   11  \n   12  \n   13  \"\"\"\n   14  Prime Factorization\n   15  \n   16  \n   17  Factors an int using naive trial division.\n       ...\n   31      >>> get_factors(100)\n   32      [2, 2, 5, 5]\n   33      >>> get_factors(101)\n   34      [101]\n   35  \"\"\"\n",
+                "line_end": 35,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

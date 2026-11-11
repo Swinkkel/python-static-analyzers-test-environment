@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py"
+  ],
+  "started_utc": "2026-11-11T16:10:46.249264+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 1.021,
+  "error": null,
+  "cwd": "/tmp/sa_run_nnhwddbw",
+  "traceback_in_stderr": false
+}

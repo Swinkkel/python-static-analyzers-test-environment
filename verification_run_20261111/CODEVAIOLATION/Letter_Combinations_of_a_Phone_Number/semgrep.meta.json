@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Letter_Combinations_of_a_Phone_Number.py"
+  ],
+  "started_utc": "2026-11-11T16:11:26.590532+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.474,
+  "error": null,
+  "cwd": "/tmp/sa_run_4kyhc0h2",
+  "traceback_in_stderr": false
+}

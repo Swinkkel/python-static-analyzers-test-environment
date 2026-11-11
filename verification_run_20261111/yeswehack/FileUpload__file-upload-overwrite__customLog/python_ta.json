@@ -1,0 +1,145 @@
+[
+    {
+        "filename": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "too many leading '#' for block comment (pycodestyle code E266)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "module": "customLog",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  ## [Used to custom \"log\"]  # THERE SHOULD ONLY BE ONE '#'\n    2  # Replace & hack me if you can!\n    3  ##\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "module": "customLog",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 5,
+                "end_column": 39,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  ## [Used to custom \"log\"]\n    2  # Replace & hack me if you can!\n",
+                "line_end": 5,
+                "column_end": 39,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C9104",
+                "symbol": "module-name-violation",
+                "msg": "Module name \"customLog\" should be in snake_case format. Suggested fix: \"custom_log\". Modules should be all-lowercase names, with each name separated by underscores.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "module": "customLog",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 5,
+                "end_column": 39,
+                "snippet": "",
+                "line_end": 5,
+                "column_end": 39,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "module": "customLog",
+                "obj": "log",
+                "line": 4,
+                "column": 0,
+                "end_line": 4,
+                "end_column": 7,
+                "snippet": "    4  def log():\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n",
+                "line_end": 4,
+                "column_end": 7,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "module": "customLog",
+                "obj": "log",
+                "line": 4,
+                "column": 8,
+                "end_line": 4,
+                "end_column": 8,
+                "snippet": "    2  # Replace & hack me if you can!\n    3  ##\n    4  def log():\n",
+                "line_end": 4,
+                "column_end": 8,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9998",
+                "symbol": "forbidden-IO-function",
+                "msg": "Used input/output function print",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "path": "/opt/datasets/yeswehack/FileUpload/file-upload-overwrite/vsnippet/customLog.py",
+                "module": "customLog",
+                "obj": "log",
+                "line": 5,
+                "column": 4,
+                "end_line": 5,
+                "end_column": 39,
+                "snippet": "    3  ##\n    4  def log():\n    5      print(\"[LOG] Some random log here\")\n",
+                "line_end": 5,
+                "column_end": 39,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

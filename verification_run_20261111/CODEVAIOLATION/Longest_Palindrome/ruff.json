@@ -1,0 +1,48 @@
+[
+  {
+    "cell": null,
+    "code": "PERF102",
+    "end_location": {
+      "column": 33,
+      "row": 6
+    },
+    "filename": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindrome.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "freq",
+          "end_location": {
+            "column": 18,
+            "row": 6
+          },
+          "location": {
+            "column": 9,
+            "row": 6
+          }
+        },
+        {
+          "content": "values",
+          "end_location": {
+            "column": 33,
+            "row": 6
+          },
+          "location": {
+            "column": 28,
+            "row": 6
+          }
+        }
+      ],
+      "message": "Replace `.items()` with `.values()`"
+    },
+    "location": {
+      "column": 22,
+      "row": 6
+    },
+    "message": "When using only the values of a dict use the `values()` method",
+    "name": "incorrect-dict-iterator",
+    "noqa_row": 6,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/incorrect-dict-iterator"
+  }
+]

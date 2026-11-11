@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Linked_List_Cycle_II.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Linked_List_Cycle_II.py"
+  ],
+  "started_utc": "2026-11-11T16:11:30.445503+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_08g97tbq",
+  "traceback_in_stderr": false
+}

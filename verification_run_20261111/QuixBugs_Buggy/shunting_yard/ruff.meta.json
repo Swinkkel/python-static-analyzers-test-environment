@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/QuixBugs/python_programs/shunting_yard.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/python_programs/shunting_yard.py"
+  ],
+  "started_utc": "2026-11-11T16:18:43.329499+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.026,
+  "error": null,
+  "cwd": "/tmp/sa_run_k49dhxvo",
+  "traceback_in_stderr": false
+}

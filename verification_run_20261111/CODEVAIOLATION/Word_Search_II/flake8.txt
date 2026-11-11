@@ -1,0 +1,43 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:1:20: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:4:26: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:5:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:6:5: E306 expected 1 blank line before a nested definition, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:7:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:9:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:12:40: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:13:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:14:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:16:5: E306 expected 1 blank line before a nested definition, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:16:14: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:16:16: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:17:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:20:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:23:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:24:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:25:15: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:25:26: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:25:29: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:25:32: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:25:35: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:25:38: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:25:42: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:25:45: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:26:14: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:26:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:26:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:27:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:27:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:27:28: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:27:31: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:27:49: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:28:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:28:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:29:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:30:9: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:31:6: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:31:8: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:31:19: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:32:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:35:18: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:35:20: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Word_Search_II.py:36:18: W292 no newline at end of file

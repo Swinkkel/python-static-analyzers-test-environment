@@ -1,0 +1,16 @@
+{
+  "tool": "pyflakes",
+  "tool_version": "4.0.0 Python 3.12.14 on Linux",
+  "target": "/opt/datasets/yeswehack/CachePoisoning/27-cache-poisoning-classic.py/vsnippet/27-cache-poisoning-classic.py",
+  "command": [
+    "pyflakes",
+    "/opt/datasets/yeswehack/CachePoisoning/27-cache-poisoning-classic.py/vsnippet/27-cache-poisoning-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:23:23.807551+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_crziwick",
+  "traceback_in_stderr": false
+}

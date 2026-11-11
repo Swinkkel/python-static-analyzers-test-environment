@@ -1,0 +1,16 @@
+{
+  "tool": "flake8",
+  "tool_version": "7.4.1 (mccabe: 0.7.0, pycodestyle: 2.15.0, pyflakes: 4.0.3) CPython 3.12.14 on | Linux",
+  "target": "/opt/datasets/QuixBugs/python_programs/gcd.py",
+  "command": [
+    "flake8",
+    "/opt/datasets/QuixBugs/python_programs/gcd.py"
+  ],
+  "started_utc": "2026-11-11T16:16:24.841734+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.068,
+  "error": null,
+  "cwd": "/tmp/sa_run_nqtd_wtg",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,15 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:2:32: E231 missing whitespace after ':'
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:2:38: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:3:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:4:10: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:5:13: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:5:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:5:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:6:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:7:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:8:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:9:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:11:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:12:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:15:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py:16:19: W292 no newline at end of file

@@ -1,0 +1,19 @@
+{
+  "tool": "python_ta",
+  "tool_version": "2.13.1",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py",
+  "command": [
+    "python_ta",
+    "--output-format",
+    "pyta-json",
+    "--exit-zero",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Merge_k_Sorted_Lists.py"
+  ],
+  "started_utc": "2026-11-11T16:12:29.498690+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 1.028,
+  "error": null,
+  "cwd": "/tmp/sa_run_f3midn59",
+  "traceback_in_stderr": false
+}

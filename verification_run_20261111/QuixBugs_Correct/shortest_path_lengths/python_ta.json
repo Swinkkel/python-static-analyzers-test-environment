@@ -1,0 +1,214 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "expected 2 blank lines, found 1 (pycodestyle code E302)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "",
+                "line": 4,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  \n    2  from collections import defaultdict\n    5                              \n       # INSERT NEW BLANK LINE HERE\n    4  def shortest_path_lengths(n, length_by_edge):\n    5      length_by_path = defaultdict(lambda: float('inf'))\n    6      length_by_path.update({(i, i): 0 for i in range(n)})\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0305",
+                "symbol": "trailing-newlines",
+                "msg": "By convention, each Python file should end with exactly one blank line. To fix this, go down to the bottom of your file and delete the extra blank lines so that there is only one left.",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "",
+                "line": 18,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   16  \n   17      return length_by_path\n   19  # DELETE THIS LINE\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 17,
+                "end_column": 25,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  from collections import defaultdict\n",
+                "line_end": 17,
+                "column_end": 25,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9999",
+                "symbol": "forbidden-import",
+                "msg": "You may not import defaultdict from module collections.",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 35,
+                "snippet": "    1  \n    2  from collections import defaultdict\n    3  \n    4  def shortest_path_lengths(n, length_by_edge):\n",
+                "line_end": 2,
+                "column_end": 35,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "shortest_path_lengths",
+                "line": 4,
+                "column": 0,
+                "end_line": 4,
+                "end_column": 25,
+                "snippet": "    4  def shortest_path_lengths(n, length_by_edge):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    5      length_by_path = defaultdict(lambda: float('inf'))\n    6      length_by_path.update({(i, i): 0 for i in range(n)})\n",
+                "line_end": 4,
+                "column_end": 25,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "shortest_path_lengths",
+                "line": 4,
+                "column": 26,
+                "end_line": 4,
+                "end_column": 27,
+                "snippet": "    2  from collections import defaultdict\n    3  \n    4  def shortest_path_lengths(n, length_by_edge):\n    5      length_by_path = defaultdict(lambda: float('inf'))\n    6      length_by_path.update({(i, i): 0 for i in range(n)})\n",
+                "line_end": 4,
+                "column_end": 27,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "shortest_path_lengths",
+                "line": 4,
+                "column": 29,
+                "end_line": 4,
+                "end_column": 43,
+                "snippet": "    2  from collections import defaultdict\n    3  \n    4  def shortest_path_lengths(n, length_by_edge):\n    5      length_by_path = defaultdict(lambda: float('inf'))\n    6      length_by_path.update({(i, i): 0 for i in range(n)})\n",
+                "line_end": 4,
+                "column_end": 43,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "shortest_path_lengths",
+                "line": 4,
+                "column": 26,
+                "end_line": 4,
+                "end_column": 43,
+                "snippet": "    2  from collections import defaultdict\n    3  \n    4  def shortest_path_lengths(n, length_by_edge):\n    5      length_by_path = defaultdict(lambda: float('inf'))\n    6      length_by_path.update({(i, i): 0 for i in range(n)})\n",
+                "line_end": 4,
+                "column_end": 43,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9988",
+                "symbol": "shadowing-in-comprehension",
+                "msg": "Comprehension variable 'i' shadows a variable in an outer scope",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_lengths.py",
+                "module": "shortest_path_lengths",
+                "obj": "shortest_path_lengths",
+                "line": 6,
+                "column": 41,
+                "end_line": 6,
+                "end_column": 42,
+                "snippet": "    4  def shortest_path_lengths(n, length_by_edge):\n    5      length_by_path = defaultdict(lambda: float('inf'))\n    6      length_by_path.update({(i, i): 0 for i in range(n)})\n    7      length_by_path.update(length_by_edge)\n    8  \n",
+                "line_end": 6,
+                "column_end": 42,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

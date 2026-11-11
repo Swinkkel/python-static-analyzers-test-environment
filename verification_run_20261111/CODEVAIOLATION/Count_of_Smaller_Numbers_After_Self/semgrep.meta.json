@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Count_of_Smaller_Numbers_After_Self.py"
+  ],
+  "started_utc": "2026-11-11T16:09:56.981377+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.875,
+  "error": null,
+  "cwd": "/tmp/sa_run_y26jlbpj",
+  "traceback_in_stderr": false
+}

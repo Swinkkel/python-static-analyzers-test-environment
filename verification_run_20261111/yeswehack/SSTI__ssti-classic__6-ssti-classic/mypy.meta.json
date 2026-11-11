@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:25:13.146044+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 1.272,
+  "error": null,
+  "cwd": "/tmp/sa_run_chg_7c8q",
+  "traceback_in_stderr": false
+}

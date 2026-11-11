@@ -1,0 +1,11 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:4:7: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:5:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:6:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:6:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:7:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:8:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:9:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:10:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:10:29: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:11:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Decode_Ways.py:12:18: W292 no newline at end of file

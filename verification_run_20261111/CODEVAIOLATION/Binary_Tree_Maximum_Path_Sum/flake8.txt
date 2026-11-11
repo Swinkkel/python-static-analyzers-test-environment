@@ -1,0 +1,16 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:2:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:2:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:2:38: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:3:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:4:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:5:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:7:1: E302 expected 2 blank lines, found 1
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:12:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:12:35: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:13:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:13:37: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:14:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:14:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:15:24: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:16:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Binary_Tree_Maximum_Path_Sum.py:18:19: W292 no newline at end of file

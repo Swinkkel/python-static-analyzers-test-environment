@@ -1,0 +1,13 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:3:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:5:20: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:6:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:7:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:8:22: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:9:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:11:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:12:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:14:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:14:35: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:17:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:22:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Remove_Invalid_Parentheses.py:22:25: W292 no newline at end of file

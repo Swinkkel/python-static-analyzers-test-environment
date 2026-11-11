@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/QuixBugs/python_programs/rpn_eval.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/QuixBugs/python_programs/rpn_eval.py"
+  ],
+  "started_utc": "2026-11-11T16:18:21.599916+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.524,
+  "error": null,
+  "cwd": "/tmp/sa_run_uavsoqib",
+  "traceback_in_stderr": false
+}

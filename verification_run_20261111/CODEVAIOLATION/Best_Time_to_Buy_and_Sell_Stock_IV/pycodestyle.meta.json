@@ -1,0 +1,16 @@
+{
+  "tool": "pycodestyle",
+  "tool_version": "2.15.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py",
+  "command": [
+    "pycodestyle",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Best_Time_to_Buy_and_Sell_Stock_IV.py"
+  ],
+  "started_utc": "2026-11-11T16:09:11.183104+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.036,
+  "error": null,
+  "cwd": "/tmp/sa_run_u33ehkvm",
+  "traceback_in_stderr": false
+}

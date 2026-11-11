@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Regular_Expression_Matching.py"
+  ],
+  "started_utc": "2026-11-11T16:13:22.093674+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.825,
+  "error": null,
+  "cwd": "/tmp/sa_run__myq4xvt",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,8 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sliding_Window_Maximum.py:1:26: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sliding_Window_Maximum.py:3:6: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sliding_Window_Maximum.py:4:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sliding_Window_Maximum.py:5:10: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sliding_Window_Maximum.py:6:32: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sliding_Window_Maximum.py:9:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sliding_Window_Maximum.py:11:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sliding_Window_Maximum.py:13:18: W292 no newline at end of file

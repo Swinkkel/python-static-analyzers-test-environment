@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:22:17.016496",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 8,
+    "completed": "2026-11-11 16:22:17.119369",
+    "time_taken": "0.10",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E305",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+        "module": null,
+        "function": null,
+        "line": 47,
+        "character": 1
+      },
+      "message": "expected 2 blank lines after class or function definition, found 1",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "pointless-string-statement",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+        "module": "shortest_path_length",
+        "function": null,
+        "line": 47,
+        "character": 0,
+        "lineEnd": 64,
+        "characterEnd": 3
+      },
+      "message": "String statement has no effect",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/pointless-string-statement.html"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+        "module": null,
+        "function": null,
+        "line": 5,
+        "character": 5
+      },
+      "message": "'heappush' may be undefined, or defined from star imports: heapq",
+      "isFixable": false
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+        "module": null,
+        "function": null,
+        "line": 9,
+        "character": 26
+      },
+      "message": "'heappop' may be undefined, or defined from star imports: heapq",
+      "isFixable": false
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+        "module": null,
+        "function": null,
+        "line": 44,
+        "character": 5
+      },
+      "message": "'heappush' may be undefined, or defined from star imports: heapq",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "unused-wildcard-import",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+        "module": "shortest_path_length",
+        "function": null,
+        "line": 1,
+        "character": 0,
+        "lineEnd": 1,
+        "characterEnd": 19
+      },
+      "message": "Unused imports from wildcard import: (s)",
+      "isFixable": false
+    },
+    {
+      "source": "pylint",
+      "code": "unused-variable",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+        "module": "shortest_path_length",
+        "function": "insert_or_update",
+        "line": 37,
+        "character": 4,
+        "lineEnd": 37,
+        "characterEnd": 8
+      },
+      "message": "Unused variable 'dist'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unused-variable.html"
+    },
+    {
+      "source": "pylint",
+      "code": "unused-variable",
+      "location": {
+        "path": "/opt/datasets/QuixBugs/correct_python_programs/shortest_path_length.py",
+        "module": "shortest_path_length",
+        "function": "insert_or_update",
+        "line": 39,
+        "character": 8,
+        "lineEnd": 39,
+        "characterEnd": 9
+      },
+      "message": "Unused variable 'a'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unused-variable.html"
+    }
+  ]
+}

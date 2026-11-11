@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:13:14.631429",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2026-11-11 16:13:14.771800",
+    "time_taken": "0.14",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "import-outside-toplevel",
+      "location": {
+        "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Ransom_Note.py",
+        "module": "Ransom_Note",
+        "function": "canConstruct",
+        "line": 2,
+        "character": 4,
+        "lineEnd": 2,
+        "characterEnd": 35
+      },
+      "message": "Import outside toplevel (collections.Counter)",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/import-outside-toplevel.html"
+    }
+  ]
+}

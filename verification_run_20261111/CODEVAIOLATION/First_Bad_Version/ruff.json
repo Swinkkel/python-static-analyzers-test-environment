@@ -1,0 +1,21 @@
+[
+  {
+    "cell": null,
+    "code": "F821",
+    "end_location": {
+      "column": 24,
+      "row": 5
+    },
+    "filename": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Bad_Version.py",
+    "fix": null,
+    "location": {
+      "column": 12,
+      "row": 5
+    },
+    "message": "Undefined name `isBadVersion`",
+    "name": "undefined-name",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-name"
+  }
+]

@@ -1,0 +1,27 @@
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:4:80: E501 line too long (94 > 79 characters)
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:10:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:11:32: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:12:18: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:13:22: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:14:21: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:16:35: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:16:43: W291 trailing whitespace
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:19:5: E265 block comment should start with '# '
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:20:30: E231 missing whitespace after ':'
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:27:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:28:5: E265 block comment should start with '# '
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:31:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:33:1: E302 expected 2 blank lines, found 1
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:41:80: E501 line too long (110 > 79 characters)
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:44:5: E722 do not use bare 'except'
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:47:41: W291 trailing whitespace
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:48:9: E128 continuation line under-indented for visual indent
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:48:17: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:48:19: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:49:9: E128 continuation line under-indented for visual indent
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:49:16: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:49:18: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:50:16: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:50:18: E251 unexpected spaces around keyword / parameter equals
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:53:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/yeswehack/BusinessLogic/business-logic-money-transfer/vsnippet/28-business-logic-money-transfer.py:54:51: W292 no newline at end of file

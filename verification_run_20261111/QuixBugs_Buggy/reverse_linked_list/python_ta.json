@@ -1,0 +1,145 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def reverse_linked_list(node):\n    2      prevnode = None\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 10",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "",
+                "line": 10,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "    8  \n    9  \n   10  \"\"\"\n   11  Reverse Linked List\n   12  \n   13  Reverses a linked list and returns the new head.\n   14  \n       ...\n   22      Mutates the list nodes' successor pointers\n   23  \n   24  Output:\n   25      The head of the reversed linked list\n   26  \"\"\"\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "reverse_linked_list",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 23,
+                "snippet": "    1  def reverse_linked_list(node):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      prevnode = None\n    3      while node:\n",
+                "line_end": 1,
+                "column_end": 23,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "reverse_linked_list",
+                "line": 1,
+                "column": 24,
+                "end_line": 1,
+                "end_column": 28,
+                "snippet": "    1  def reverse_linked_list(node):\n    2      prevnode = None\n    3      while node:\n",
+                "line_end": 1,
+                "column_end": 28,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "reverse_linked_list",
+                "line": 1,
+                "column": 24,
+                "end_line": 1,
+                "end_column": 28,
+                "snippet": "    1  def reverse_linked_list(node):\n    2      prevnode = None\n    3      while node:\n",
+                "line_end": 1,
+                "column_end": 28,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/reverse_linked_list.py",
+                "module": "reverse_linked_list",
+                "obj": "",
+                "line": 10,
+                "column": 0,
+                "end_line": 26,
+                "end_column": 3,
+                "snippet": "    8  \n    9  \n   10  \"\"\"\n   11  Reverse Linked List\n   12  \n   13  Reverses a linked list and returns the new head.\n   14  \n       ...\n   22      Mutates the list nodes' successor pointers\n   23  \n   24  Output:\n   25      The head of the reversed linked list\n   26  \"\"\"\n",
+                "line_end": 26,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

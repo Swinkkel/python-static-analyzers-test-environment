@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "started": "2026-11-11 16:25:11.339842",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 3,
+    "completed": "2026-11-11 16:25:12.449037",
+    "time_taken": "1.11",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pylint",
+      "code": "bare-except",
+      "location": {
+        "path": "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py",
+        "module": "6-ssti-classic",
+        "function": "index",
+        "line": 29,
+        "character": 4,
+        "lineEnd": 30,
+        "characterEnd": 73
+      },
+      "message": "No exception type(s) specified",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/bare-except.html"
+    },
+    {
+      "source": "pylint",
+      "code": "unused-argument",
+      "location": {
+        "path": "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py",
+        "module": "6-ssti-classic",
+        "function": "MySQL_Get",
+        "line": 11,
+        "character": 14,
+        "lineEnd": 11,
+        "characterEnd": 19
+      },
+      "message": "Unused argument 'table'",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/warning/unused-argument.html"
+    },
+    {
+      "source": "pylint",
+      "code": "too-many-function-args",
+      "location": {
+        "path": "/opt/datasets/yeswehack/SSTI/ssti-classic/vsnippet/6-ssti-classic.py",
+        "module": "6-ssti-classic",
+        "function": "index",
+        "line": 35,
+        "character": 15,
+        "lineEnd": 35,
+        "characterEnd": 36
+      },
+      "message": "Too many positional arguments for function call",
+      "isFixable": false,
+      "docUrl": "https://pylint.readthedocs.io/en/latest/user_guide/messages/error/too-many-function-args.html"
+    }
+  ]
+}

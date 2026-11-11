@@ -1,0 +1,8 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Rotate_Image.py:2:6: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Rotate_Image.py:4:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Rotate_Image.py:5:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Rotate_Image.py:6:25: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Rotate_Image.py:7:29: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Rotate_Image.py:8:33: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Rotate_Image.py:9:29: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Rotate_Image.py:9:34: W292 no newline at end of file

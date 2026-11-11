@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/yeswehack/CachePoisoning/27-cache-poisoning-classic.py/vsnippet/27-cache-poisoning-classic.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/yeswehack/CachePoisoning/27-cache-poisoning-classic.py/vsnippet/27-cache-poisoning-classic.py"
+  ],
+  "started_utc": "2026-11-11T16:23:27.014592+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.469,
+  "error": null,
+  "cwd": "/tmp/sa_run_fsne4_qe",
+  "traceback_in_stderr": false
+}

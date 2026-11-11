@@ -1,0 +1,191 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "too many blank lines (3) (pycodestyle code E303)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "module": "detect_cycle",
+                "obj": "",
+                "line": 16,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "   10  \n   11          if hare is tortoise:\n   12              return True\n   13  \n   14  # DELETE THIS LINE\n   15  # DELETE THIS LINE\n   16  \"\"\"\n   17  Linked List Cycle Detection\n   18  tortoise-hare\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "module": "detect_cycle",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 27,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  def detect_cycle(node):\n    2      hare = tortoise = node\n",
+                "line_end": 27,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 16",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "module": "detect_cycle",
+                "obj": "",
+                "line": 16,
+                "column": 0,
+                "end_line": 27,
+                "end_column": 3,
+                "snippet": "   14  \n   15  \n   16  \"\"\"\n   17  Linked List Cycle Detection\n   18  tortoise-hare\n   19  \n   20  Implements the tortoise-and-hare method of cycle detection.\n       ...\n   23      node: The head node of a linked list\n   24  \n   25  Output:\n   26      Whether the linked list is cyclic\n   27  \"\"\"\n",
+                "line_end": 27,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "module": "detect_cycle",
+                "obj": "detect_cycle",
+                "line": 1,
+                "column": 0,
+                "end_line": 1,
+                "end_column": 16,
+                "snippet": "    1  def detect_cycle(node):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    2      hare = tortoise = node\n    3  \n",
+                "line_end": 1,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "R9711",
+                "symbol": "missing-return-statement",
+                "msg": "Missing return statement in function `detect_cycle`",
+                "C": "R",
+                "category": "refactor",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "module": "detect_cycle",
+                "obj": "detect_cycle",
+                "line": 4,
+                "column": 0,
+                "end_line": 12,
+                "end_column": 16,
+                "snippet": "    4      while True:\n    5          if hare.successor is None:\n    6              return False\n    7  \n    8          tortoise = tortoise.successor\n    9          hare = hare.successor.successor\n   10  \n   11          if hare is tortoise:\n   12              return True\n           # INSERT RETURN STATEMENT HERE\n   13  \n   14  \n",
+                "line_end": 12,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "module": "detect_cycle",
+                "obj": "detect_cycle",
+                "line": 1,
+                "column": 17,
+                "end_line": 1,
+                "end_column": 21,
+                "snippet": "    1  def detect_cycle(node):\n    2      hare = tortoise = node\n    3  \n",
+                "line_end": 1,
+                "column_end": 21,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "module": "detect_cycle",
+                "obj": "detect_cycle",
+                "line": 1,
+                "column": 17,
+                "end_line": 1,
+                "end_column": 21,
+                "snippet": "    1  def detect_cycle(node):\n    2      hare = tortoise = node\n    3  \n",
+                "line_end": 1,
+                "column_end": 21,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/detect_cycle.py",
+                "module": "detect_cycle",
+                "obj": "",
+                "line": 16,
+                "column": 0,
+                "end_line": 27,
+                "end_column": 3,
+                "snippet": "   14  \n   15  \n   16  \"\"\"\n   17  Linked List Cycle Detection\n   18  tortoise-hare\n   19  \n   20  Implements the tortoise-and-hare method of cycle detection.\n       ...\n   23      node: The head node of a linked list\n   24  \n   25  Output:\n   26      Whether the linked list is cyclic\n   27  \"\"\"\n",
+                "line_end": 27,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Find_Median_from_Data_Stream.py"
+  ],
+  "started_utc": "2026-11-11T16:10:20.648252+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.368,
+  "error": null,
+  "cwd": "/tmp/sa_run_28fn11_9",
+  "traceback_in_stderr": false
+}

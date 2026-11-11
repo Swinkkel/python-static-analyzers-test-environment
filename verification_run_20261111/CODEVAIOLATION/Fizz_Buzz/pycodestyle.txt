@@ -1,0 +1,9 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:2:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:3:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:4:13: E228 missing whitespace around modulo operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:4:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:6:15: E228 missing whitespace around modulo operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:6:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:8:15: E228 missing whitespace around modulo operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:8:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Fizz_Buzz.py:12:18: W292 no newline at end of file

@@ -1,0 +1,99 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+                "module": "bitcount",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 7,
+                "end_column": 16,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def bitcount(n):\n",
+                "line_end": 7,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+                "module": "bitcount",
+                "obj": "bitcount",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 12,
+                "snippet": "    2  def bitcount(n):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      count = 0\n    4      while n:\n",
+                "line_end": 2,
+                "column_end": 12,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+                "module": "bitcount",
+                "obj": "bitcount",
+                "line": 2,
+                "column": 13,
+                "end_line": 2,
+                "end_column": 14,
+                "snippet": "    1  \n    2  def bitcount(n):\n    3      count = 0\n    4      while n:\n",
+                "line_end": 2,
+                "column_end": 14,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/bitcount.py",
+                "module": "bitcount",
+                "obj": "bitcount",
+                "line": 2,
+                "column": 13,
+                "end_line": 2,
+                "end_column": 14,
+                "snippet": "    1  \n    2  def bitcount(n):\n    3      count = 0\n    4      while n:\n",
+                "line_end": 2,
+                "column_end": 14,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

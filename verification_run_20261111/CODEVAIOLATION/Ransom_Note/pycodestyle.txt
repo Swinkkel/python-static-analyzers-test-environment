@@ -1,0 +1,2 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Ransom_Note.py:1:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Ransom_Note.py:3:53: W292 no newline at end of file

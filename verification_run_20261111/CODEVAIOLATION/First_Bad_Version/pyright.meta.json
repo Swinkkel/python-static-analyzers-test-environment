@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Bad_Version.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/First_Bad_Version.py"
+  ],
+  "started_utc": "2026-11-11T16:10:31.847840+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.318,
+  "error": null,
+  "cwd": "/tmp/sa_run_ztcbfbzi",
+  "traceback_in_stderr": false
+}

@@ -1,0 +1,13 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:2:10: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:3:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:4:10: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:5:26: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:6:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:7:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:8:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:8:34: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:11:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:12:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:13:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:13:30: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Largest_Rectangle_in_Histogram.py:14:20: W292 no newline at end of file

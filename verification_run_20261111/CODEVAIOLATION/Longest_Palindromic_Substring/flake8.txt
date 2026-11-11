@@ -1,0 +1,16 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:2:20: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:3:19: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:3:32: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:3:51: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:4:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:5:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:7:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:9:12: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:9:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:10:13: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:10:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:11:15: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:11:26: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:11:30: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:11:35: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Longest_Palindromic_Substring.py:12:18: W292 no newline at end of file

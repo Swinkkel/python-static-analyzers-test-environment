@@ -1,0 +1,28 @@
+{
+  "run_name": "verification_20261111",
+  "finished_utc": "2026-11-11T16:25:42.376583+00:00",
+  "duration_s": 1014.8,
+  "files_per_dataset": {
+    "CODEVAIOLATION": 75,
+    "QuixBugs_Buggy": 40,
+    "QuixBugs_Correct": 40,
+    "yeswehack": 14
+  },
+  "tools": [
+    "pylint",
+    "flake8",
+    "pyflakes",
+    "pycodestyle",
+    "prospector",
+    "ruff",
+    "mypy",
+    "pyright",
+    "bandit",
+    "semgrep",
+    "python_ta"
+  ],
+  "semgrep_config": [
+    "auto"
+  ],
+  "problems": []
+}

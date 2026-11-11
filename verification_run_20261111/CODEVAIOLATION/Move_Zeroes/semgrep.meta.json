@@ -1,0 +1,21 @@
+{
+  "tool": "semgrep",
+  "tool_version": "1.178.0",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py",
+  "command": [
+    "semgrep",
+    "scan",
+    "--config",
+    "auto",
+    "--json",
+    "--quiet",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Move_Zeroes.py"
+  ],
+  "started_utc": "2026-11-11T16:12:48.543144+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 2.775,
+  "error": null,
+  "cwd": "/tmp/sa_run_390h2v2g",
+  "traceback_in_stderr": false
+}

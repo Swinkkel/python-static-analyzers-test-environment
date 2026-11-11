@@ -1,0 +1,21 @@
+{
+  "tool": "ruff",
+  "tool_version": "ruff 0.16.9",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/mergesort.py",
+  "command": [
+    "ruff",
+    "check",
+    "--isolated",
+    "--no-cache",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/correct_python_programs/mergesort.py"
+  ],
+  "started_utc": "2026-11-11T16:21:22.517214+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.019,
+  "error": null,
+  "cwd": "/tmp/sa_run_rpzba7yq",
+  "traceback_in_stderr": false
+}

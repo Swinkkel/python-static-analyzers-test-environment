@@ -1,0 +1,110 @@
+[
+  {
+    "cell": null,
+    "code": "EXE001",
+    "end_location": {
+      "column": 19,
+      "row": 1
+    },
+    "filename": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Shebang is present but file is not executable",
+    "name": "shebang-not-executable",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/shebang-not-executable"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 33,
+      "row": 4
+    },
+    "filename": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import datetime\n\nfrom flask import Flask, json, render_template, request\nfrom ignore.design import design\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 5
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "SIM118",
+    "end_location": {
+      "column": 53,
+      "row": 25
+    },
+    "filename": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": "",
+          "end_location": {
+            "column": 53,
+            "row": 25
+          },
+          "location": {
+            "column": 46,
+            "row": 25
+          }
+        }
+      ],
+      "message": "Remove `.keys()`"
+    },
+    "location": {
+      "column": 36,
+      "row": 25
+    },
+    "message": "Use `key in dict` instead of `key in dict.keys()`",
+    "name": "in-dict-keys",
+    "noqa_row": 25,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/in-dict-keys"
+  },
+  {
+    "cell": null,
+    "code": "DTZ005",
+    "end_location": {
+      "column": 125,
+      "row": 29
+    },
+    "filename": "/opt/datasets/yeswehack/FormatInjection/format-injection-classic/vsnippet/32-format-injection-classic.py",
+    "fix": null,
+    "location": {
+      "column": 102,
+      "row": 29
+    },
+    "message": "`datetime.datetime.now()` called without a `tz` argument",
+    "name": "call-datetime-now-without-tzinfo",
+    "noqa_row": 29,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/call-datetime-now-without-tzinfo"
+  }
+]

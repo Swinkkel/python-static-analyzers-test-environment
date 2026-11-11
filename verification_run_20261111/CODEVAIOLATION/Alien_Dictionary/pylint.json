@@ -1,0 +1,106 @@
+{
+    "messages": [
+        {
+            "type": "convention",
+            "symbol": "missing-final-newline",
+            "message": "Final newline missing",
+            "messageId": "C0304",
+            "confidence": "UNDEFINED",
+            "module": "Alien_Dictionary",
+            "obj": "",
+            "line": 25,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-module-docstring",
+            "message": "Missing module docstring",
+            "messageId": "C0114",
+            "confidence": "HIGH",
+            "module": "Alien_Dictionary",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Module name \"Alien_Dictionary\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Alien_Dictionary",
+            "obj": "",
+            "line": 1,
+            "column": 0,
+            "endLine": null,
+            "endColumn": null,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "missing-function-docstring",
+            "message": "Missing function or method docstring",
+            "messageId": "C0116",
+            "confidence": "HIGH",
+            "module": "Alien_Dictionary",
+            "obj": "alienOrder",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 14,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "invalid-name",
+            "message": "Function name \"alienOrder\" doesn't conform to snake_case naming style",
+            "messageId": "C0103",
+            "confidence": "HIGH",
+            "module": "Alien_Dictionary",
+            "obj": "alienOrder",
+            "line": 1,
+            "column": 0,
+            "endLine": 1,
+            "endColumn": 14,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py"
+        },
+        {
+            "type": "convention",
+            "symbol": "import-outside-toplevel",
+            "message": "Import outside toplevel (collections.defaultdict, collections.deque)",
+            "messageId": "C0415",
+            "confidence": "UNDEFINED",
+            "module": "Alien_Dictionary",
+            "obj": "alienOrder",
+            "line": 2,
+            "column": 4,
+            "endLine": 2,
+            "endColumn": 45,
+            "path": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py",
+            "absolutePath": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Alien_Dictionary.py"
+        }
+    ],
+    "statistics": {
+        "messageTypeCount": {
+            "fatal": 0,
+            "error": 0,
+            "warning": 0,
+            "refactor": 0,
+            "convention": 6,
+            "info": 0
+        },
+        "modulesLinted": 3,
+        "score": 7.5
+    }
+}

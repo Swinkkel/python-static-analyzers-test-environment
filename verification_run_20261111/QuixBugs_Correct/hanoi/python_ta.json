@@ -1,0 +1,145 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+        "msgs": [
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "module": "hanoi",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 10,
+                "end_column": 16,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  def hanoi(height, start=1, end=3):\n",
+                "line_end": 10,
+                "column_end": 16,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "module": "hanoi",
+                "obj": "hanoi",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 9,
+                "snippet": "    2  def hanoi(height, start=1, end=3):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    3      steps = []\n    4      if height > 0:\n",
+                "line_end": 2,
+                "column_end": 9,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "module": "hanoi",
+                "obj": "hanoi",
+                "line": 2,
+                "column": 10,
+                "end_line": 2,
+                "end_column": 16,
+                "snippet": "    1  \n    2  def hanoi(height, start=1, end=3):\n    3      steps = []\n    4      if height > 0:\n",
+                "line_end": 2,
+                "column_end": 16,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "module": "hanoi",
+                "obj": "hanoi",
+                "line": 2,
+                "column": 18,
+                "end_line": 2,
+                "end_column": 23,
+                "snippet": "    1  \n    2  def hanoi(height, start=1, end=3):\n    3      steps = []\n    4      if height > 0:\n",
+                "line_end": 2,
+                "column_end": 23,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "module": "hanoi",
+                "obj": "hanoi",
+                "line": 2,
+                "column": 27,
+                "end_line": 2,
+                "end_column": 30,
+                "snippet": "    1  \n    2  def hanoi(height, start=1, end=3):\n    3      steps = []\n    4      if height > 0:\n",
+                "line_end": 2,
+                "column_end": 30,
+                "number_of_occurrences": 3
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "path": "/opt/datasets/QuixBugs/correct_python_programs/hanoi.py",
+                "module": "hanoi",
+                "obj": "hanoi",
+                "line": 2,
+                "column": 10,
+                "end_line": 2,
+                "end_column": 32,
+                "snippet": "    1  \n    2  def hanoi(height, start=1, end=3):\n    3      steps = []\n    4      if height > 0:\n",
+                "line_end": 2,
+                "column_end": 32,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

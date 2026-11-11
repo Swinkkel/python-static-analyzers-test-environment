@@ -1,0 +1,237 @@
+[
+    {
+        "filename": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+        "msgs": [
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "expected 2 blank lines, found 0 (pycodestyle code E302)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "",
+                "line": 3,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    1  \n    2  import string\n       # INSERT NEW BLANK LINE HERE\n       # INSERT NEW BLANK LINE HERE\n    3  def to_base(num, b):\n    4      result = ''\n    5      alphabet = string.digits + string.ascii_uppercase\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9989",
+                "symbol": "pep8-errors",
+                "msg": "too many blank lines (3) (pycodestyle code E303)",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": null,
+                "end_column": null,
+                "snippet": "    8          num = num // b\n    9          result = result + alphabet[i]\n   10      return result\n   11  \n   12  # DELETE THIS LINE\n   13  # DELETE THIS LINE\n   14  \"\"\"\n   15  Integer Base Conversion\n   16  base-conversion\n",
+                "line_end": null,
+                "column_end": null,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "C0114",
+                "symbol": "missing-module-docstring",
+                "msg": "Missing module docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "end_line": 32,
+                "end_column": 3,
+                "snippet": "       \"\"\"YOUR DOCSTRING HERE\"\"\"\n    1  \n    2  import string\n",
+                "line_end": 32,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9992",
+                "symbol": "forbidden-top-level-code",
+                "msg": "Forbidden top-level code found on line 14",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": 32,
+                "end_column": 3,
+                "snippet": "   12  \n   13  \n   14  \"\"\"\n   15  Integer Base Conversion\n   16  base-conversion\n   17  \n   18  \n       ...\n   28  \n   29  Example:\n   30      >>> to_base(31, 16)\n   31      '1F'\n   32  \"\"\"\n",
+                "line_end": 32,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9999",
+                "symbol": "forbidden-import",
+                "msg": "You may not import module string.",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "",
+                "line": 2,
+                "column": 0,
+                "end_line": 2,
+                "end_column": 13,
+                "snippet": "    1  \n    2  import string\n    3  def to_base(num, b):\n    4      result = ''\n",
+                "line_end": 2,
+                "column_end": 13,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "C0116",
+                "symbol": "missing-function-docstring",
+                "msg": "Missing function or method docstring",
+                "C": "C",
+                "category": "convention",
+                "confidence": [
+                    "HIGH",
+                    "Warning that is not based on inference result."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "to_base",
+                "line": 3,
+                "column": 0,
+                "end_line": 3,
+                "end_column": 11,
+                "snippet": "    3  def to_base(num, b):\n           \"\"\"YOUR DOCSTRING HERE\"\"\"\n    4      result = ''\n    5      alphabet = string.digits + string.ascii_uppercase\n",
+                "line_end": 3,
+                "column_end": 11,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "to_base",
+                "line": 3,
+                "column": 12,
+                "end_line": 3,
+                "end_column": 15,
+                "snippet": "    1  \n    2  import string\n    3  def to_base(num, b):\n    4      result = ''\n    5      alphabet = string.digits + string.ascii_uppercase\n",
+                "line_end": 3,
+                "column_end": 15,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9970",
+                "symbol": "missing-param-type",
+                "msg": "Function parameter is missing type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "to_base",
+                "line": 3,
+                "column": 17,
+                "end_line": 3,
+                "end_column": 18,
+                "snippet": "    1  \n    2  import string\n    3  def to_base(num, b):\n    4      result = ''\n    5      alphabet = string.digits + string.ascii_uppercase\n",
+                "line_end": 3,
+                "column_end": 18,
+                "number_of_occurrences": 2
+            },
+            {
+                "msg_id": "E9971",
+                "symbol": "missing-return-type",
+                "msg": "Function is missing return type annotation",
+                "C": "E",
+                "category": "error",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "to_base",
+                "line": 3,
+                "column": 12,
+                "end_line": 3,
+                "end_column": 18,
+                "snippet": "    1  \n    2  import string\n    3  def to_base(num, b):\n    4      result = ''\n    5      alphabet = string.digits + string.ascii_uppercase\n",
+                "line_end": 3,
+                "column_end": 18,
+                "number_of_occurrences": 1
+            },
+            {
+                "msg_id": "W0105",
+                "symbol": "pointless-string-statement",
+                "msg": "String statement has no effect",
+                "C": "W",
+                "category": "warning",
+                "confidence": [
+                    "UNDEFINED",
+                    "Warning without any associated confidence level."
+                ],
+                "abspath": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "path": "/opt/datasets/QuixBugs/python_programs/to_base.py",
+                "module": "to_base",
+                "obj": "",
+                "line": 14,
+                "column": 0,
+                "end_line": 32,
+                "end_column": 3,
+                "snippet": "   12  \n   13  \n   14  \"\"\"\n   15  Integer Base Conversion\n   16  base-conversion\n   17  \n   18  \n       ...\n   28  \n   29  Example:\n   30      >>> to_base(31, 16)\n   31      '1F'\n   32  \"\"\"\n",
+                "line_end": 32,
+                "column_end": 3,
+                "number_of_occurrences": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,3 @@
+/opt/datasets/QuixBugs/correct_python_programs/lis.py:8:80: E501 line too long (81 > 79 characters)
+/opt/datasets/QuixBugs/correct_python_programs/lis.py:18:1: E305 expected 2 blank lines after class or function definition, found 1
+/opt/datasets/QuixBugs/correct_python_programs/lis.py:25:80: E501 line too long (81 > 79 characters)

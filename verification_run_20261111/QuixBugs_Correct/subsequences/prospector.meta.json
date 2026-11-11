@@ -1,0 +1,18 @@
+{
+  "tool": "prospector",
+  "tool_version": "prospector 1.19.1",
+  "target": "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py",
+  "command": [
+    "prospector",
+    "--output-format",
+    "json",
+    "/opt/datasets/QuixBugs/correct_python_programs/subsequences.py"
+  ],
+  "started_utc": "2026-11-11T16:22:49.589341+00:00",
+  "return_code": 1,
+  "timed_out": false,
+  "duration_s": 0.319,
+  "error": null,
+  "cwd": "/tmp/sa_run_r4ly7745",
+  "traceback_in_stderr": false
+}

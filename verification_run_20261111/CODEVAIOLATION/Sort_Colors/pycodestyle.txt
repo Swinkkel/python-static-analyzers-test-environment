@@ -1,0 +1,19 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:2:8: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:2:12: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:2:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:2:19: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:2:21: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:3:14: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:4:21: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:5:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:5:32: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:5:42: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:6:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:7:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:8:23: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:9:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:11:22: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:11:33: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:11:44: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:12:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Sort_Colors.py:12:20: W292 no newline at end of file

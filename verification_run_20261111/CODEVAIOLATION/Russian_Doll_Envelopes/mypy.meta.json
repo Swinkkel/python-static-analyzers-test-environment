@@ -1,0 +1,18 @@
+{
+  "tool": "mypy",
+  "tool_version": "mypy 2.3.1 (compiled: yes)",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py",
+  "command": [
+    "mypy",
+    "-O",
+    "json",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py"
+  ],
+  "started_utc": "2026-11-11T16:13:59.258243+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.47,
+  "error": null,
+  "cwd": "/tmp/sa_run_tkcghzxe",
+  "traceback_in_stderr": false
+}

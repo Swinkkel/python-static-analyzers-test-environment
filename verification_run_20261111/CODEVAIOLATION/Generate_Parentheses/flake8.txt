@@ -1,0 +1,14 @@
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:2:11: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:3:5: E306 expected 1 blank line before a nested definition, found 0
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:3:20: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:3:25: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:4:18: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:7:16: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:8:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:8:35: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:9:17: E225 missing whitespace around operator
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:10:28: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:10:33: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:11:17: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:11:19: E231 missing whitespace after ','
+/opt/datasets/CODEVAIOLATION/Python Code Snippets/Generate_Parentheses.py:12:18: W292 no newline at end of file

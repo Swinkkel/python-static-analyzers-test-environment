@@ -1,0 +1,17 @@
+{
+  "tool": "pyright",
+  "tool_version": "pyright 1.1.414",
+  "target": "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py",
+  "command": [
+    "pyright",
+    "--outputjson",
+    "/opt/datasets/CODEVAIOLATION/Python Code Snippets/Russian_Doll_Envelopes.py"
+  ],
+  "started_utc": "2026-11-11T16:13:59.732797+00:00",
+  "return_code": 0,
+  "timed_out": false,
+  "duration_s": 0.325,
+  "error": null,
+  "cwd": "/tmp/sa_run_mk1t_xkq",
+  "traceback_in_stderr": false
+}
