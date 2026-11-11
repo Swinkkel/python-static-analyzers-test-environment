@@ -6,7 +6,7 @@ It builds a container with eleven static analysers for Python and three test
 datasets, and runs every analyser on every dataset file with default settings.
 
 - Thesis: <THESIS URL / URN, added after publication>
-- Archived release: [![DOI](https://zenodo.org/badge/DOI/<DOI>.svg)](https://doi.org/<DOI>)
+- Archived release: [![DOI](https://zenodo.org/badge/1454301282.svg)](https://doi.org/10.5281/zenodo.24143337)
 
 The evaluation of the findings (classification into true positives, false
 positives and false negatives) was done manually and is described in the thesis
